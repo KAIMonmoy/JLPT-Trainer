@@ -1,32 +1,45 @@
-# React + TypeScript + Vite
+# JLPT N3 Trainer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal study tool for JLPT N3 kanji and grammar, combining a spaced-repetition
+review engine with content sourced from jlptbenkyo.com and WaniKani.
 
-Currently, two official plugins are available:
+See [CONTEXT.md](./CONTEXT.md) for the domain model (Item, SRS Stage, Lesson,
+Review, Exam, Burn, etc.) and `docs/adr/` for architecture decisions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Study modes
 
-## React Compiler
+- **Lesson** — introduces new items in Lesson Groups of up to 4, interleaving
+  kanji and grammar.
+- **Review** — presents items whose SRS interval is due; a wrong answer drops
+  the item back one stage.
+- **Exam** — on-demand review of every Mature item; a wrong answer resets the
+  item to Apprentice 1, a correct answer offers the option to Burn it.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Kanji are tested with typed recall (meaning + onyomi); grammar is tested with
+JLPT-style multiple choice against hand-curated confusable distractors.
 
-## Expanding the Oxlint configuration
+## Getting started
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Vite dev server |
+| `npm run build` | Type-check and build for production |
+| `npm run preview` | Preview the production build |
+| `npm run lint` | Run Oxlint |
+| `npm run typecheck` | Type-check without emitting |
+| `npm test` | Run the test suite once |
+| `npm run test:watch` | Run tests in watch mode |
+| `npm run scrape:kanji` | Scrape kanji content from source sites |
+| `npm run scrape:grammar` | Scrape grammar content from source sites |
+
+## Stack
+
+React 19, TypeScript, Vite, Tailwind CSS v4, Vitest, Oxlint. Deployed via
+Firebase Hosting.
