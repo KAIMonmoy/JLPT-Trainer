@@ -1,7 +1,7 @@
 import { isExactMatch, isFuzzyMatch, toKatakana } from '../grader/grader'
-import type { KanjiItem } from '../pipeline/kanji/types'
+import type { JlptLevel, KanjiItem } from '../pipeline/kanji/types'
 import type { ExampleSentence, GrammarItem } from '../pipeline/grammar/types'
-import type { Batch, ScheduleEntry } from '../schedule/types'
+import { LEVEL_ORDER, type Batch, type ScheduleEntry } from '../schedule/types'
 import { STAGE_INTERVAL_MS, type SrsItem } from '../srs/srsEngine'
 import { itemKey } from './itemKey'
 import type { LessonState } from './store'
@@ -107,4 +107,46 @@ export function completeBatch(state: LessonState, batchNumber: number, batch: Ba
     : [...state.completedBatches, batchNumber]
 
   return { srsState, completedBatches }
+}
+
+export interface IntroductionCount {
+  introduced: number
+  total: number
+}
+
+export interface IntroductionProgress {
+  /** First Level (N5 → N4 → N3) with any not-yet-introduced item, or N3 once everything is introduced. */
+  currentLevel: JlptLevel
+  current: IntroductionCount
+  overall: IntroductionCount
+}
+
+/** Introduced-vs-total counts for the current Level (see CONTEXT.md) and overall, derived from SRS state. */
+export function selectIntroductionProgress(
+  entries: readonly ScheduleEntry[],
+  srsState: Record<string, SrsItem>,
+): IntroductionProgress {
+  const countsByLevel = new Map<JlptLevel, IntroductionCount>(
+    LEVEL_ORDER.map((level) => [level, { introduced: 0, total: 0 }]),
+  )
+
+  for (const entry of entries) {
+    const counts = countsByLevel.get(entry.item.level)
+    if (!counts) continue
+    counts.total++
+    if (itemKey(entry) in srsState) counts.introduced++
+  }
+
+  const currentLevel =
+    LEVEL_ORDER.find((level) => {
+      const counts = countsByLevel.get(level)!
+      return counts.introduced < counts.total
+    }) ?? LEVEL_ORDER[LEVEL_ORDER.length - 1]
+
+  const overall = [...countsByLevel.values()].reduce(
+    (sum, counts) => ({ introduced: sum.introduced + counts.introduced, total: sum.total + counts.total }),
+    { introduced: 0, total: 0 },
+  )
+
+  return { currentLevel, current: countsByLevel.get(currentLevel)!, overall }
 }

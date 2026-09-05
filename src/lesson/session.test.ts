@@ -12,6 +12,7 @@ import {
   gradeGrammarAnswer,
   gradeKanjiAnswer,
   groupIntoLessonGroups,
+  selectIntroductionProgress,
   selectNextBatch,
   shuffle,
 } from './session'
@@ -236,5 +237,47 @@ describe('completeBatch', () => {
     const original = state()
     completeBatch(original, 0, [kanji('一')], NOW)
     expect(original).toEqual(state())
+  })
+})
+
+describe('selectIntroductionProgress', () => {
+  const srsItem = { stage: 'apprentice1' as const, burned: false, nextReviewAt: 0 }
+
+  it('treats N5 as current while it still has un-introduced items', () => {
+    const entries = [
+      kanji('一', { level: 'N5' }),
+      kanji('二', { level: 'N5' }),
+      kanji('三', { level: 'N4' }),
+    ]
+    const srsState = { [itemKey(entries[0])]: srsItem }
+    const result = selectIntroductionProgress(entries, srsState)
+    expect(result.currentLevel).toBe('N5')
+    expect(result.current).toEqual({ introduced: 1, total: 2 })
+    expect(result.overall).toEqual({ introduced: 1, total: 3 })
+  })
+
+  it('advances to the next Level once the prior one is fully introduced', () => {
+    const entries = [kanji('一', { level: 'N5' }), kanji('二', { level: 'N4' }), kanji('三', { level: 'N4' })]
+    const srsState = { [itemKey(entries[0])]: srsItem, [itemKey(entries[1])]: srsItem }
+    const result = selectIntroductionProgress(entries, srsState)
+    expect(result.currentLevel).toBe('N4')
+    expect(result.current).toEqual({ introduced: 1, total: 2 })
+  })
+
+  it('treats N3 as current once every Level is fully introduced', () => {
+    const entries = [kanji('一', { level: 'N5' }), kanji('二', { level: 'N3' })]
+    const srsState = { [itemKey(entries[0])]: srsItem, [itemKey(entries[1])]: srsItem }
+    const result = selectIntroductionProgress(entries, srsState)
+    expect(result.currentLevel).toBe('N3')
+    expect(result.current).toEqual({ introduced: 1, total: 1 })
+    expect(result.overall).toEqual({ introduced: 2, total: 2 })
+  })
+
+  it('treats N5 as current when nothing has been introduced yet', () => {
+    const entries = [kanji('一', { level: 'N5' }), kanji('二', { level: 'N4' })]
+    const result = selectIntroductionProgress(entries, {})
+    expect(result.currentLevel).toBe('N5')
+    expect(result.current).toEqual({ introduced: 0, total: 1 })
+    expect(result.overall).toEqual({ introduced: 0, total: 2 })
   })
 })

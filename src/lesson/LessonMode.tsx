@@ -2,7 +2,15 @@ import { useState } from 'react'
 import type { ScheduleEntry } from '../schedule/types'
 import { jlptSchedule } from '../schedule/jlptSchedule'
 import { Session } from '../session/Session'
-import { buildLessonQueue, completeBatch, groupIntoLessonGroups, LESSON_GROUP_SIZE, selectNextBatch } from './session'
+import { allEntries } from '../content/allEntries'
+import {
+  buildLessonQueue,
+  completeBatch,
+  groupIntoLessonGroups,
+  LESSON_GROUP_SIZE,
+  selectIntroductionProgress,
+  selectNextBatch,
+} from './session'
 import { loadState, saveState, type LessonState } from './store'
 import { saveName } from './name'
 import { openInNewTab } from '../session/openInNewTab'
@@ -164,6 +172,8 @@ export function LessonMode({ name, onNameChange }: LessonModeProps) {
   }
 
   if (!session) {
+    const progress = selectIntroductionProgress(allEntries, state.srsState)
+    const remaining = progress.current.total - progress.current.introduced
     return (
       <section className="flex flex-col items-center gap-5 text-center">
         <button
@@ -180,6 +190,15 @@ export function LessonMode({ name, onNameChange }: LessonModeProps) {
             SRS pool.
           </p>
         )}
+        <div className="flex flex-col gap-1">
+          <p className="text-ink-soft">
+            {progress.currentLevel}: {progress.current.introduced} of {progress.current.total} introduced,{' '}
+            {remaining} remaining
+          </p>
+          <p className="text-xs text-ink-soft">
+            {progress.overall.introduced} of {progress.overall.total} introduced overall
+          </p>
+        </div>
         <button
           type="button"
           onClick={startLesson}
