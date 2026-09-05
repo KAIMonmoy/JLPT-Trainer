@@ -1,14 +1,13 @@
 import { useMemo, useState, type ReactNode } from 'react'
 import type { ScheduleEntry } from '../schedule/types'
 import { blankSentence, buildGrammarChoices, gradeGrammarAnswer, gradeKanjiAnswer } from '../lesson/session'
+import { openInNewTab } from './openInNewTab'
 
 interface GradeResult {
   wasCorrect: boolean
 }
 
-function reveal(url: string): void {
-  window.open(url, '_blank', 'noopener')
-}
+const reveal = openInNewTab
 
 export interface SessionProps {
   title: string

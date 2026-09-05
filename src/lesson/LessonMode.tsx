@@ -5,6 +5,7 @@ import { Session } from '../session/Session'
 import { buildLessonQueue, completeBatch, groupIntoLessonGroups, LESSON_GROUP_SIZE, selectNextBatch } from './session'
 import { loadState, saveState, type LessonState } from './store'
 import { saveName } from './name'
+import { openInNewTab } from '../session/openInNewTab'
 
 interface ActiveSession {
   batchNumber: number
@@ -16,6 +17,19 @@ interface ActiveSession {
 interface ContentStepProps {
   group: ScheduleEntry[]
   onDone: () => void
+}
+
+function referenceLink(label: string, url: string) {
+  return (
+    <button
+      key={label}
+      type="button"
+      onClick={() => openInNewTab(url)}
+      className="rounded-full border border-line px-3.5 py-1.5 text-xs text-ink-soft transition-colors hover:text-indigo"
+    >
+      {label}
+    </button>
+  )
 }
 
 /** Shows each item in a Lesson Group's full content, one at a time, before that group is quizzed. */
@@ -51,6 +65,11 @@ function ContentStep({ group, onDone }: ContentStepProps) {
           <p className="text-ink-soft">Pattern: {entry.item.pattern}</p>
         </div>
       )}
+      <div className="flex flex-wrap justify-center gap-2">
+        {entry.kind === 'kanji' &&
+          [referenceLink('jlptbenkyo', entry.item.jlptbenkyoUrl), referenceLink('WaniKani', entry.item.wanikaniUrl)]}
+        {entry.kind === 'grammar' && referenceLink('jlptbenkyo', entry.item.jlptbenkyoUrl)}
+      </div>
       <button type="button" onClick={next} className="w-full rounded-md bg-indigo py-3 font-medium text-paper">
         Next
       </button>

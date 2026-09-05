@@ -68,6 +68,14 @@ the learner can move to the next item immediately whether or not they pressed
 it.
 _Avoid_: Details, info panel
 
+**Reference**:
+An always-visible link to an item's source page (jlptbenkyo.com, and for
+kanji also WaniKani) shown during a Lesson Group's content step, before any
+answering has happened. Distinct from Reveal: not gated by an answer, and
+not labeled with a verb — just the site name.
+_Avoid_: Reveal (Reveal is specifically the post-answer quiz-phase link),
+source link
+
 **Burn**:
 Permanently retiring an item from all future Lesson/Review/Exam pools. Offered
 only as a choice in Exam mode on a correct answer, when the user judges the
