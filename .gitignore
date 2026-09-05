@@ -28,3 +28,5 @@ npm-debug.log*
 
 # Issue tracker scratch (local working tickets/specs, not shipped docs)
 .scratch/
+
+.firebase/
