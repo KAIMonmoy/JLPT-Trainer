@@ -1,0 +1,78 @@
+# JLPT N3 Prep
+
+A personal study tool for JLPT N3 kanji and grammar, combining a spaced-repetition
+review engine with content sourced from jlptbenkyo.com and WaniKani.
+
+## Language
+
+**Item**:
+A single unit of study content — one kanji or one grammar point. Items carry their
+own SRS state independently.
+_Avoid_: Card, entry (reserve "card" for the on-screen presentation of an item during a session)
+
+**SRS Stage**:
+An item's position in the review-interval ladder: Apprentice 1 (4h) → Apprentice 2
+(8h) → Apprentice 3 (1d) → Apprentice 4 (3d) → Guru 1 (1wk) → Guru 2 (2wk) →
+Master (2wk, plateau — repeats indefinitely). A correct answer advances one
+stage; there is no automatic exit past Master except a user-triggered Burn.
+_Avoid_: Level, box (Leitner-box terminology doesn't apply here)
+
+**Mature**:
+An item at Guru 1 or higher. Mature items are eligible for Exam.
+_Avoid_: Learned, ready
+
+**Lesson**:
+The study mode that introduces new items for the day, moving them into the SRS
+pool for the first time.
+_Avoid_: New content, intro
+
+**Review**:
+The study mode that presents items already in the SRS pool whose interval has
+come due. A wrong answer drops the item back one SRS Stage.
+_Avoid_: Practice, drill
+
+**Exam**:
+A study mode the user triggers on demand (not scheduled), presenting every
+currently Mature item. A wrong answer resets the item fully to Apprentice 1
+(a deliberate, self-triggered failure here is treated as a stronger signal
+than a routine Review miss). A correct answer offers the option to Burn the
+item.
+_Avoid_: Test, quiz
+
+**Answer Format**:
+How an item is tested, fixed per item type across all three study modes
+(Lesson/Review/Exam):
+- **Kanji**: typed recall. The learner types the meaning and the onyomi
+  reading for the shown character. Onyomi must match exactly; meaning passes
+  at ~90% fuzzy match.
+- **Grammar**: JLPT-style multiple choice, always — a real example sentence
+  for the pattern with the pattern blanked out, plus 4 choices (the correct
+  pattern and 3 hand-curated confusable distractors from known JLPT
+  confusion pairs).
+_Avoid_: Question type, card type
+
+**Reveal**:
+A button shown after answering any item that opens the item's source link
+(jlptbenkyo.com, and for kanji also WaniKani) without blocking progress —
+the learner can move to the next item immediately whether or not they pressed
+it.
+_Avoid_: Details, info panel
+
+**Burn**:
+Permanently retiring an item from all future Lesson/Review/Exam pools. Offered
+only as a choice in Exam mode on a correct answer, when the user judges the
+item fully learned and no longer wants to see it. Never automatic.
+_Avoid_: Archive, delete, mastered (mastered describes reaching Master stage; Burn is the action of exiting the system entirely)
+
+**Known (flag)**:
+A per-item flag the user sets to indicate prior mastery from outside this
+system. Setting it inserts the item directly at Guru 1 (Mature), skipping
+Lesson and the Apprentice grind. From there it behaves exactly like any other
+item — normal Review inclusion, normal Exam eligibility, normal demotion on
+a wrong answer.
+_Avoid_: Mastered, skipped
+
+**Interleaving**:
+Kanji and grammar items are mixed within the same Lesson, Review, and Exam
+session rather than studied as separate decks per content type.
+_Avoid_: Mixed mode, combined deck
