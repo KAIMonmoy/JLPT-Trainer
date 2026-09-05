@@ -23,6 +23,7 @@ function grammar(count: number, level: GrammarItem['level']): GrammarItem[] {
     level,
     jlptbenkyoUrl: '',
     example: { japanese: '', english: '', blankStart: null, blankEnd: null },
+    distractors: [],
   }))
 }
 

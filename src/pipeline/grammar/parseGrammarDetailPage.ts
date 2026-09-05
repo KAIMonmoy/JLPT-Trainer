@@ -39,5 +39,6 @@ export function parseGrammarDetailPage(
       blankStart: span?.start ?? null,
       blankEnd: span?.end ?? null,
     },
+    distractors: [],
   }
 }

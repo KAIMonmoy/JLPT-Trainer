@@ -15,4 +15,6 @@ export interface GrammarItem {
   level: JlptLevel
   jlptbenkyoUrl: string
   example: ExampleSentence
+  /** Exactly 3 hand-curated distractor pattern references drawn from known JLPT confusion pairs. */
+  distractors: string[]
 }

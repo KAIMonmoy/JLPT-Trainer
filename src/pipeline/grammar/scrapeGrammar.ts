@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 import type { JlptLevel } from '../kanji/types'
 import { parseTotalPages } from '../pagination'
@@ -45,17 +45,50 @@ export async function scrapeGrammarLevel(
   return items
 }
 
+/**
+ * Carries over hand-curated fields (distractors, manually-fixed blank spans) from a
+ * previously committed dataset file onto freshly re-scraped items, keyed by pattern,
+ * so re-running the scraper doesn't wipe out ticket-03-style curation work.
+ */
+function mergeCuratedFields(items: GrammarItem[], existing: GrammarItem[]): GrammarItem[] {
+  const byPattern = new Map(existing.map((item) => [item.pattern, item]))
+
+  return items.map((item) => {
+    const previous = byPattern.get(item.pattern)
+    if (!previous) return item
+
+    return {
+      ...item,
+      distractors: previous.distractors.length > 0 ? previous.distractors : item.distractors,
+      example: {
+        ...item.example,
+        blankStart: item.example.blankStart ?? previous.example.blankStart,
+        blankEnd: item.example.blankEnd ?? previous.example.blankEnd,
+      },
+    }
+  })
+}
+
+async function readExistingItems(outPath: URL): Promise<GrammarItem[]> {
+  try {
+    return JSON.parse(await readFile(outPath, 'utf8')) as GrammarItem[]
+  } catch {
+    return []
+  }
+}
+
 async function main() {
   const outDir = fileURLToPath(new URL('../../../data/grammar/', import.meta.url))
   await mkdir(outDir, { recursive: true })
 
   for (const level of LEVELS) {
     const unresolved: string[] = []
-    const items = await scrapeGrammarLevel(level, (item) => {
+    const scraped = await scrapeGrammarLevel(level, (item) => {
       if (item.example.blankStart === null) unresolved.push(item.pattern)
     })
 
     const outPath = new URL(`${levelSlug(level)}.json`, `file://${outDir}`)
+    const items = mergeCuratedFields(scraped, await readExistingItems(outPath))
     await writeFile(outPath, JSON.stringify(items, null, 2), 'utf8')
     console.log(`${level}: ${items.length} grammar points -> ${outPath.pathname}`)
 

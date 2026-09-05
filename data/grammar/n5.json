@@ -10,7 +10,12 @@
       "english": "This is a pen.",
       "blankStart": 5,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "だった",
+      "でしょう",
+      "ではない"
+    ]
   },
   {
     "pattern": "ではない",
@@ -21,9 +26,14 @@
     "example": {
       "japanese": "学生じゃない。",
       "english": "(I am) not a student.",
-      "blankStart": null,
-      "blankEnd": null
-    }
+      "blankStart": 2,
+      "blankEnd": 6
+    },
+    "distractors": [
+      "じゃなかった",
+      "だった",
+      "です"
+    ]
   },
   {
     "pattern": "だった",
@@ -36,7 +46,12 @@
       "english": "It was rainy yesterday.",
       "blankStart": 4,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "じゃなかった",
+      "ではない",
+      "でしょう"
+    ]
   },
   {
     "pattern": "じゃなかった",
@@ -49,7 +64,12 @@
       "english": "This was not an apple.",
       "blankStart": 6,
       "blankEnd": 12
-    }
+    },
+    "distractors": [
+      "ではない",
+      "だった",
+      "ませんでした"
+    ]
   },
   {
     "pattern": "ます",
@@ -62,7 +82,12 @@
       "english": "I eat rice.",
       "blankStart": 7,
       "blankEnd": 9
-    }
+    },
+    "distractors": [
+      "ました",
+      "ません",
+      "ましょう"
+    ]
   },
   {
     "pattern": "ません",
@@ -75,7 +100,12 @@
       "english": "I do not swim.",
       "blankStart": 4,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "ます",
+      "ませんでした",
+      "ましょうか"
+    ]
   },
   {
     "pattern": "ました",
@@ -88,7 +118,12 @@
       "english": "I went to school yesterday.",
       "blankStart": 8,
       "blankEnd": 11
-    }
+    },
+    "distractors": [
+      "ます",
+      "ませんでした",
+      "ましょう"
+    ]
   },
   {
     "pattern": "ませんでした",
@@ -101,7 +136,12 @@
       "english": "I did not watch the movie yesterday.",
       "blankStart": 7,
       "blankEnd": 13
-    }
+    },
+    "distractors": [
+      "ました",
+      "ません",
+      "じゃなかった"
+    ]
   },
   {
     "pattern": "ましょう",
@@ -114,7 +154,12 @@
       "english": "Let's eat.",
       "blankStart": 2,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "ましょうか",
+      "ます",
+      "はどうですか"
+    ]
   },
   {
     "pattern": "ましょうか",
@@ -127,7 +172,12 @@
       "english": "Shall we go together?",
       "blankStart": 5,
       "blankEnd": 10
-    }
+    },
+    "distractors": [
+      "ましょう",
+      "はどうですか",
+      "ほうがいい"
+    ]
   },
   {
     "pattern": "たい",
@@ -140,7 +190,12 @@
       "english": "I want to travel.",
       "blankStart": 4,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "たくない",
+      "たかった",
+      "ほしい"
+    ]
   },
   {
     "pattern": "たくない",
@@ -153,7 +208,12 @@
       "english": "I don't want to drink coffee.",
       "blankStart": 7,
       "blankEnd": 11
-    }
+    },
+    "distractors": [
+      "たい",
+      "たくなかった",
+      "たかった"
+    ]
   },
   {
     "pattern": "たかった",
@@ -166,7 +226,12 @@
       "english": "Yesterday, I wanted to eat sushi.",
       "blankStart": 8,
       "blankEnd": 12
-    }
+    },
+    "distractors": [
+      "たい",
+      "たくなかった",
+      "たくない"
+    ]
   },
   {
     "pattern": "たくなかった",
@@ -179,7 +244,12 @@
       "english": "I didn't want to go to school.",
       "blankStart": 5,
       "blankEnd": 11
-    }
+    },
+    "distractors": [
+      "たかった",
+      "たくない",
+      "たい"
+    ]
   },
   {
     "pattern": "ている",
@@ -190,9 +260,14 @@
     "example": {
       "japanese": "たなかさんは　ほんを　よんでいます。",
       "english": "Tanaka is reading a book.",
-      "blankStart": null,
-      "blankEnd": null
-    }
+      "blankStart": 13,
+      "blankEnd": 17
+    },
+    "distractors": [
+      "てある",
+      "ていた",
+      "ことができる"
+    ]
   },
   {
     "pattern": "てください",
@@ -205,7 +280,12 @@
       "english": "Please open the door.",
       "blankStart": 5,
       "blankEnd": 10
-    }
+    },
+    "distractors": [
+      "ないでください",
+      "なさい",
+      "てもいいです"
+    ]
   },
   {
     "pattern": "ないでください",
@@ -218,7 +298,12 @@
       "english": "Please don't take pictures here.",
       "blankStart": 8,
       "blankEnd": 15
-    }
+    },
+    "distractors": [
+      "てください",
+      "なくてもいい",
+      "ずに"
+    ]
   },
   {
     "pattern": "てもいいです",
@@ -231,7 +316,12 @@
       "english": "It's okay to smoke here.",
       "blankStart": 9,
       "blankEnd": 15
-    }
+    },
+    "distractors": [
+      "てはいけません",
+      "なくてもいい",
+      "ほうがいい"
+    ]
   },
   {
     "pattern": "てはいけません",
@@ -244,7 +334,12 @@
       "english": "You must not smoke here.",
       "blankStart": 9,
       "blankEnd": 16
-    }
+    },
+    "distractors": [
+      "てもいいです",
+      "なければならない",
+      "ないでください"
+    ]
   },
   {
     "pattern": "てから",
@@ -257,7 +352,12 @@
       "english": "After studying Japanese, I watch TV.",
       "blankStart": 7,
       "blankEnd": 10
-    }
+    },
+    "distractors": [
+      "前に",
+      "後で",
+      "たら"
+    ]
   },
   {
     "pattern": "たり～たりする",
@@ -270,7 +370,12 @@
       "english": "Yesterday, I did things like reading books and listening to music.",
       "blankStart": 15,
       "blankEnd": 17
-    }
+    },
+    "distractors": [
+      "し",
+      "ながら",
+      "や"
+    ]
   },
   {
     "pattern": "たことがある",
@@ -281,9 +386,14 @@
     "example": {
       "japanese": "日本に行ったことがあります。",
       "english": "I have been to Japan.",
-      "blankStart": null,
-      "blankEnd": null
-    }
+      "blankStart": 5,
+      "blankEnd": 13
+    },
+    "distractors": [
+      "ている",
+      "ことができる",
+      "たばかり"
+    ]
   },
   {
     "pattern": "ないといけない",
@@ -296,7 +406,12 @@
       "english": "I have to go to school.",
       "blankStart": 5,
       "blankEnd": 12
-    }
+    },
+    "distractors": [
+      "なくてはいけない",
+      "なければならない",
+      "なくちゃ"
+    ]
   },
   {
     "pattern": "なくてはいけない",
@@ -309,7 +424,12 @@
       "english": "I have to go to school.",
       "blankStart": 5,
       "blankEnd": 13
-    }
+    },
+    "distractors": [
+      "ないといけない",
+      "なければならない",
+      "なくてはならない"
+    ]
   },
   {
     "pattern": "なければならない",
@@ -322,7 +442,12 @@
       "english": "I have to study.",
       "blankStart": 5,
       "blankEnd": 13
-    }
+    },
+    "distractors": [
+      "なくてはいけない",
+      "ないといけない",
+      "なくてはならない"
+    ]
   },
   {
     "pattern": "でしょう",
@@ -335,7 +460,12 @@
       "english": "It will probably rain tomorrow.",
       "blankStart": 5,
       "blankEnd": 9
-    }
+    },
+    "distractors": [
+      "だろう",
+      "かもしれません",
+      "と思います"
+    ]
   },
   {
     "pattern": "だろう",
@@ -348,7 +478,12 @@
       "english": "It will probably rain tomorrow.",
       "blankStart": 4,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "でしょう",
+      "かもしれません",
+      "はずだ"
+    ]
   },
   {
     "pattern": "かもしれません",
@@ -361,7 +496,12 @@
       "english": "It might rain tomorrow.",
       "blankStart": 7,
       "blankEnd": 14
-    }
+    },
+    "distractors": [
+      "でしょう",
+      "だろう",
+      "はずだ"
+    ]
   },
   {
     "pattern": "と思います",
@@ -374,7 +514,12 @@
       "english": "I think this is delicious.",
       "blankStart": 7,
       "blankEnd": 12
-    }
+    },
+    "distractors": [
+      "と言います",
+      "でしょう",
+      "らしい"
+    ]
   },
   {
     "pattern": "と言います",
@@ -385,9 +530,14 @@
     "example": {
       "japanese": "田中といいます。",
       "english": "I am called Tanaka.",
-      "blankStart": null,
-      "blankEnd": null
-    }
+      "blankStart": 2,
+      "blankEnd": 7
+    },
+    "distractors": [
+      "と思います",
+      "ということ",
+      "って"
+    ]
   },
   {
     "pattern": "やすい",
@@ -400,7 +550,12 @@
       "english": "This book is easy to read.",
       "blankStart": 9,
       "blankEnd": 12
-    }
+    },
+    "distractors": [
+      "にくい",
+      "づらい",
+      "すぎる"
+    ]
   },
   {
     "pattern": "にくい",
@@ -413,7 +568,12 @@
       "english": "This pen is difficult to write with.",
       "blankStart": 7,
       "blankEnd": 10
-    }
+    },
+    "distractors": [
+      "やすい",
+      "づらい",
+      "すぎる"
+    ]
   },
   {
     "pattern": "すぎる",
@@ -426,7 +586,12 @@
       "english": "If you eat too much, your stomach will hurt.",
       "blankStart": 2,
       "blankEnd": 5
-    }
+    },
+    "distractors": [
+      "やすい",
+      "にくい",
+      "ほうがいい"
+    ]
   },
   {
     "pattern": "ほうがいい",
@@ -439,7 +604,12 @@
       "english": "You should eat.",
       "blankStart": 3,
       "blankEnd": 8
-    }
+    },
+    "distractors": [
+      "ましょう",
+      "なさい",
+      "べき"
+    ]
   },
   {
     "pattern": "のが好きです",
@@ -452,7 +622,12 @@
       "english": "I like watching movies.",
       "blankStart": 7,
       "blankEnd": 13
-    }
+    },
+    "distractors": [
+      "のが上手です",
+      "のが下手です",
+      "ことができる"
+    ]
   },
   {
     "pattern": "のが上手です",
@@ -465,7 +640,12 @@
       "english": "He is good at cooking.",
       "blankStart": 7,
       "blankEnd": 13
-    }
+    },
+    "distractors": [
+      "のが下手です",
+      "のが好きです",
+      "ことができる"
+    ]
   },
   {
     "pattern": "のが下手です",
@@ -478,7 +658,12 @@
       "english": "I am bad at singing.",
       "blankStart": 4,
       "blankEnd": 10
-    }
+    },
+    "distractors": [
+      "のが上手です",
+      "のが好きです",
+      "にくい"
+    ]
   },
   {
     "pattern": "だけ",
@@ -491,7 +676,12 @@
       "english": "I only drink water.",
       "blankStart": 3,
       "blankEnd": 5
-    }
+    },
+    "distractors": [
+      "しか～ない",
+      "ばかりで",
+      "だけでなく～も"
+    ]
   },
   {
     "pattern": "しか～ない",
@@ -504,7 +694,12 @@
       "english": "I only eat bread.",
       "blankStart": 4,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "だけ",
+      "ばかりで",
+      "だけでなく～も"
+    ]
   },
   {
     "pattern": "もう",
@@ -517,7 +712,12 @@
       "english": "I have already eaten breakfast.",
       "blankStart": 0,
       "blankEnd": 2
-    }
+    },
+    "distractors": [
+      "まだ",
+      "まだ～ていません",
+      "たばかり"
+    ]
   },
   {
     "pattern": "まだ～ていません",
@@ -530,7 +730,12 @@
       "english": "I have not eaten yet.",
       "blankStart": 4,
       "blankEnd": 9
-    }
+    },
+    "distractors": [
+      "もう",
+      "まだ",
+      "ている"
+    ]
   },
   {
     "pattern": "から",
@@ -543,7 +748,12 @@
       "english": "Because it is raining, an umbrella is necessary.",
       "blankStart": 7,
       "blankEnd": 9
-    }
+    },
+    "distractors": [
+      "ので",
+      "し",
+      "ために"
+    ]
   },
   {
     "pattern": "ので",
@@ -556,7 +766,12 @@
       "english": "Because it is raining, I will not go out.",
       "blankStart": 7,
       "blankEnd": 9
-    }
+    },
+    "distractors": [
+      "から",
+      "し",
+      "ために"
+    ]
   },
   {
     "pattern": "どうして",
@@ -569,7 +784,12 @@
       "english": "Why aren't you going to school?",
       "blankStart": 0,
       "blankEnd": 4
-    }
+    },
+    "distractors": [
+      "なぜなら",
+      "いつ",
+      "何"
+    ]
   },
   {
     "pattern": "とき",
@@ -582,7 +802,12 @@
       "english": "When I was a child, I went to Japan.",
       "blankStart": 3,
       "blankEnd": 5
-    }
+    },
+    "distractors": [
+      "ながら",
+      "たら",
+      "ば"
+    ]
   },
   {
     "pattern": "ながら",
@@ -595,7 +820,12 @@
       "english": "I study while listening to music.",
       "blankStart": 7,
       "blankEnd": 10
-    }
+    },
+    "distractors": [
+      "とき",
+      "し",
+      "たり～たりする"
+    ]
   },
   {
     "pattern": "もし～たら",
@@ -608,7 +838,12 @@
       "english": "If it rains, I will stay at home.",
       "blankStart": 0,
       "blankEnd": 2
-    }
+    },
+    "distractors": [
+      "たら",
+      "ば",
+      "なら"
+    ]
   },
   {
     "pattern": "い adjectives",
@@ -621,7 +856,12 @@
       "english": "That is an interesting movie.",
       "blankStart": 5,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "な adjectives",
+      "すぎる",
+      "やすい"
+    ]
   },
   {
     "pattern": "な adjectives",
@@ -634,7 +874,12 @@
       "english": "It is a beautiful flower.",
       "blankStart": 3,
       "blankEnd": 4
-    }
+    },
+    "distractors": [
+      "い adjectives",
+      "くなる or になる",
+      "な"
+    ]
   },
   {
     "pattern": "は",
@@ -647,7 +892,12 @@
       "english": "I am a student.",
       "blankStart": 1,
       "blankEnd": 2
-    }
+    },
+    "distractors": [
+      "が",
+      "も",
+      "の"
+    ]
   },
   {
     "pattern": "が",
@@ -660,7 +910,12 @@
       "english": "I like dogs.",
       "blankStart": 1,
       "blankEnd": 2
-    }
+    },
+    "distractors": [
+      "は",
+      "を",
+      "の"
+    ]
   },
   {
     "pattern": "を",
@@ -673,7 +928,12 @@
       "english": "I eat an apple.",
       "blankStart": 3,
       "blankEnd": 4
-    }
+    },
+    "distractors": [
+      "が",
+      "に",
+      "の"
+    ]
   },
   {
     "pattern": "に",
@@ -686,7 +946,12 @@
       "english": "I go to school.",
       "blankStart": 2,
       "blankEnd": 3
-    }
+    },
+    "distractors": [
+      "へ",
+      "で",
+      "を"
+    ]
   },
   {
     "pattern": "へ",
@@ -699,7 +964,12 @@
       "english": "I am going to school.",
       "blankStart": 2,
       "blankEnd": 3
-    }
+    },
+    "distractors": [
+      "に",
+      "で",
+      "まで"
+    ]
   },
   {
     "pattern": "で",
@@ -712,7 +982,12 @@
       "english": "I read books at the library.",
       "blankStart": 3,
       "blankEnd": 4
-    }
+    },
+    "distractors": [
+      "に",
+      "へ",
+      "から"
+    ]
   },
   {
     "pattern": "から",
@@ -725,7 +1000,12 @@
       "english": "Because it is raining, an umbrella is necessary.",
       "blankStart": 7,
       "blankEnd": 9
-    }
+    },
+    "distractors": [
+      "ので",
+      "し",
+      "ために"
+    ]
   },
   {
     "pattern": "まで",
@@ -738,7 +1018,12 @@
       "english": "The bus goes to the station.",
       "blankStart": 4,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "から",
+      "へ",
+      "から～まで"
+    ]
   },
   {
     "pattern": "も",
@@ -751,7 +1036,12 @@
       "english": "I am also going.",
       "blankStart": 3,
       "blankEnd": 4
-    }
+    },
+    "distractors": [
+      "は",
+      "だけ",
+      "しか～ない"
+    ]
   },
   {
     "pattern": "と",
@@ -764,7 +1054,12 @@
       "english": "I eat apples and bananas.",
       "blankStart": 5,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "や",
+      "も",
+      "し"
+    ]
   },
   {
     "pattern": "や",
@@ -777,7 +1072,12 @@
       "english": "I ate apples and bananas (and other things like that).",
       "blankStart": 3,
       "blankEnd": 4
-    }
+    },
+    "distractors": [
+      "と",
+      "も",
+      "たり～たりする"
+    ]
   },
   {
     "pattern": "の",
@@ -790,7 +1090,12 @@
       "english": "My book",
       "blankStart": 1,
       "blankEnd": 2
-    }
+    },
+    "distractors": [
+      "こと",
+      "が",
+      "は"
+    ]
   },
   {
     "pattern": "か",
@@ -803,7 +1108,12 @@
       "english": "Is this a book?",
       "blankStart": 6,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "ね",
+      "よ",
+      "かもしれません"
+    ]
   },
   {
     "pattern": "ね",
@@ -816,7 +1126,12 @@
       "english": "It's nice weather today, isn't it?",
       "blankStart": 9,
       "blankEnd": 10
-    }
+    },
+    "distractors": [
+      "よ",
+      "か",
+      "し"
+    ]
   },
   {
     "pattern": "よ",
@@ -829,7 +1144,12 @@
       "english": "This is delicious, you know.",
       "blankStart": 7,
       "blankEnd": 8
-    }
+    },
+    "distractors": [
+      "ね",
+      "か",
+      "し"
+    ]
   },
   {
     "pattern": "まだ",
@@ -842,7 +1162,12 @@
       "english": "I have not eaten breakfast yet.",
       "blankStart": 5,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "もう",
+      "まだ～ていません",
+      "たばかり"
+    ]
   },
   {
     "pattern": "もう",
@@ -855,7 +1180,12 @@
       "english": "I have already eaten breakfast.",
       "blankStart": 0,
       "blankEnd": 2
-    }
+    },
+    "distractors": [
+      "まだ",
+      "まだ～ていません",
+      "たばかり"
+    ]
   },
   {
     "pattern": "だけ",
@@ -868,7 +1198,12 @@
       "english": "I only drink water.",
       "blankStart": 3,
       "blankEnd": 5
-    }
+    },
+    "distractors": [
+      "しか～ない",
+      "ばかりで",
+      "だけでなく～も"
+    ]
   },
   {
     "pattern": "しか～ない",
@@ -881,7 +1216,12 @@
       "english": "I only eat bread.",
       "blankStart": 4,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "だけ",
+      "ばかりで",
+      "だけでなく～も"
+    ]
   },
   {
     "pattern": "どうして",
@@ -894,7 +1234,12 @@
       "english": "Why aren't you going to school?",
       "blankStart": 0,
       "blankEnd": 4
-    }
+    },
+    "distractors": [
+      "なぜなら",
+      "いつ",
+      "何"
+    ]
   },
   {
     "pattern": "いつ",
@@ -907,7 +1252,12 @@
       "english": "When will you come?",
       "blankStart": 4,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "どこ",
+      "何",
+      "だれ"
+    ]
   },
   {
     "pattern": "どこ",
@@ -920,7 +1270,12 @@
       "english": "Where is the school?",
       "blankStart": 3,
       "blankEnd": 5
-    }
+    },
+    "distractors": [
+      "いつ",
+      "どれ",
+      "どの"
+    ]
   },
   {
     "pattern": "何",
@@ -933,7 +1288,12 @@
       "english": "What will you eat?",
       "blankStart": 4,
       "blankEnd": 5
-    }
+    },
+    "distractors": [
+      "だれ",
+      "どれ",
+      "いくつ"
+    ]
   },
   {
     "pattern": "どれ",
@@ -946,7 +1306,12 @@
       "english": "Which one is your car?",
       "blankStart": 6,
       "blankEnd": 8
-    }
+    },
+    "distractors": [
+      "どの",
+      "どこ",
+      "何"
+    ]
   },
   {
     "pattern": "どの",
@@ -959,7 +1324,12 @@
       "english": "Which book do you like?",
       "blankStart": 0,
       "blankEnd": 2
-    }
+    },
+    "distractors": [
+      "どれ",
+      "どこ",
+      "何"
+    ]
   },
   {
     "pattern": "だれ",
@@ -972,7 +1342,12 @@
       "english": "Who is it?",
       "blankStart": 0,
       "blankEnd": 2
-    }
+    },
+    "distractors": [
+      "何",
+      "いつ",
+      "どこ"
+    ]
   },
   {
     "pattern": "いくつ",
@@ -985,7 +1360,12 @@
       "english": "How many of these are there?",
       "blankStart": 3,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "いつ",
+      "何",
+      "どれ"
+    ]
   },
   {
     "pattern": "より",
@@ -998,7 +1378,12 @@
       "english": "I like this one better than cats.",
       "blankStart": 15,
       "blankEnd": 17
-    }
+    },
+    "distractors": [
+      "のほうが",
+      "Aより～B（の）ほうが",
+      "ほど"
+    ]
   },
   {
     "pattern": "のほうが",
@@ -1011,7 +1396,12 @@
       "english": "I like coffee more than juice.",
       "blankStart": 4,
       "blankEnd": 8
-    }
+    },
+    "distractors": [
+      "より",
+      "Aより～B（の）ほうが",
+      "の中で〇〇が一番"
+    ]
   },
   {
     "pattern": "くなる or になる",
@@ -1022,9 +1412,14 @@
     "example": {
       "japanese": "日本語が上手になりました。",
       "english": "I became good at Japanese.",
-      "blankStart": null,
-      "blankEnd": null
-    }
+      "blankStart": 6,
+      "blankEnd": 12
+    },
+    "distractors": [
+      "なる",
+      "ようになる",
+      "にする"
+    ]
   },
   {
     "pattern": "ている",
@@ -1035,9 +1430,14 @@
     "example": {
       "japanese": "たなかさんは　ほんを　よんでいます。",
       "english": "Tanaka is reading a book.",
-      "blankStart": null,
-      "blankEnd": null
-    }
+      "blankStart": 13,
+      "blankEnd": 17
+    },
+    "distractors": [
+      "てある",
+      "ていた",
+      "ことができる"
+    ]
   },
   {
     "pattern": "ことができる",
@@ -1050,7 +1450,12 @@
       "english": "I can speak Japanese.",
       "blankStart": 6,
       "blankEnd": 12
-    }
+    },
+    "distractors": [
+      "たことがある",
+      "つもり",
+      "はずだ"
+    ]
   },
   {
     "pattern": "つもり",
@@ -1063,7 +1468,12 @@
       "english": "I intend to study tomorrow.",
       "blankStart": 7,
       "blankEnd": 10
-    }
+    },
+    "distractors": [
+      "ようと思う",
+      "ことができる",
+      "予定だ"
+    ]
   },
   {
     "pattern": "がある or がいる",
@@ -1074,9 +1484,14 @@
     "example": {
       "japanese": "私の家には大きい庭があります。",
       "english": "There is a big garden in my house.",
-      "blankStart": null,
-      "blankEnd": null
-    }
+      "blankStart": 9,
+      "blankEnd": 14
+    },
+    "distractors": [
+      "ほしい",
+      "は",
+      "が"
+    ]
   },
   {
     "pattern": "ほしい",
@@ -1089,7 +1504,12 @@
       "english": "I want water.",
       "blankStart": 4,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "たい",
+      "がある or がいる",
+      "つもり"
+    ]
   },
   {
     "pattern": "に行く or に来る",
@@ -1102,7 +1522,12 @@
       "english": "I go shopping.",
       "blankStart": 3,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "ために",
+      "から～まで",
+      "つもり"
+    ]
   },
   {
     "pattern": "たい",
@@ -1115,7 +1540,12 @@
       "english": "I want to travel.",
       "blankStart": 4,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "たくない",
+      "たかった",
+      "ほしい"
+    ]
   },
   {
     "pattern": "あげる or くれる or もらう",
@@ -1126,9 +1556,14 @@
     "example": {
       "japanese": "私は友だちに本をあげました。",
       "english": "I gave a book to my friend.",
-      "blankStart": null,
-      "blankEnd": null
-    }
+      "blankStart": 8,
+      "blankEnd": 13
+    },
+    "distractors": [
+      "てもらう",
+      "てあげる",
+      "てくれる"
+    ]
   },
   {
     "pattern": "から～まで",
@@ -1141,7 +1576,12 @@
       "english": "I walk from school to home.",
       "blankStart": 2,
       "blankEnd": 4
-    }
+    },
+    "distractors": [
+      "から",
+      "まで",
+      "に行く or に来る"
+    ]
   },
   {
     "pattern": "前に",
@@ -1154,7 +1594,12 @@
       "english": "Before going to school, I eat breakfast.",
       "blankStart": 5,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "後で",
+      "てから",
+      "間に"
+    ]
   },
   {
     "pattern": "後で",
@@ -1167,7 +1612,12 @@
       "english": "After reading a book, I will sleep.",
       "blankStart": 5,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "前に",
+      "てから",
+      "間"
+    ]
   },
   {
     "pattern": "たら",
@@ -1180,7 +1630,12 @@
       "english": "If it rains, I won't go.",
       "blankStart": 4,
       "blankEnd": 6
-    }
+    },
+    "distractors": [
+      "ば",
+      "とき",
+      "なら"
+    ]
   },
   {
     "pattern": "ば",
@@ -1193,7 +1648,12 @@
       "english": "If it rains, I won't go out.",
       "blankStart": 4,
       "blankEnd": 5
-    }
+    },
+    "distractors": [
+      "たら",
+      "とき",
+      "なら"
+    ]
   },
   {
     "pattern": "し",
@@ -1206,7 +1666,12 @@
       "english": "This cake is delicious and cheap.",
       "blankStart": 8,
       "blankEnd": 9
-    }
+    },
+    "distractors": [
+      "から",
+      "ので",
+      "だけでなく～も"
+    ]
   },
   {
     "pattern": "のに",
@@ -1219,7 +1684,12 @@
       "english": "Despite it raining, I will play soccer.",
       "blankStart": 7,
       "blankEnd": 9
-    }
+    },
+    "distractors": [
+      "くせに",
+      "から",
+      "ので"
+    ]
   },
   {
     "pattern": "だけでなく～も",
@@ -1232,7 +1702,12 @@
       "english": "I study not only at school but also at home.",
       "blankStart": 2,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "だけ",
+      "しか～ない",
+      "ばかりでなく"
+    ]
   },
   {
     "pattern": "こと",
@@ -1245,7 +1720,12 @@
       "english": "I like studying Japanese.",
       "blankStart": 8,
       "blankEnd": 10
-    }
+    },
+    "distractors": [
+      "の",
+      "ことができる",
+      "ように"
+    ]
   },
   {
     "pattern": "ように",
@@ -1258,7 +1738,12 @@
       "english": "I will cook dinner so that dad can come back.",
       "blankStart": 4,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "ために",
+      "ようになる",
+      "こと"
+    ]
   },
   {
     "pattern": "ために",
@@ -1271,7 +1756,12 @@
       "english": "I read books in order to study.",
       "blankStart": 4,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "ように",
+      "から",
+      "ので"
+    ]
   },
   {
     "pattern": "なさい",
@@ -1284,7 +1774,12 @@
       "english": "Wake up early.",
       "blankStart": 4,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "てください",
+      "なくちゃ",
+      "ずに"
+    ]
   },
   {
     "pattern": "ずに",
@@ -1297,7 +1792,12 @@
       "english": "I went out without studying.",
       "blankStart": 3,
       "blankEnd": 5
-    }
+    },
+    "distractors": [
+      "ないでください",
+      "なくちゃ",
+      "なさい"
+    ]
   },
   {
     "pattern": "なくてもいい",
@@ -1310,7 +1810,12 @@
       "english": "You don’t have to go.",
       "blankStart": 6,
       "blankEnd": 12
-    }
+    },
+    "distractors": [
+      "なければならない",
+      "てもいいです",
+      "なくちゃ"
+    ]
   },
   {
     "pattern": "なくちゃ",
@@ -1323,7 +1828,12 @@
       "english": "I have to go to school.",
       "blankStart": 5,
       "blankEnd": 9
-    }
+    },
+    "distractors": [
+      "なければならない",
+      "なくてはならない",
+      "ないといけない"
+    ]
   },
   {
     "pattern": "なくてはならない",
@@ -1336,7 +1846,12 @@
       "english": "I must go to school.",
       "blankStart": 5,
       "blankEnd": 13
-    }
+    },
+    "distractors": [
+      "なければならない",
+      "なくてはいけない",
+      "ないといけない"
+    ]
   },
   {
     "pattern": "なる",
@@ -1349,7 +1864,12 @@
       "english": "I will become able to understand Japanese.",
       "blankStart": 10,
       "blankEnd": 12
-    }
+    },
+    "distractors": [
+      "くなる or になる",
+      "ようになる",
+      "にする"
+    ]
   },
   {
     "pattern": "んです",
@@ -1362,7 +1882,12 @@
       "english": "It is cold today (and that's why I'm wearing a coat).",
       "blankStart": 5,
       "blankEnd": 8
-    }
+    },
+    "distractors": [
+      "のです",
+      "から",
+      "ので"
+    ]
   },
   {
     "pattern": "のです",
@@ -1375,7 +1900,12 @@
       "english": "Why were you late?",
       "blankStart": 7,
       "blankEnd": 10
-    }
+    },
+    "distractors": [
+      "んです",
+      "から",
+      "ので"
+    ]
   },
   {
     "pattern": "にする",
@@ -1388,7 +1918,12 @@
       "english": "I'll have coffee.",
       "blankStart": 4,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "くなる or になる",
+      "つもり",
+      "たい"
+    ]
   },
   {
     "pattern": "の中で〇〇が一番",
@@ -1401,7 +1936,12 @@
       "english": "Tanaka is the tallest in this school.",
       "blankStart": 4,
       "blankEnd": 7
-    }
+    },
+    "distractors": [
+      "より",
+      "のほうが",
+      "Aより～B（の）ほうが"
+    ]
   },
   {
     "pattern": "しかし",
@@ -1414,7 +1954,12 @@
       "english": "The weather is good. However, it is cold.",
       "blankStart": 8,
       "blankEnd": 11
-    }
+    },
+    "distractors": [
+      "それから",
+      "そして",
+      "でも"
+    ]
   },
   {
     "pattern": "それから",
@@ -1427,7 +1972,12 @@
       "english": "I ate breakfast. After that, I went to school.",
       "blankStart": 11,
       "blankEnd": 15
-    }
+    },
+    "distractors": [
+      "そして",
+      "しかし",
+      "後で"
+    ]
   },
   {
     "pattern": "そして",
@@ -1440,7 +1990,12 @@
       "english": "I ate breakfast. And then, I went to school.",
       "blankStart": 12,
       "blankEnd": 15
-    }
+    },
+    "distractors": [
+      "それから",
+      "しかし",
+      "ながら"
+    ]
   },
   {
     "pattern": "Aより～B（の）ほうが",
@@ -1453,7 +2008,12 @@
       "english": "I like bananas more than apples.",
       "blankStart": 9,
       "blankEnd": 12
-    }
+    },
+    "distractors": [
+      "より",
+      "のほうが",
+      "の中で〇〇が一番"
+    ]
   },
   {
     "pattern": "はどうですか",
@@ -1466,7 +2026,12 @@
       "english": "How about tea?",
       "blankStart": 2,
       "blankEnd": 8
-    }
+    },
+    "distractors": [
+      "ましょうか",
+      "ほうがいい",
+      "ましょう"
+    ]
   },
   {
     "pattern": "てある",
@@ -1479,6 +2044,11 @@
       "english": "The door has been opened (and remains open).",
       "blankStart": 5,
       "blankEnd": 8
-    }
+    },
+    "distractors": [
+      "ている",
+      "ておく",
+      "てもらう"
+    ]
   }
 ]
