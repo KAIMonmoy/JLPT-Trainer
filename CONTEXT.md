@@ -1,7 +1,8 @@
-# JLPT N3 Prep
+# JLPT Dojo
 
-A personal study tool for JLPT N3 kanji and grammar, combining a spaced-repetition
-review engine with content sourced from jlptbenkyo.com and WaniKani.
+A personal study tool for JLPT kanji and grammar (N5 through N3), combining a
+spaced-repetition review engine with content sourced from jlptbenkyo.com and
+WaniKani.
 
 ## Language
 
@@ -9,6 +10,21 @@ review engine with content sourced from jlptbenkyo.com and WaniKani.
 A single unit of study content — one kanji or one grammar point. Items carry their
 own SRS state independently.
 _Avoid_: Card, entry (reserve "card" for the on-screen presentation of an item during a session)
+
+**Level**:
+The JLPT level an Item belongs to: N5, N4, or N3 (N2/N1 are not yet modeled).
+The schedule works through one Level's items at a time, in order N5 → N4 → N3.
+_Avoid_: Stage, tier (Stage is reserved for SRS Stage — a Level is a fixed
+property of an Item, not a position it moves through)
+
+**Introduced**:
+An item that has been moved into the SRS pool for the first time, via a Lesson.
+An Introduced item has SRS state (starting at Apprentice 1) even before any
+Review has happened to it. The complement — an item with no SRS state yet — has
+not been introduced, and its content has never been shown. Introduction happens
+per Lesson Group, as soon as that group's own quiz completes — it is not held
+back until the rest of the Batch finishes.
+_Avoid_: Covered, started, seen
 
 **SRS Stage**:
 An item's position in the review-interval ladder: Apprentice 1 (4h) → Apprentice 2
