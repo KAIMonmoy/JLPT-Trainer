@@ -43,6 +43,21 @@ export function buildLessonQueue(
   return shuffleFn(notYetIntroduced)
 }
 
+/** Lesson Groups (see CONTEXT.md) hold this many items, except possibly the last. */
+export const LESSON_GROUP_SIZE = 4
+
+/**
+ * Splits a Lesson's queue into consecutive Lesson Groups of `groupSize` items,
+ * preserving order. The final group holds whatever remains (1..groupSize items).
+ */
+export function groupIntoLessonGroups<T>(items: readonly T[], groupSize: number): T[][] {
+  const groups: T[][] = []
+  for (let cursor = 0; cursor < items.length; cursor += groupSize) {
+    groups.push(items.slice(cursor, cursor + groupSize))
+  }
+  return groups
+}
+
 export interface KanjiAnswer {
   meaning: string
   onyomi: string

@@ -23,8 +23,18 @@ _Avoid_: Learned, ready
 
 **Lesson**:
 The study mode that introduces new items for the day, moving them into the SRS
-pool for the first time.
+pool for the first time. A Lesson's Batch is worked through one Lesson Group
+at a time.
 _Avoid_: New content, intro
+
+**Lesson Group**:
+A chunk of up to 4 items from a Lesson's Batch. Each item's full content is
+shown once (kanji: character plus meaning and onyomi; grammar: the unblanked
+example sentence plus pattern), then all items in the group are tested, before
+the next group starts. The Batch's final group may hold fewer than 4 items as
+a remainder. Scoped to Lesson only — Review and Exam still test one item at a
+time with no content step.
+_Avoid_: Chunk, batch (Batch already names the whole day's item set)
 
 **Review**:
 The study mode that presents items already in the SRS pool whose interval has

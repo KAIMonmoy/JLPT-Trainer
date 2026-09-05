@@ -11,6 +11,7 @@ import {
   completeBatch,
   gradeGrammarAnswer,
   gradeKanjiAnswer,
+  groupIntoLessonGroups,
   selectNextBatch,
   shuffle,
 } from './session'
@@ -95,6 +96,29 @@ describe('buildLessonQueue', () => {
     const srsState = { [itemKey(batch[1])]: { stage: 'guru1' as const, burned: false, nextReviewAt: 0 } }
     const queue = buildLessonQueue(batch, reverse, srsState)
     expect(queue).toEqual([grammar('結局'), kanji('一')])
+  })
+})
+
+describe('groupIntoLessonGroups', () => {
+  it('splits evenly-divisible items into equal-size groups, preserving order', () => {
+    const items = [kanji('一'), kanji('二'), kanji('三'), kanji('四'), kanji('五'), kanji('六'), kanji('七'), kanji('八')]
+    expect(groupIntoLessonGroups(items, 4)).toEqual([items.slice(0, 4), items.slice(4, 8)])
+  })
+
+  it('puts the remainder in a smaller final group', () => {
+    const items = [kanji('一'), kanji('二'), kanji('三'), kanji('四'), kanji('五'), kanji('六')]
+    const groups = groupIntoLessonGroups(items, 4)
+    expect(groups).toEqual([items.slice(0, 4), items.slice(4, 6)])
+    expect(groups[1]).toHaveLength(2)
+  })
+
+  it('returns a single partial group when there are fewer items than the group size', () => {
+    const items = [kanji('一'), kanji('二')]
+    expect(groupIntoLessonGroups(items, 4)).toEqual([items])
+  })
+
+  it('returns an empty array for empty input', () => {
+    expect(groupIntoLessonGroups([], 4)).toEqual([])
   })
 })
 

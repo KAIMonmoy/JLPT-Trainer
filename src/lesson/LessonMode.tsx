@@ -2,18 +2,63 @@ import { useState } from 'react'
 import type { ScheduleEntry } from '../schedule/types'
 import { jlptSchedule } from '../schedule/jlptSchedule'
 import { Session } from '../session/Session'
-import { buildLessonQueue, completeBatch, selectNextBatch } from './session'
+import { buildLessonQueue, completeBatch, groupIntoLessonGroups, LESSON_GROUP_SIZE, selectNextBatch } from './session'
 import { loadState, saveState, type LessonState } from './store'
 
 interface ActiveSession {
   batchNumber: number
   batch: ScheduleEntry[]
-  queue: ScheduleEntry[]
+  groups: ScheduleEntry[][]
+  groupIndex: number
+}
+
+interface ContentStepProps {
+  group: ScheduleEntry[]
+  onDone: () => void
+}
+
+/** Shows each item in a Lesson Group's full content, one at a time, before that group is quizzed. */
+function ContentStep({ group, onDone }: ContentStepProps) {
+  const [index, setIndex] = useState(0)
+  const entry = group[index]
+
+  function next() {
+    if (index + 1 < group.length) {
+      setIndex(index + 1)
+      return
+    }
+    onDone()
+  }
+
+  return (
+    <section>
+      <p>
+        Content — item {index + 1} of {group.length}
+      </p>
+      {entry.kind === 'kanji' && (
+        <div>
+          <p style={{ fontSize: '3rem' }}>{entry.item.character}</p>
+          <p>Meaning: {entry.item.meaning}</p>
+          <p>Onyomi: {entry.item.onyomi.join(', ')}</p>
+        </div>
+      )}
+      {entry.kind === 'grammar' && (
+        <div>
+          <p>{entry.item.example.japanese}</p>
+          <p>Pattern: {entry.item.pattern}</p>
+        </div>
+      )}
+      <button type="button" onClick={next}>
+        Next
+      </button>
+    </section>
+  )
 }
 
 export function LessonMode() {
   const [state, setState] = useState<LessonState>(() => loadState(window.localStorage))
   const [session, setSession] = useState<ActiveSession | null>(null)
+  const [phase, setPhase] = useState<'content' | 'quiz'>('content')
   const [justCompletedBatch, setJustCompletedBatch] = useState<{ batchNumber: number; count: number } | null>(
     null,
   )
@@ -34,15 +79,24 @@ export function LessonMode() {
       setJustCompletedBatch({ batchNumber: next.batchNumber, count: 0 })
       return
     }
-    setSession({ batchNumber: next.batchNumber, batch: next.batch, queue })
+    const groups = groupIntoLessonGroups(queue, LESSON_GROUP_SIZE)
+    setSession({ batchNumber: next.batchNumber, batch: next.batch, groups, groupIndex: 0 })
+    setPhase('content')
   }
 
-  function handleComplete() {
+  function handleGroupQuizComplete() {
     if (!session) return
+    if (session.groupIndex + 1 < session.groups.length) {
+      setSession({ ...session, groupIndex: session.groupIndex + 1 })
+      setPhase('content')
+      return
+    }
+
+    const totalItems = session.groups.reduce((sum, group) => sum + group.length, 0)
     const nextState = completeBatch(state, session.batchNumber, session.batch, Date.now())
     saveState(window.localStorage, nextState)
     setState(nextState)
-    setJustCompletedBatch({ batchNumber: session.batchNumber, count: session.queue.length })
+    setJustCompletedBatch({ batchNumber: session.batchNumber, count: totalItems })
     setSession(null)
   }
 
@@ -66,14 +120,26 @@ export function LessonMode() {
     )
   }
 
+  const group = session.groups[session.groupIndex]
+
+  if (phase === 'content') {
+    return (
+      <ContentStep
+        key={session.groupIndex}
+        group={group}
+        onDone={() => setPhase('quiz')}
+      />
+    )
+  }
+
   return (
     <Session
-      key={session.batchNumber}
-      title={`Lesson — Batch ${session.batchNumber}`}
-      queue={session.queue}
+      key={`${session.batchNumber}-${session.groupIndex}`}
+      title={`Lesson — Batch ${session.batchNumber} — Group ${session.groupIndex + 1} of ${session.groups.length}`}
+      queue={group}
       positionLabel={(index, total) => `item ${index + 1} of ${total}`}
       onAnswer={() => {}}
-      onComplete={handleComplete}
+      onComplete={handleGroupQuizComplete}
     />
   )
 }
