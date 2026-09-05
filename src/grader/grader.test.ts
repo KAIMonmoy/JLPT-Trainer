@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { isExactMatch, isFuzzyMatch, similarity } from './grader'
+import { isExactMatch, isFuzzyMatch, similarity, toKatakana } from './grader'
 
 describe('isExactMatch', () => {
   it('matches identical strings', () => {
@@ -20,6 +20,33 @@ describe('isExactMatch', () => {
 
   it('fails on partial overlap', () => {
     expect(isExactMatch('けっきょく', 'けっきょくは')).toBe(false)
+  })
+})
+
+describe('toKatakana', () => {
+  it('converts plain hiragana to katakana', () => {
+    expect(toKatakana('ぎ')).toBe('ギ')
+  })
+
+  it('leaves katakana unchanged', () => {
+    expect(toKatakana('ギ')).toBe('ギ')
+  })
+
+  it('converts small kana (yōon/sokuon) used in onyomi readings', () => {
+    expect(toKatakana('しゅ')).toBe('シュ')
+    expect(toKatakana('がっ')).toBe('ガッ')
+  })
+
+  it('converts a mix of hiragana and katakana in the same string', () => {
+    expect(toKatakana('しゅウ')).toBe('シュウ')
+  })
+
+  it('leaves non-kana characters (e.g. the chōonpu ー) untouched', () => {
+    expect(toKatakana('だーす')).toBe('ダース')
+  })
+
+  it('leaves an empty string unchanged', () => {
+    expect(toKatakana('')).toBe('')
   })
 })
 

@@ -4,6 +4,19 @@ function normalize(value: string): string {
   return value.trim().toLowerCase()
 }
 
+const HIRAGANA_START = 0x3041
+const HIRAGANA_END = 0x3096
+
+/** Converts hiragana characters to their katakana equivalents; everything else (including ー) passes through unchanged. */
+export function toKatakana(value: string): string {
+  return Array.from(value)
+    .map((char) => {
+      const code = char.codePointAt(0)!
+      return code >= HIRAGANA_START && code <= HIRAGANA_END ? String.fromCodePoint(code + 0x60) : char
+    })
+    .join('')
+}
+
 function levenshteinDistance(a: string, b: string): number {
   const rows = a.length + 1
   const cols = b.length + 1

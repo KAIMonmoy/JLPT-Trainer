@@ -1,4 +1,4 @@
-import { isExactMatch, isFuzzyMatch } from '../grader/grader'
+import { isExactMatch, isFuzzyMatch, toKatakana } from '../grader/grader'
 import type { KanjiItem } from '../pipeline/kanji/types'
 import type { ExampleSentence, GrammarItem } from '../pipeline/grammar/types'
 import type { Batch, ScheduleEntry } from '../schedule/types'
@@ -65,7 +65,7 @@ export interface KanjiAnswer {
 
 export function gradeKanjiAnswer(item: KanjiItem, answer: KanjiAnswer): boolean {
   const meaningCorrect = isFuzzyMatch(item.meaning, answer.meaning)
-  const onyomiCorrect = item.onyomi.some((reading) => isExactMatch(reading, answer.onyomi))
+  const onyomiCorrect = item.onyomi.some((reading) => isExactMatch(reading, toKatakana(answer.onyomi)))
   return meaningCorrect && onyomiCorrect
 }
 

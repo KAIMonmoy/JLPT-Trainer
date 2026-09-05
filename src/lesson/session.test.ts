@@ -145,6 +145,15 @@ describe('gradeKanjiAnswer', () => {
     const multi = kanji('民', { onyomi: ['ミン', 'タミ'] }).item as KanjiItem
     expect(gradeKanjiAnswer(multi, { onyomi: 'タミ', meaning: 'deliberation, consultation' })).toBe(true)
   })
+
+  it('passes when the onyomi is typed in hiragana instead of katakana', () => {
+    expect(gradeKanjiAnswer(item, { onyomi: 'ぎ', meaning: 'deliberation, consultation' })).toBe(true)
+  })
+
+  it('passes when the onyomi mixes hiragana and katakana', () => {
+    const multi = kanji('民', { onyomi: ['シュウ'] }).item as KanjiItem
+    expect(gradeKanjiAnswer(multi, { onyomi: 'しゅウ', meaning: 'deliberation, consultation' })).toBe(true)
+  })
 })
 
 describe('gradeGrammarAnswer', () => {
