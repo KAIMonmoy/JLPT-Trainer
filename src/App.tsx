@@ -4,27 +4,56 @@ import { ReviewMode } from './review/ReviewMode'
 import { ExamMode } from './exam/ExamMode'
 import { KnownMode } from './known/KnownMode'
 import { BatchBrowser } from './scheduleBrowser/BatchBrowser'
+import { BookIcon, BrushIcon, CalendarIcon, RefreshIcon, SealIcon } from './icons'
 
-const TABS = ['Lesson', 'Review', 'Exam', 'Known', 'Schedule'] as const
-type Tab = (typeof TABS)[number]
+const TABS = [
+  { name: 'Lesson', icon: BookIcon },
+  { name: 'Review', icon: RefreshIcon },
+  { name: 'Exam', icon: BrushIcon },
+  { name: 'Known', icon: SealIcon },
+  { name: 'Schedule', icon: CalendarIcon },
+] as const
+
+type Tab = (typeof TABS)[number]['name']
 
 function App() {
   const [tab, setTab] = useState<Tab>('Lesson')
 
   return (
     <>
-      <nav>
-        {TABS.map((t) => (
-          <button key={t} type="button" onClick={() => setTab(t)} aria-pressed={tab === t}>
-            {t}
-          </button>
-        ))}
+      <main className="mx-auto w-full max-w-md flex-1 px-5 pt-8 pb-28">
+        {tab === 'Lesson' && <LessonMode />}
+        {tab === 'Review' && <ReviewMode />}
+        {tab === 'Exam' && <ExamMode />}
+        {tab === 'Known' && <KnownMode />}
+        {tab === 'Schedule' && <BatchBrowser />}
+      </main>
+
+      <nav
+        aria-label="Study modes"
+        className="fixed inset-x-0 bottom-0 border-t border-line bg-paper/95 backdrop-blur"
+        style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
+      >
+        <div className="mx-auto flex max-w-md">
+          {TABS.map(({ name, icon: Icon }) => {
+            const active = tab === name
+            return (
+              <button
+                key={name}
+                type="button"
+                onClick={() => setTab(name)}
+                aria-pressed={active}
+                className={`flex flex-1 flex-col items-center gap-1 py-2.5 text-[11px] ${
+                  active ? 'text-indigo' : 'text-ink-soft'
+                }`}
+              >
+                <Icon aria-hidden="true" className="h-6 w-6" strokeWidth={active ? 2 : 1.6} />
+                {name}
+              </button>
+            )
+          })}
+        </div>
       </nav>
-      {tab === 'Lesson' && <LessonMode />}
-      {tab === 'Review' && <ReviewMode />}
-      {tab === 'Exam' && <ExamMode />}
-      {tab === 'Known' && <KnownMode />}
-      {tab === 'Schedule' && <BatchBrowser />}
     </>
   )
 }

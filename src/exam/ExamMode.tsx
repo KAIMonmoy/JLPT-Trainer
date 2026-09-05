@@ -53,11 +53,16 @@ export function ExamMode() {
 
   if (!queue) {
     return (
-      <section>
-        <h1>Exam</h1>
-        {justFinished !== null && <p>Exam complete — {justFinished} items tested.</p>}
-        <p>{matureCount} mature item(s) available.</p>
-        <button type="button" onClick={startExam} disabled={matureCount === 0}>
+      <section className="flex flex-col items-center gap-5 text-center">
+        <h1 className="text-3xl">Exam</h1>
+        {justFinished !== null && <p className="text-ink-soft">Exam complete — {justFinished} items tested.</p>}
+        <p className="text-ink-soft">{matureCount} mature item(s) available.</p>
+        <button
+          type="button"
+          onClick={startExam}
+          disabled={matureCount === 0}
+          className="w-full rounded-md bg-indigo py-3 font-medium text-paper disabled:opacity-40"
+        >
           Start Exam
         </button>
       </section>
@@ -75,9 +80,9 @@ export function ExamMode() {
       renderAfterGrade={(entry, wasCorrect) => {
         if (!wasCorrect) return null
         const key = itemKey(entry)
-        if (burnedKeys.has(key)) return <span> Burned.</span>
+        if (burnedKeys.has(key)) return <span className="text-ink-soft">Burned</span>
         return (
-          <button type="button" onClick={() => handleBurn(entry)}>
+          <button type="button" onClick={() => handleBurn(entry)} className="text-vermillion underline underline-offset-2">
             Burn
           </button>
         )

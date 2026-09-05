@@ -53,6 +53,30 @@ describe('buildJlptSchedule', () => {
     expect(lastBatchLevels).toEqual(new Set(['N3']))
   })
 
+  it('interleaves kanji and grammar within each level instead of running all of one type before the other', () => {
+    const schedule = buildJlptSchedule({
+      N5: { kanji: kanji(80, 'N5'), grammar: grammar(120, 'N5') },
+      N4: { kanji: kanji(170, 'N4'), grammar: grammar(140, 'N4') },
+      N3: { kanji: kanji(403, 'N3'), grammar: grammar(187, 'N3') },
+    })
+
+    // the first N5 batch (day 0) should already contain both kinds of entry,
+    // not be all-kanji or all-grammar
+    const firstBatchKinds = new Set(schedule[0].map((entry) => entry.kind))
+    expect(firstBatchKinds).toEqual(new Set(['kanji', 'grammar']))
+
+    // same check for the first N4 batch and the first N3 batch
+    const firstN4Batch = schedule[PHASE_DAYS.N5]
+    expect(new Set(firstN4Batch.map((entry) => entry.kind))).toEqual(
+      new Set(['kanji', 'grammar']),
+    )
+
+    const firstN3Batch = schedule[PHASE_DAYS.N5 + PHASE_DAYS.N4]
+    expect(new Set(firstN3Batch.map((entry) => entry.kind))).toEqual(
+      new Set(['kanji', 'grammar']),
+    )
+  })
+
   it('covers every kanji and grammar item across all levels exactly once', () => {
     const schedule = buildJlptSchedule({
       N5: { kanji: kanji(3, 'N5'), grammar: grammar(2, 'N5') },

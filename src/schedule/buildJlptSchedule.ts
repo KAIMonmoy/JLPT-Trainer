@@ -26,11 +26,36 @@ export interface JlptContent {
   N3: LevelContent
 }
 
+/**
+ * Interleaves two ordered lists proportionally to their lengths, preserving
+ * each list's internal order (see CONTEXT.md: Interleaving). E.g. 3 kanji to
+ * 1 grammar spreads the grammar item roughly a third of the way through
+ * rather than piling all of one type at the front or back.
+ */
+function interleave<A, B>(a: readonly A[], b: readonly B[]): (A | B)[] {
+  const result: (A | B)[] = []
+  let ai = 0
+  let bi = 0
+
+  while (ai < a.length || bi < b.length) {
+    const takeA =
+      bi >= b.length || (ai < a.length && (ai + 1) * b.length <= (bi + 1) * a.length)
+    if (takeA) {
+      result.push(a[ai])
+      ai++
+    } else {
+      result.push(b[bi])
+      bi++
+    }
+  }
+
+  return result
+}
+
 function toEntries(content: LevelContent): ScheduleEntry[] {
-  return [
-    ...content.kanji.map((item): ScheduleEntry => ({ kind: 'kanji', item })),
-    ...content.grammar.map((item): ScheduleEntry => ({ kind: 'grammar', item })),
-  ]
+  const kanjiEntries = content.kanji.map((item): ScheduleEntry => ({ kind: 'kanji', item }))
+  const grammarEntries = content.grammar.map((item): ScheduleEntry => ({ kind: 'grammar', item }))
+  return interleave(kanjiEntries, grammarEntries)
 }
 
 /**

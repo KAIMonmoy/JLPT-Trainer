@@ -4,7 +4,7 @@ import type { GrammarItem } from '../pipeline/grammar/types'
 import type { ScheduleEntry } from '../schedule/types'
 import type { LessonState } from '../lesson/store'
 import { itemKey } from '../lesson/itemKey'
-import { filterEntriesByLevel, markEntryKnown } from './session'
+import { filterEntriesByKind, filterEntriesByKnownStatus, filterEntriesByLevel, markEntryKnown, searchEntries } from './session'
 
 const NOW = 1_700_000_000_000
 
@@ -43,6 +43,51 @@ describe('filterEntriesByLevel', () => {
 
   it('returns every entry when level is null', () => {
     expect(filterEntriesByLevel(entries, null)).toEqual(entries)
+  })
+})
+
+describe('filterEntriesByKind', () => {
+  const entries = [kanjiEntry('一', 'N5'), grammarEntry('結局', 'N3')]
+
+  it('returns only entries matching the given kind', () => {
+    expect(filterEntriesByKind(entries, 'grammar')).toEqual([entries[1]])
+  })
+
+  it('returns every entry when kind is null', () => {
+    expect(filterEntriesByKind(entries, null)).toEqual(entries)
+  })
+})
+
+describe('filterEntriesByKnownStatus', () => {
+  const entries = [kanjiEntry('一', 'N5'), kanjiEntry('二', 'N3')]
+  const isKnown = (entry: ScheduleEntry) => entry === entries[0]
+
+  it('returns only known entries when status is known', () => {
+    expect(filterEntriesByKnownStatus(entries, 'known', isKnown)).toEqual([entries[0]])
+  })
+
+  it('returns only unknown entries when status is unknown', () => {
+    expect(filterEntriesByKnownStatus(entries, 'unknown', isKnown)).toEqual([entries[1]])
+  })
+
+  it('returns every entry when status is all', () => {
+    expect(filterEntriesByKnownStatus(entries, 'all', isKnown)).toEqual(entries)
+  })
+})
+
+describe('searchEntries', () => {
+  const entries = [kanjiEntry('一', 'N5'), grammarEntry('結局', 'N3')]
+
+  it('matches on the entry label', () => {
+    expect(searchEntries(entries, '一')).toEqual([entries[0]])
+  })
+
+  it('matches on meaning, case-insensitively', () => {
+    expect(searchEntries(entries, 'ULTIMATELY')).toEqual([entries[1]])
+  })
+
+  it('returns every entry when the query is blank', () => {
+    expect(searchEntries(entries, '  ')).toEqual(entries)
   })
 })
 

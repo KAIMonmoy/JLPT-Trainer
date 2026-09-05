@@ -79,24 +79,44 @@ export function Session({ title, queue, positionLabel, onAnswer, onComplete, ren
   }
 
   return (
-    <section>
-      <p>
+    <section className="flex flex-col items-center text-center">
+      <p className="text-sm text-ink-soft">
         {title} — {positionLabel(index, queue.length)}
       </p>
 
       {currentEntry?.kind === 'kanji' && (
-        <div>
-          <p style={{ fontSize: '3rem' }}>{currentEntry.item.character}</p>
-          <label>
-            Meaning
-            <input value={meaning} disabled={grade !== null} onChange={(e) => setMeaning(e.target.value)} />
-          </label>
-          <label>
-            Onyomi
-            <input value={onyomi} disabled={grade !== null} onChange={(e) => setOnyomi(e.target.value)} />
-          </label>
+        <div className="mt-6 flex w-full flex-col items-center gap-6">
+          <div className="flex h-32 w-32 items-center justify-center rounded-md border border-line bg-paper-dim font-serif text-6xl">
+            {currentEntry.item.character}
+          </div>
+          <div className="flex w-full flex-col gap-4">
+            <label className="flex flex-col gap-1.5 text-left">
+              <span className="text-sm text-ink-soft">Meaning</span>
+              <input
+                className="rounded-md border border-line bg-transparent px-3.5 py-2.5 outline-none focus-visible:border-indigo focus-visible:ring-2 focus-visible:ring-indigo/30"
+                value={meaning}
+                disabled={grade !== null}
+                onChange={(e) => setMeaning(e.target.value)}
+                autoComplete="off"
+              />
+            </label>
+            <label className="flex flex-col gap-1.5 text-left">
+              <span className="text-sm text-ink-soft">Onyomi</span>
+              <input
+                className="rounded-md border border-line bg-transparent px-3.5 py-2.5 outline-none focus-visible:border-indigo focus-visible:ring-2 focus-visible:ring-indigo/30"
+                value={onyomi}
+                disabled={grade !== null}
+                onChange={(e) => setOnyomi(e.target.value)}
+                autoComplete="off"
+              />
+            </label>
+          </div>
           {grade === null && (
-            <button type="button" onClick={submitKanjiAnswer}>
+            <button
+              type="button"
+              onClick={submitKanjiAnswer}
+              className="w-full rounded-md bg-indigo py-3 font-medium text-paper"
+            >
               Check
             </button>
           )}
@@ -104,45 +124,60 @@ export function Session({ title, queue, positionLabel, onAnswer, onComplete, ren
       )}
 
       {currentEntry?.kind === 'grammar' && (
-        <div>
-          <p>{blankSentence(currentEntry.item.example)}</p>
-          <ul>
-            {grammarChoices.map((choice) => (
-              <li key={choice}>
-                <button
-                  type="button"
-                  disabled={grade !== null}
-                  onClick={() => selectGrammarChoice(choice)}
-                  aria-pressed={selectedChoice === choice}
-                >
-                  {choice}
-                </button>
-              </li>
-            ))}
+        <div className="mt-6 flex w-full flex-col gap-6">
+          <p className="text-lg leading-relaxed">{blankSentence(currentEntry.item.example)}</p>
+          <ul className="flex flex-col gap-2.5">
+            {grammarChoices.map((choice) => {
+              const isSelected = selectedChoice === choice
+              const showResult = grade !== null && isSelected
+              return (
+                <li key={choice}>
+                  <button
+                    type="button"
+                    disabled={grade !== null}
+                    onClick={() => selectGrammarChoice(choice)}
+                    aria-pressed={isSelected}
+                    className={`w-full rounded-md border px-4 py-3 text-left ${
+                      showResult && grade?.wasCorrect
+                        ? 'border-moss bg-moss-soft'
+                        : showResult
+                          ? 'border-vermillion bg-vermillion-soft'
+                          : 'border-line'
+                    }`}
+                  >
+                    {choice}
+                  </button>
+                </li>
+              )
+            })}
           </ul>
         </div>
       )}
 
       {grade && currentEntry && (
-        <div>
-          <p>{grade.wasCorrect ? 'Correct' : 'Incorrect'}</p>
-          {currentEntry.kind === 'kanji' && (
-            <>
-              <button type="button" onClick={() => reveal(currentEntry.item.jlptbenkyoUrl)}>
-                Reveal (jlptbenkyo)
+        <div className="mt-6 flex w-full flex-col items-center gap-4">
+          <p className={grade.wasCorrect ? 'text-moss' : 'text-vermillion'}>
+            {grade.wasCorrect ? 'Correct' : 'Incorrect'}
+          </p>
+          <div className="flex flex-wrap justify-center gap-3 text-sm">
+            {currentEntry.kind === 'kanji' && (
+              <>
+                <button type="button" onClick={() => reveal(currentEntry.item.jlptbenkyoUrl)} className="text-indigo underline underline-offset-2">
+                  Reveal (jlptbenkyo)
+                </button>
+                <button type="button" onClick={() => reveal(currentEntry.item.wanikaniUrl)} className="text-indigo underline underline-offset-2">
+                  Reveal (WaniKani)
+                </button>
+              </>
+            )}
+            {currentEntry.kind === 'grammar' && (
+              <button type="button" onClick={() => reveal(currentEntry.item.jlptbenkyoUrl)} className="text-indigo underline underline-offset-2">
+                Reveal
               </button>
-              <button type="button" onClick={() => reveal(currentEntry.item.wanikaniUrl)}>
-                Reveal (WaniKani)
-              </button>
-            </>
-          )}
-          {currentEntry.kind === 'grammar' && (
-            <button type="button" onClick={() => reveal(currentEntry.item.jlptbenkyoUrl)}>
-              Reveal
-            </button>
-          )}
-          {renderAfterGrade?.(currentEntry, grade.wasCorrect)}
-          <button type="button" onClick={goNext}>
+            )}
+            {renderAfterGrade?.(currentEntry, grade.wasCorrect)}
+          </div>
+          <button type="button" onClick={goNext} className="w-full rounded-md bg-indigo py-3 font-medium text-paper">
             Next
           </button>
         </div>

@@ -84,5 +84,10 @@ _Avoid_: Mastered, skipped
 
 **Interleaving**:
 Kanji and grammar items are mixed within the same Lesson, Review, and Exam
-session rather than studied as separate decks per content type.
+session rather than studied as separate decks per content type. Within
+Lesson specifically, this mixing goes down to Lesson Group granularity —
+a Batch's items are proportionally interleaved by type before being split
+into Lesson Groups, so no single Lesson Group (and no run of early or late
+Lesson Groups) is all-kanji or all-grammar just because the Batch happened
+to contain a long run of one type.
 _Avoid_: Mixed mode, combined deck

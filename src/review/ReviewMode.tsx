@@ -40,11 +40,16 @@ export function ReviewMode() {
 
   if (!queue) {
     return (
-      <section>
-        <h1>Review</h1>
-        {justFinished !== null && <p>Review complete — {justFinished} items reviewed.</p>}
-        <p>{dueCount} item(s) due for review.</p>
-        <button type="button" onClick={startReview} disabled={dueCount === 0}>
+      <section className="flex flex-col items-center gap-5 text-center">
+        <h1 className="text-3xl">Review</h1>
+        {justFinished !== null && <p className="text-ink-soft">Review complete — {justFinished} items reviewed.</p>}
+        <p className="text-ink-soft">{dueCount} item(s) due for review.</p>
+        <button
+          type="button"
+          onClick={startReview}
+          disabled={dueCount === 0}
+          className="w-full rounded-md bg-indigo py-3 font-medium text-paper disabled:opacity-40"
+        >
           Start Review
         </button>
       </section>

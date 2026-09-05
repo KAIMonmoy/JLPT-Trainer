@@ -31,24 +31,26 @@ function ContentStep({ group, onDone }: ContentStepProps) {
   }
 
   return (
-    <section>
-      <p>
+    <section className="flex flex-col items-center gap-6 text-center">
+      <p className="text-sm text-ink-soft">
         Content — item {index + 1} of {group.length}
       </p>
       {entry.kind === 'kanji' && (
-        <div>
-          <p style={{ fontSize: '3rem' }}>{entry.item.character}</p>
+        <div className="flex flex-col items-center gap-4">
+          <div className="flex h-32 w-32 items-center justify-center rounded-md border border-line bg-paper-dim font-serif text-6xl">
+            {entry.item.character}
+          </div>
           <p>Meaning: {entry.item.meaning}</p>
           <p>Onyomi: {entry.item.onyomi.join(', ')}</p>
         </div>
       )}
       {entry.kind === 'grammar' && (
-        <div>
-          <p>{entry.item.example.japanese}</p>
-          <p>Pattern: {entry.item.pattern}</p>
+        <div className="flex flex-col items-center gap-2">
+          <p className="text-lg">{entry.item.example.japanese}</p>
+          <p className="text-ink-soft">Pattern: {entry.item.pattern}</p>
         </div>
       )}
-      <button type="button" onClick={next}>
+      <button type="button" onClick={next} className="w-full rounded-md bg-indigo py-3 font-medium text-paper">
         Next
       </button>
     </section>
@@ -102,19 +104,24 @@ export function LessonMode() {
 
   if (!session) {
     return (
-      <section>
-        <h1>Lesson</h1>
+      <section className="flex flex-col items-center gap-5 text-center">
+        <h1 className="text-3xl">Lesson</h1>
         {justCompletedBatch && (
-          <p>
+          <p className="text-ink-soft">
             Batch {justCompletedBatch.batchNumber} complete — {justCompletedBatch.count} items added to your
             SRS pool.
           </p>
         )}
-        <button type="button" onClick={startLesson}>
+        <button
+          type="button"
+          onClick={startLesson}
+          disabled={selectNextBatch(jlptSchedule, state.completedBatches) === null}
+          className="w-full rounded-md bg-indigo py-3 font-medium text-paper disabled:opacity-40"
+        >
           Start Lesson
         </button>
         {selectNextBatch(jlptSchedule, state.completedBatches) === null && (
-          <p>All batches have been completed.</p>
+          <p className="text-ink-soft">All batches have been completed.</p>
         )}
       </section>
     )
