@@ -32,6 +32,7 @@ export function Session({ title, queue, positionLabel, onAnswer, onComplete, ren
   const [meaning, setMeaning] = useState('')
   const [onyomi, setOnyomi] = useState('')
   const [selectedChoice, setSelectedChoice] = useState<string | null>(null)
+  const [showEnglish, setShowEnglish] = useState(false)
   const [choices, setChoices] = useState<string[]>(() =>
     queue[0]?.kind === 'grammar' ? buildGrammarChoices(queue[0].item) : [],
   )
@@ -51,6 +52,7 @@ export function Session({ title, queue, positionLabel, onAnswer, onComplete, ren
     setMeaning('')
     setOnyomi('')
     setSelectedChoice(null)
+    setShowEnglish(false)
   }
 
   function submitKanjiAnswer() {
@@ -127,7 +129,20 @@ export function Session({ title, queue, positionLabel, onAnswer, onComplete, ren
 
       {currentEntry?.kind === 'grammar' && (
         <div className="mt-6 flex w-full flex-col gap-6">
-          <p className="text-lg leading-relaxed">{blankSentence(currentEntry.item.example)}</p>
+          <div className="flex flex-col items-center gap-2">
+            <p className="text-lg leading-relaxed">{blankSentence(currentEntry.item.example)}</p>
+            <button
+              type="button"
+              onClick={() => setShowEnglish((prev) => !prev)}
+              aria-expanded={showEnglish}
+              className="text-sm text-ink-soft underline decoration-line underline-offset-4 transition-colors hover:text-indigo"
+            >
+              {showEnglish ? 'Hide meaning' : 'Show meaning'}
+            </button>
+            {showEnglish && (
+              <p className="text-sm italic text-ink-soft">{currentEntry.item.example.english}</p>
+            )}
+          </div>
           <ul className="flex flex-col gap-2.5">
             {grammarChoices.map((choice) => {
               const isSelected = selectedChoice === choice
