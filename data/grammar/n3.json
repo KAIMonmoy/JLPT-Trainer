@@ -1,0 +1,2433 @@
+[
+  {
+    "pattern": "結局",
+    "reading": "kekkyoku",
+    "meaning": "ultimately; in the end",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E7%B5%90%E5%B1%80-kekkyoku-meaning/",
+    "example": {
+      "japanese": "彼は結局来ませんでした。",
+      "english": "He didn't come in the end.",
+      "blankStart": 2,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "Aも〇〇ばBも",
+    "reading": "A mo 〇〇ba B mo",
+    "meaning": "If A is 〇〇, then B is also",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/A%E3%82%82%E3%80%87%E3%80%87%E3%81%B0B%E3%82%82-a-mo-%E3%80%87%E3%80%87ba-b-mo-meaning/",
+    "example": {
+      "japanese": "犬も走れば猫も走る。",
+      "english": "If the dog runs, then the cat runs too.",
+      "blankStart": 1,
+      "blankEnd": 2
+    }
+  },
+  {
+    "pattern": "AにつれてB",
+    "reading": "A ni tsurete B",
+    "meaning": "As A happens, B happens as well",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/A%E3%81%AB%E3%81%A4%E3%82%8C%E3%81%A6B-a-ni-tsurete-b-meaning/",
+    "example": {
+      "japanese": "人は年を取るにつれて賢くなります。",
+      "english": "As people age, they become wiser.",
+      "blankStart": 6,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "たびに",
+    "reading": "tabi ni",
+    "meaning": "Every time; whenever something happens",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9F%E3%81%B3%E3%81%AB-tabi-ni-meaning/",
+    "example": {
+      "japanese": "本を読むたびに、新しいことを学びます。",
+      "english": "Every time I read a book, I learn something new.",
+      "blankStart": 4,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "例えば",
+    "reading": "tatoeba",
+    "meaning": "For example; such as",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E4%BE%8B%E3%81%88%E3%81%B0-tatoeba-meaning/",
+    "example": {
+      "japanese": "例えば、りんごやオレンジなどの果物が好きです。",
+      "english": "For example, I like fruits such as apples and oranges.",
+      "blankStart": 0,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "といえば",
+    "reading": "to ieba",
+    "meaning": "Speaking of; when it comes to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%84%E3%81%88%E3%81%B0-to-ieba-meaning/",
+    "example": {
+      "japanese": "日本といえば、桜が有名ですね。",
+      "english": "Speaking of Japan, cherry blossoms are famous, right?",
+      "blankStart": 2,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "よりも",
+    "reading": "yorimo",
+    "meaning": "rather than",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%88%E3%82%8A%E3%82%82-yorimo-meaning/",
+    "example": {
+      "japanese": "この本はあの本よりも面白いです。",
+      "english": "This book is more interesting than that book.",
+      "blankStart": 7,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "ように見える",
+    "reading": "yō ni mieru",
+    "meaning": "It looks like; it seems like",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%88%E3%81%86%E3%81%AB%E8%A6%8B%E3%81%88%E3%82%8B-y%C5%8D-ni-mieru-meaning/",
+    "example": {
+      "japanese": "彼は眠いように見える。",
+      "english": "He looks sleepy.",
+      "blankStart": 4,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "〇〇ばいい",
+    "reading": "〇〇ba ii",
+    "meaning": "It would be nice if 〇〇; should..",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%80%87%E3%80%87%E3%81%B0%E3%81%84%E3%81%84-%E3%80%87%E3%80%87ba-ii-meaning/",
+    "example": {
+      "japanese": "どこへ行けばいいですか。",
+      "english": "Where should I go?",
+      "blankStart": 5,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "〇〇難い",
+    "reading": "〇〇gatai",
+    "meaning": "Difficult to 〇〇; hard to 〇〇",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%80%87%E3%80%87%E9%9B%A3%E3%81%84-%E3%80%87%E3%80%87gatai-meaning/",
+    "example": {
+      "japanese": "信じ難いことですが、彼は本当に優しいです。",
+      "english": "It's hard to believe, but he is really kind.",
+      "blankStart": 2,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "ことになっている",
+    "reading": "koto ni natte iru",
+    "meaning": "To be scheduled or expected to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B-koto-ni-natte-iru-meaning/",
+    "example": {
+      "japanese": "明日、会議があることになっています。",
+      "english": "A meeting is scheduled for tomorrow.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "に慣れる",
+    "reading": "ni nareru",
+    "meaning": "To get used to; to become accustomed to.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E6%85%A3%E3%82%8C%E3%82%8B-ni-nareru-meaning/",
+    "example": {
+      "japanese": "新しい学校に慣れました。",
+      "english": "I got used to the new school.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "仕方がない",
+    "reading": "shikata ga nai",
+    "meaning": "There is no other way; it can't be helped",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E4%BB%95%E6%96%B9%E3%81%8C%E3%81%AA%E3%81%84-shikata-ga-nai-meaning/",
+    "example": {
+      "japanese": "もう雨が降っているから、仕方がない。",
+      "english": "It is already raining, so it can't be helped.",
+      "blankStart": 12,
+      "blankEnd": 17
+    }
+  },
+  {
+    "pattern": "ている場合じゃない",
+    "reading": "te iru baai ja nai",
+    "meaning": "It is not the time for doing something",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%98%E3%82%83%E3%81%AA%E3%81%84-te-iru-baai-ja-nai-meaning/",
+    "example": {
+      "japanese": "遊んでいる場合じゃない。",
+      "english": "It is not the time to be playing.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "つい",
+    "reading": "tsui",
+    "meaning": "tsui",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A4%E3%81%84-tsui-meaning/",
+    "example": {
+      "japanese": "ついケーキを食べた。",
+      "english": "I accidentally ate the cake.",
+      "blankStart": 0,
+      "blankEnd": 2
+    }
+  },
+  {
+    "pattern": "わけにはいかない",
+    "reading": "wake ni wa ikanai",
+    "meaning": "Cannot due to circumstances; must not",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%8F%E3%81%91%E3%81%AB%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84-wake-ni-wa-ikanai-meaning/",
+    "example": {
+      "japanese": "行くわけにはいかない。",
+      "english": "I cannot go (due to circumstances).",
+      "blankStart": 2,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "ような気がする",
+    "reading": "you na ki ga suru",
+    "meaning": "I feel that; I have a feeling that",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%88%E3%81%86%E3%81%AA%E6%B0%97%E3%81%8C%E3%81%99%E3%82%8B-you-na-ki-ga-suru-meaning/",
+    "example": {
+      "japanese": "今日は雨が降りそうな気がする。",
+      "english": "I have a feeling it will rain today.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "ないことはない",
+    "reading": "nai koto wa nai",
+    "meaning": "It's not impossible; there is a possibility",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84-nai-koto-wa-nai-meaning/",
+    "example": {
+      "japanese": "学校へ行けないことはない。",
+      "english": "It's not impossible to go to school.",
+      "blankStart": 5,
+      "blankEnd": 12
+    }
+  },
+  {
+    "pattern": "つもりで",
+    "reading": "tsumori de",
+    "meaning": "Intending to; assuming that",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A4%E3%82%82%E3%82%8A%E3%81%A7-tsumori-de-meaning/",
+    "example": {
+      "japanese": "勉強するつもりで、図書館に行きました。",
+      "english": "I went to the library intending to study.",
+      "blankStart": 4,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "別に〇〇ない",
+    "reading": "betsu ni 〇〇 nai",
+    "meaning": "Not particularly; not especially",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E5%88%A5%E3%81%AB%E3%80%87%E3%80%87%E3%81%AA%E3%81%84-betsu-ni-%E3%80%87%E3%80%87-nai-meaning/",
+    "example": {
+      "japanese": "別に忙しくない。",
+      "english": "I'm not particularly busy.",
+      "blankStart": 0,
+      "blankEnd": 2
+    }
+  },
+  {
+    "pattern": "だけでなく",
+    "reading": "dake denaku",
+    "meaning": "Not only ... but also; as well as",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A0%E3%81%91%E3%81%A7%E3%81%AA%E3%81%8F-dake-denaku-meaning/",
+    "example": {
+      "japanese": "彼女は日本語だけでなく英語も話せます。",
+      "english": "She can speak not only Japanese but also English.",
+      "blankStart": 6,
+      "blankEnd": 11
+    }
+  },
+  {
+    "pattern": "いくら〇〇ても",
+    "reading": "ikura 〇〇 temo",
+    "meaning": "No matter how much...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%84%E3%81%8F%E3%82%89%E3%80%87%E3%80%87%E3%81%A6%E3%82%82-ikura-%E3%80%87%E3%80%87-temo-meaning/",
+    "example": {
+      "japanese": "いくらべんきょうしても、わかりません。",
+      "english": "No matter how much I study, I do not understand.",
+      "blankStart": 0,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "決して〇〇ない",
+    "reading": "kesshite 〇〇 nai",
+    "meaning": "Not ever; never by any means",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E6%B1%BA%E3%81%97%E3%81%A6%E3%80%87%E3%80%87%E3%81%AA%E3%81%84-kesshite-%E3%80%87%E3%80%87-nai-meaning/",
+    "example": {
+      "japanese": "私は決してあきらめません。",
+      "english": "I will never give up.",
+      "blankStart": 2,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "ながらも",
+    "reading": "nagara mo",
+    "meaning": "Although; despite",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AA%E3%81%8C%E3%82%89%E3%82%82-nagara-mo-meaning/",
+    "example": {
+      "japanese": "彼は、お金がないながらも、幸せです。",
+      "english": "Although he has no money, he is happy.",
+      "blankStart": 8,
+      "blankEnd": 12
+    }
+  },
+  {
+    "pattern": "に関する",
+    "reading": "ni kansuru",
+    "meaning": "related to; concerning",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-ni-kansuru-meaning/",
+    "example": {
+      "japanese": "彼は歴史に関する本を書いています。",
+      "english": "He is writing a book related to history.",
+      "blankStart": 4,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "によって",
+    "reading": "ni yotte",
+    "meaning": "Depending on; by means of; because of.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6-ni-yotte-meaning/",
+    "example": {
+      "japanese": "この本は学生によって書かれました。",
+      "english": "This book was written by a student.",
+      "blankStart": 6,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "を通じて",
+    "reading": "wo tsuujite",
+    "meaning": "Through; via",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%92%E9%80%9A%E3%81%98%E3%81%A6-wo-tsuujite-meaning/",
+    "example": {
+      "japanese": "メールを通じて知らせます。",
+      "english": "I will inform you through email.",
+      "blankStart": 3,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "わざわざ",
+    "reading": "wazawaza",
+    "meaning": "Taking the trouble to; specially; expressly",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%8F%E3%81%96%E3%82%8F%E3%81%96-wazawaza-meaning/",
+    "example": {
+      "japanese": "わざわざ来てくれてありがとう。",
+      "english": "Thank you for coming all the way here.",
+      "blankStart": 0,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "ば〇〇のに",
+    "reading": "ba〇〇 noni",
+    "meaning": "If only...; it would have been....",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%B0%E3%80%87%E3%80%87%E3%81%AE%E3%81%AB-ba%E3%80%87%E3%80%87-noni-meaning/",
+    "example": {
+      "japanese": "行けばよかったのに。",
+      "english": "If only I had gone...",
+      "blankStart": 7,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "ばかりでなく",
+    "reading": "bakari de naku",
+    "meaning": "Not only... but also...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%A7%E3%81%AA%E3%81%8F-bakari-de-naku-meaning/",
+    "example": {
+      "japanese": "彼は学生ばかりでなく、先生でもあります。",
+      "english": "He is not only a student, but also a teacher.",
+      "blankStart": 4,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "もしかしたら",
+    "reading": "moshikashitara",
+    "meaning": "Perhaps; maybe",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89-moshikashitara-meaning/",
+    "example": {
+      "japanese": "もしかしたら明日雨が降るかもしれない。",
+      "english": "Perhaps it might rain tomorrow.",
+      "blankStart": 0,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "なんか",
+    "reading": "nanka",
+    "meaning": "something like; or something",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AA%E3%82%93%E3%81%8B-nanka-meaning/",
+    "example": {
+      "japanese": "ケーキなんか食べたい。",
+      "english": "I want to eat something like cake.",
+      "blankStart": 3,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "さえ",
+    "reading": "sae",
+    "meaning": "Even; if only",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%95%E3%81%88-sae-meaning/",
+    "example": {
+      "japanese": "私は水さえあれば生きられます。",
+      "english": "I can live with just water.",
+      "blankStart": 3,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "さえ〇〇ば",
+    "reading": "sae 〇〇ba",
+    "meaning": "If only...; as long as...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%95%E3%81%88%E3%80%87%E3%80%87%E3%81%B0-sae-%E3%80%87%E3%80%87ba-meaning/",
+    "example": {
+      "japanese": "この薬を飲みさえすれば、元気になります。",
+      "english": "If only you take this medicine, you'll get better.",
+      "blankStart": 6,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "たって",
+    "reading": "tatte",
+    "meaning": "Even if; Even though",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9F%E3%81%A3%E3%81%A6-tatte-meaning/",
+    "example": {
+      "japanese": "雨が降ったって、遊びに行きます。",
+      "english": "Even if it rains, I will go out to play.",
+      "blankStart": 4,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "途中で",
+    "reading": "tochuu de",
+    "meaning": "on the way; halfway through",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E9%80%94%E4%B8%AD%E3%81%A7-tochuu-de-meaning/",
+    "example": {
+      "japanese": "学校に行く途中で犬を見ました。",
+      "english": "I saw a dog on my way to school.",
+      "blankStart": 5,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "として",
+    "reading": "toshite",
+    "meaning": "As; in the role of",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%97%E3%81%A6-toshite-meaning/",
+    "example": {
+      "japanese": "彼は医者として働いています。",
+      "english": "He is working as a doctor.",
+      "blankStart": 4,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "とても〇〇ない",
+    "reading": "totemo 〇〇 nai",
+    "meaning": "Cannot possibly",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%A6%E3%82%82%E3%80%87%E3%80%87%E3%81%AA%E3%81%84-totemo-%E3%80%87%E3%80%87-nai-meaning/",
+    "example": {
+      "japanese": "その本はとても読めない。",
+      "english": "It's impossible to read that book.",
+      "blankStart": 4,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "もしも",
+    "reading": "moshimo",
+    "meaning": "if; in case; supposing",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%82%E3%81%97%E3%82%82-moshimo-meaning/",
+    "example": {
+      "japanese": "もしも雨が降ったら、外に行きません。",
+      "english": "If it rains, I won't go outside.",
+      "blankStart": 0,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "にしたがって",
+    "reading": "ni shitagatte",
+    "meaning": "In accordance with, as X happens, Y happens",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E3%81%97%E3%81%9F%E3%81%8C%E3%81%A3%E3%81%A6-ni-shitagatte-meaning/",
+    "example": {
+      "japanese": "温度が上がるにしたがって、虫が多くなる。",
+      "english": "As the temperature rises, the number of insects increases.",
+      "blankStart": 6,
+      "blankEnd": 12
+    }
+  },
+  {
+    "pattern": "〇〇しかない",
+    "reading": "〇〇 shika nai",
+    "meaning": "There is no choice but to 〇〇; have to 〇〇",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%80%87%E3%80%87%E3%81%97%E3%81%8B%E3%81%AA%E3%81%84-%E3%80%87%E3%80%87-shika-nai-meaning/",
+    "example": {
+      "japanese": "お金がないから、行くしかない。",
+      "english": "There's no money, so I have no choice but to go.",
+      "blankStart": 10,
+      "blankEnd": 14
+    }
+  },
+  {
+    "pattern": "それとも",
+    "reading": "sore to mo",
+    "meaning": "Or; or else",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9D%E3%82%8C%E3%81%A8%E3%82%82-sore-to-mo-meaning/",
+    "example": {
+      "japanese": "あなたはコーヒーが好きですか、それとも紅茶が好きですか？",
+      "english": "Do you like coffee, or do you like tea?",
+      "blankStart": 15,
+      "blankEnd": 19
+    }
+  },
+  {
+    "pattern": "てもかまわない",
+    "reading": "temo kamawanai",
+    "meaning": "It doesn’t matter if; it’s okay to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A6%E3%82%82%E3%81%8B%E3%81%BE%E3%82%8F%E3%81%AA%E3%81%84-temo-kamawanai-meaning/",
+    "example": {
+      "japanese": "雨が降ってもかまわない。",
+      "english": "It doesn’t matter if it rains.",
+      "blankStart": 4,
+      "blankEnd": 11
+    }
+  },
+  {
+    "pattern": "うちに",
+    "reading": "uchi ni",
+    "meaning": "While; during; before it changes.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%86%E3%81%A1%E3%81%AB-uchi-ni-meaning/",
+    "example": {
+      "japanese": "熱いうちに食べてください。",
+      "english": "Please eat it while it's hot.",
+      "blankStart": 2,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "上で",
+    "reading": "ue de",
+    "meaning": "After doing something; as a result of.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E4%B8%8A%E3%81%A7-ue-de-meaning/",
+    "example": {
+      "japanese": "日本に行った上で、ガイドをしました。",
+      "english": "After going to Japan, I did the guided tour.",
+      "blankStart": 6,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "どんなに",
+    "reading": "donna ni",
+    "meaning": "No matter how much",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A9%E3%82%93%E3%81%AA%E3%81%AB-donna-ni-meaning/",
+    "example": {
+      "japanese": "どんなに勉強しても、試験は難しいです。",
+      "english": "No matter how much I study, the exam is difficult.",
+      "blankStart": 0,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "ふと",
+    "reading": "futo",
+    "meaning": "Suddenly",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%B5%E3%81%A8-futo-meaning/",
+    "example": {
+      "japanese": "ふと思い出した。",
+      "english": "I suddenly remembered.",
+      "blankStart": 0,
+      "blankEnd": 2
+    }
+  },
+  {
+    "pattern": "一体",
+    "reading": "ittai",
+    "meaning": "What on earth; what the heck",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E4%B8%80%E4%BD%93-ittai-meaning/",
+    "example": {
+      "japanese": "一体何が起こったのですか。",
+      "english": "What on earth happened?",
+      "blankStart": 0,
+      "blankEnd": 2
+    }
+  },
+  {
+    "pattern": "なんて",
+    "reading": "nante",
+    "meaning": "What...; how....",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AA%E3%82%93%E3%81%A6-nante-meaning/",
+    "example": {
+      "japanese": "こんなに美しい花なんて！",
+      "english": "What a beautiful flower!",
+      "blankStart": 8,
+      "blankEnd": 11
+    }
+  },
+  {
+    "pattern": "せいで",
+    "reading": "sei de",
+    "meaning": "Because of; due to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9B%E3%81%84%E3%81%A7-sei-de-meaning/",
+    "example": {
+      "japanese": "たくさん食べたせいで、おなかが痛いです。",
+      "english": "Because I ate a lot, I have a stomachache.",
+      "blankStart": 7,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "ものだから",
+    "reading": "monodakara",
+    "meaning": "Because; due to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%82%E3%81%AE%E3%81%A0%E3%81%8B%E3%82%89-monodakara-meaning/",
+    "example": {
+      "japanese": "遅れたのは事故だったものだから。",
+      "english": "I was late because there was an accident.",
+      "blankStart": 10,
+      "blankEnd": 15
+    }
+  },
+  {
+    "pattern": "確かに",
+    "reading": "tashika ni",
+    "meaning": "Certainly; surely",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E7%A2%BA%E3%81%8B%E3%81%AB-tashika-ni-meaning/",
+    "example": {
+      "japanese": "確かにこの本は面白いです。",
+      "english": "Certainly, this book is interesting.",
+      "blankStart": 0,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "たとえ〇〇ても",
+    "reading": "tatoe 〇〇 te mo",
+    "meaning": "Even if; no matter what",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9F%E3%81%A8%E3%81%88%E3%80%87%E3%80%87%E3%81%A6%E3%82%82-tatoe-%E3%80%87%E3%80%87-te-mo-meaning/",
+    "example": {
+      "japanese": "たとえ雨が降っても、私は行きます。",
+      "english": "Even if it rains, I will go.",
+      "blankStart": 0,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "わざと",
+    "reading": "wazato",
+    "meaning": "On purpose; intentionally",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%8F%E3%81%96%E3%81%A8-wazato-meaning/",
+    "example": {
+      "japanese": "彼はそれをわざとしました。",
+      "english": "He did it on purpose.",
+      "blankStart": 5,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "あまり",
+    "reading": "amari",
+    "meaning": "Too much; excessively",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%82%E3%81%BE%E3%82%8A-amari-meaning/",
+    "example": {
+      "japanese": "これはあまり辛くないです。",
+      "english": "This is not too spicy.",
+      "blankStart": 3,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "向け",
+    "reading": "muke",
+    "meaning": "intended for; aimed at",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E5%90%91%E3%81%91-muke-meaning/",
+    "example": {
+      "japanese": "子供向けの本です。",
+      "english": "This is a book intended for children.",
+      "blankStart": 2,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "〇〇べきではない",
+    "reading": "〇〇beki dewa nai",
+    "meaning": "Should not; must not",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%80%87%E3%80%87%E3%81%B9%E3%81%8D%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84-%E3%80%87%E3%80%87beki-dewa-nai-meaning/",
+    "example": {
+      "japanese": "あれを食べるべきではない。",
+      "english": "You should not eat that.",
+      "blankStart": 6,
+      "blankEnd": 12
+    }
+  },
+  {
+    "pattern": "一度も",
+    "reading": "ichido mo",
+    "meaning": "Not even once; never",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E4%B8%80%E5%BA%A6%E3%82%82-ichido-mo-meaning/",
+    "example": {
+      "japanese": "日本に一度も行ったことがありません。",
+      "english": "I have never been to Japan, not even once.",
+      "blankStart": 3,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "に反して",
+    "reading": "ni hanshite",
+    "meaning": "Against; contrary to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E5%8F%8D%E3%81%97%E3%81%A6-ni-hanshite-meaning/",
+    "example": {
+      "japanese": "天気予報に反して、今日は晴れました。",
+      "english": "Contrary to the weather forecast, it was sunny today.",
+      "blankStart": 4,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "において",
+    "reading": "ni oite",
+    "meaning": "At; in; as for",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E3%81%8A%E3%81%84%E3%81%A6-ni-oite-meaning/",
+    "example": {
+      "japanese": "学校において勉強します。",
+      "english": "I study at school.",
+      "blankStart": 2,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "によると",
+    "reading": "ni yoru to",
+    "meaning": "According to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E3%82%88%E3%82%8B%E3%81%A8-ni-yoru-to-meaning/",
+    "example": {
+      "japanese": "天気予報によると、明日は雨です。",
+      "english": "According to the weather forecast, it will rain tomorrow.",
+      "blankStart": 4,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "を込めて",
+    "reading": "wo komete",
+    "meaning": "With all (e.g., one's love, heart, feelings)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6-wo-komete-meaning/",
+    "example": {
+      "japanese": "愛を込めて手紙を書きました。",
+      "english": "I wrote the letter with all my love.",
+      "blankStart": 1,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "途端",
+    "reading": "totan",
+    "meaning": "Just as; as soon as",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E9%80%94%E7%AB%AF-totan-meaning/",
+    "example": {
+      "japanese": "ドアを開けた途端、猫が逃げた。",
+      "english": "Just as I opened the door, the cat ran away.",
+      "blankStart": 6,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "というのは",
+    "reading": "to iu no wa",
+    "meaning": "Means; is defined as...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%84%E3%81%86%E3%81%AE%E3%81%AF-to-iu-no-wa-meaning/",
+    "example": {
+      "japanese": "学校というのは、勉強するところです。",
+      "english": "School means a place to study.",
+      "blankStart": 2,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "ようとしない",
+    "reading": "you to shinai",
+    "meaning": "Does not try to..",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%88%E3%81%86%E3%81%A8%E3%81%97%E3%81%AA%E3%81%84-you-to-shinai-meaning/",
+    "example": {
+      "japanese": "彼は帰ろうとしない。",
+      "english": "He does not try to go home.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "代わりに",
+    "reading": "kawari ni",
+    "meaning": "Instead of; in place of.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E4%BB%A3%E3%82%8F%E3%82%8A%E3%81%AB-kawari-ni-meaning/",
+    "example": {
+      "japanese": "私はバスに乗る代わりに歩きます。",
+      "english": "I walk instead of taking the bus.",
+      "blankStart": 7,
+      "blankEnd": 11
+    }
+  },
+  {
+    "pattern": "おかげで",
+    "reading": "okage de",
+    "meaning": "Thanks to; because of (usually positive)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%8A%E3%81%8B%E3%81%92%E3%81%A7-okage-de-meaning/",
+    "example": {
+      "japanese": "先生のおかげで、合格できました。",
+      "english": "Thanks to the teacher, I was able to pass.",
+      "blankStart": 3,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "すなわち",
+    "reading": "sunawachi",
+    "meaning": "That is; namely",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%99%E3%81%AA%E3%82%8F%E3%81%A1-sunawachi-meaning/",
+    "example": {
+      "japanese": "明日は休日です。すなわち、学校はありません。",
+      "english": "Tomorrow is a holiday. That is, there is no school.",
+      "blankStart": 8,
+      "blankEnd": 12
+    }
+  },
+  {
+    "pattern": "ように",
+    "reading": "yō ni",
+    "meaning": "So that; in order to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%88%E3%81%86%E3%81%AB-y%C5%8D-ni-meaning/",
+    "example": {
+      "japanese": "父が帰るように、晩ご飯を作ります。",
+      "english": "I will cook dinner so that dad can come back.",
+      "blankStart": 4,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "中",
+    "reading": "juu",
+    "meaning": "In the middle of; during",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E4%B8%AD-juu-meaning/",
+    "example": {
+      "japanese": "工事中です。",
+      "english": "It is under construction.",
+      "blankStart": 2,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "一度に",
+    "reading": "ichido ni",
+    "meaning": "All at once",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E4%B8%80%E5%BA%A6%E3%81%AB-ichido-ni-meaning/",
+    "example": {
+      "japanese": "一度にたくさんのお茶を飲みます。",
+      "english": "I drink a lot of tea all at once.",
+      "blankStart": 0,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "こそ",
+    "reading": "koso",
+    "meaning": "For sure; emphasizes the preceding word",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%93%E3%81%9D-koso-meaning/",
+    "example": {
+      "japanese": "今こそ、勉強しなければならない。",
+      "english": "Now is the time to study, for sure.",
+      "blankStart": 1,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "ということだ",
+    "reading": "to iu koto da",
+    "meaning": "That is to say; it means that.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8%E3%81%A0-to-iu-koto-da-meaning/",
+    "example": {
+      "japanese": "明日はテストだということだ。",
+      "english": "It means that there is a test tomorrow.",
+      "blankStart": 7,
+      "blankEnd": 13
+    }
+  },
+  {
+    "pattern": "AばAほど、B",
+    "reading": "A ba A hodo, B",
+    "meaning": "The more A, the more B",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/A%E3%81%B0A%E3%81%BB%E3%81%A9%E3%80%81B-a-ba-a-hodo,-b-meaning/",
+    "example": {
+      "japanese": "食べれば食べるほど、お腹がいっぱいになる。",
+      "english": "The more you eat, the fuller you become.",
+      "blankStart": 7,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "か何か",
+    "reading": "ka nanika",
+    "meaning": "or something",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%8B%E4%BD%95%E3%81%8B-ka-nanika-meaning/",
+    "example": {
+      "japanese": "りんごか何か食べたい。",
+      "english": "I want to eat an apple or something.",
+      "blankStart": 3,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "っぱなし",
+    "reading": "ppanashi",
+    "meaning": "Leaving something as it is; keep doing something",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97-ppanashi-meaning/",
+    "example": {
+      "japanese": "ドアを開けっぱなしにする。",
+      "english": "To leave the door open.",
+      "blankStart": 5,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "というより",
+    "reading": "to iu yori",
+    "meaning": "Rather than; more like",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%84%E3%81%86%E3%82%88%E3%82%8A-to-iu-yori-meaning/",
+    "example": {
+      "japanese": "彼は先生というより友達だ。",
+      "english": "He is more like a friend than a teacher.",
+      "blankStart": 4,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "は〇〇で有名",
+    "reading": "wa 〇〇 de yuumei",
+    "meaning": "Is famous for 〇〇",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AF%E3%80%87%E3%80%87%E3%81%A7%E6%9C%89%E5%90%8D-wa-%E3%80%87%E3%80%87-de-yuumei-meaning/",
+    "example": {
+      "japanese": "東京は桜で有名です。",
+      "english": "Tokyo is famous for cherry blossoms.",
+      "blankStart": 4,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "どうしても",
+    "reading": "doushitemo",
+    "meaning": "By all means; No matter what",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%82%82-doushitemo-meaning/",
+    "example": {
+      "japanese": "どうしても日本に行きたい。",
+      "english": "I want to go to Japan no matter what.",
+      "blankStart": 0,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "じゃない",
+    "reading": "janai",
+    "meaning": "Is not; am not; are not",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%98%E3%82%83%E3%81%AA%E3%81%84-janai-meaning/",
+    "example": {
+      "japanese": "私は学生じゃない。",
+      "english": "I am not a student.",
+      "blankStart": 4,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "っけ",
+    "reading": "kke",
+    "meaning": "Used when trying to recall something",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A3%E3%81%91-kke-meaning/",
+    "example": {
+      "japanese": "明日は誕生日だっけ。",
+      "english": "Is tomorrow your birthday?",
+      "blankStart": 7,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "ことから",
+    "reading": "koto kara",
+    "meaning": "From the fact that",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%93%E3%81%A8%E3%81%8B%E3%82%89-koto-kara-meaning/",
+    "example": {
+      "japanese": "夏が好きなことから、この国に住むことにした。",
+      "english": "From the fact that I like summer, I decided to live in this country.",
+      "blankStart": 5,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "そのために",
+    "reading": "sono tame ni",
+    "meaning": "For that reason; hence",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9D%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AB-sono-tame-ni-meaning/",
+    "example": {
+      "japanese": "雨が降りました。そのために、試合が中止になりました。",
+      "english": "It rained. For that reason, the match was canceled.",
+      "blankStart": 8,
+      "blankEnd": 13
+    }
+  },
+  {
+    "pattern": "ようがない",
+    "reading": "you ga nai",
+    "meaning": "There is no way to; Cannot be done.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%88%E3%81%86%E3%81%8C%E3%81%AA%E3%81%84-you-ga-nai-meaning/",
+    "example": {
+      "japanese": "この問題はむずかしくてわかりようがない。",
+      "english": "This problem is difficult and there is no way to understand it.",
+      "blankStart": 14,
+      "blankEnd": 19
+    }
+  },
+  {
+    "pattern": "ずにはいられない",
+    "reading": "zu ni wa irarenai",
+    "meaning": "Cannot help but feel or do",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9A%E3%81%AB%E3%81%AF%E3%81%84%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84-zu-ni-wa-irarenai-meaning/",
+    "example": {
+      "japanese": "犬を見たら、笑わずにはいられない。",
+      "english": "When I see a dog, I can't help but smile.",
+      "blankStart": 8,
+      "blankEnd": 16
+    }
+  },
+  {
+    "pattern": "いくらでも",
+    "reading": "ikura demo",
+    "meaning": "as much as one likes",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%84%E3%81%8F%E3%82%89%E3%81%A7%E3%82%82-ikura-demo-meaning/",
+    "example": {
+      "japanese": "ケーキはここにいくらでもあります。",
+      "english": "There are as many cakes as you like here.",
+      "blankStart": 7,
+      "blankEnd": 12
+    }
+  },
+  {
+    "pattern": "なぜなら",
+    "reading": "naze nara",
+    "meaning": "because; the reason is...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AA%E3%81%9C%E3%81%AA%E3%82%89-naze-nara-meaning/",
+    "example": {
+      "japanese": "今日、学校を休みます。なぜなら、病気だからです。",
+      "english": "Today, I will be absent from school because I am sick.",
+      "blankStart": 11,
+      "blankEnd": 15
+    }
+  },
+  {
+    "pattern": "にかわって",
+    "reading": "ni kawatte",
+    "meaning": "Instead of; on behalf of",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E3%81%8B%E3%82%8F%E3%81%A3%E3%81%A6-ni-kawatte-meaning/",
+    "example": {
+      "japanese": "私にかわって、彼が行きます。",
+      "english": "He will go instead of me.",
+      "blankStart": 1,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "たものだ",
+    "reading": "ta mono da",
+    "meaning": "Used to; reminiscing about past habits",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9F%E3%82%82%E3%81%AE%E3%81%A0-ta-mono-da-meaning/",
+    "example": {
+      "japanese": "子供のころ、よく公園で遊んだものだ。",
+      "english": "When I was a child, I used to often play in the park.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "てはじめて",
+    "reading": "te hajimete",
+    "meaning": "Only after; for the first time after",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A6%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6-te-hajimete-meaning/",
+    "example": {
+      "japanese": "外に出てはじめて、雨が降っていることに気づいた。",
+      "english": "Only after going outside did I realize it was raining.",
+      "blankStart": 3,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "ても始まらない",
+    "reading": "temo hajimaranai",
+    "meaning": "Even if done, it won't help",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A6%E3%82%82%E5%A7%8B%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84-temo-hajimaranai-meaning/",
+    "example": {
+      "japanese": "泣いても始まらない。",
+      "english": "Even if you cry, it won't help.",
+      "blankStart": 2,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "別として",
+    "reading": "betsu to shite",
+    "meaning": "Apart from; except for",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E5%88%A5%E3%81%A8%E3%81%97%E3%81%A6-betsu-to-shite-meaning/",
+    "example": {
+      "japanese": "子供別として、みんな行きました。",
+      "english": "Apart from the children, everyone went.",
+      "blankStart": 2,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "ようとする",
+    "reading": "you to suru",
+    "meaning": "To try to do something",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%88%E3%81%86%E3%81%A8%E3%81%99%E3%82%8B-you-to-suru-meaning/",
+    "example": {
+      "japanese": "ドアを開けようとする。",
+      "english": "Try to open the door.",
+      "blankStart": 5,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "ほど",
+    "reading": "hodo",
+    "meaning": "to the extent of; as much as",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%BB%E3%81%A9-hodo-meaning/",
+    "example": {
+      "japanese": "今日の天気は信じられないほど良い。",
+      "english": "Today's weather is unbelievably good.",
+      "blankStart": 12,
+      "blankEnd": 14
+    }
+  },
+  {
+    "pattern": "ほど〇〇ない",
+    "reading": "hodo 〇〇 nai",
+    "meaning": "Not as much as..",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%BB%E3%81%A9%E3%80%87%E3%80%87%E3%81%AA%E3%81%84-hodo-%E3%80%87%E3%80%87-nai-meaning/",
+    "example": {
+      "japanese": "猫は犬ほど速くない。",
+      "english": "Cats are not as fast as dogs.",
+      "blankStart": 3,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "なかなか",
+    "reading": "nakanaka",
+    "meaning": "Nakanaka",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B-nakanaka-meaning/",
+    "example": {
+      "japanese": "この問題はなかなか難しいです。",
+      "english": "This problem is quite difficult.",
+      "blankStart": 5,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "にかけて",
+    "reading": "ni kakete",
+    "meaning": "Over a period of; through",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E3%81%8B%E3%81%91%E3%81%A6-ni-kakete-meaning/",
+    "example": {
+      "japanese": "東京から大阪にかけて雨です。",
+      "english": "It is raining from Tokyo to Osaka.",
+      "blankStart": 6,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "最中に",
+    "reading": "saichuu ni",
+    "meaning": "in the middle of",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E6%9C%80%E4%B8%AD%E3%81%AB-saichuu-ni-meaning/",
+    "example": {
+      "japanese": "日本語を勉強している最中に電話が鳴りました。",
+      "english": "While I was studying Japanese, the phone rang.",
+      "blankStart": 10,
+      "blankEnd": 13
+    }
+  },
+  {
+    "pattern": "とみえる",
+    "reading": "to mieru",
+    "meaning": "It seems that; appears to be",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%BF%E3%81%88%E3%82%8B-to-mieru-meaning/",
+    "example": {
+      "japanese": "雨が降ったとみえる。",
+      "english": "It seems that it rained.",
+      "blankStart": 5,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "とおりに",
+    "reading": "toori ni",
+    "meaning": "Just as; in the same way as",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%8A%E3%82%8A%E3%81%AB-toori-ni-meaning/",
+    "example": {
+      "japanese": "本を読むとおりに書いてください。",
+      "english": "Please write just as you read the book.",
+      "blankStart": 4,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "とは限らない",
+    "reading": "to wa kagiranai",
+    "meaning": "Not necessarily so; not always true.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%AF%E9%99%90%E3%82%89%E3%81%AA%E3%81%84-to-wa-kagiranai-meaning/",
+    "example": {
+      "japanese": "すべての猫が好きとは限らない。",
+      "english": "Not everyone likes cats.",
+      "blankStart": 8,
+      "blankEnd": 14
+    }
+  },
+  {
+    "pattern": "てあげる",
+    "reading": "te ageru",
+    "meaning": "To do something for someone",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A6%E3%81%82%E3%81%92%E3%82%8B-te-ageru-meaning/",
+    "example": {
+      "japanese": "私は友達に本を借りてあげました。",
+      "english": "I borrowed a book for my friend.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "ところで",
+    "reading": "tokorode",
+    "meaning": "By the way",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A7-tokorode-meaning/",
+    "example": {
+      "japanese": "ところで、明日の天気はどうですか？",
+      "english": "By the way, how is the weather for tomorrow?",
+      "blankStart": 0,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "等",
+    "reading": "nado",
+    "meaning": "Etc.; and so on.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E7%AD%89-nado-meaning/",
+    "example": {
+      "japanese": "りんごやバナナなどを食べます。",
+      "english": "I eat apples, bananas, etc.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "に違いない",
+    "reading": "ni chigai nai",
+    "meaning": "There is no doubt that",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E9%81%95%E3%81%84%E3%81%AA%E3%81%84-ni-chigai-nai-meaning/",
+    "example": {
+      "japanese": "彼は学生に違いない。",
+      "english": "There is no doubt that he is a student.",
+      "blankStart": 4,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "て済む",
+    "reading": "te sumu",
+    "meaning": "It ends with; it’s resolved by.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A6%E6%B8%88%E3%82%80-te-sumu-meaning/",
+    "example": {
+      "japanese": "本を読んで済む。",
+      "english": "It is resolved by reading a book.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "といい",
+    "reading": "to ii",
+    "meaning": "It would be fine if; it’d be good if...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%84%E3%81%84-to-ii-meaning/",
+    "example": {
+      "japanese": "しけんにうかるといいです。",
+      "english": "It would be nice if I pass the exam.",
+      "blankStart": 7,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "ついに",
+    "reading": "tsuini",
+    "meaning": "Finally; at last",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A4%E3%81%84%E3%81%AB-tsuini-meaning/",
+    "example": {
+      "japanese": "ついに雨がやみました。",
+      "english": "The rain finally stopped.",
+      "blankStart": 0,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "ば〇〇ほど",
+    "reading": "ba〇〇hodo",
+    "meaning": "The more... the more...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%B0%E3%80%87%E3%80%87%E3%81%BB%E3%81%A9-ba%E3%80%87%E3%80%87hodo-meaning/",
+    "example": {
+      "japanese": "食べれば食べるほど、おいしく感じる。",
+      "english": "The more I eat, the more delicious it feels.",
+      "blankStart": 7,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "一方だ",
+    "reading": "ippou da",
+    "meaning": "On one hand; one way",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E4%B8%80%E6%96%B9%E3%81%A0-ippou-da-meaning/",
+    "example": {
+      "japanese": "入り口が多い一方だ。",
+      "english": "There are many entrances on one hand.",
+      "blankStart": 6,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "ぐらい",
+    "reading": "gurai",
+    "meaning": "Approximately; about",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%90%E3%82%89%E3%81%84-gurai-meaning/",
+    "example": {
+      "japanese": "昨日、8時間ぐらい寝ました。",
+      "english": "I slept for about 8 hours yesterday.",
+      "blankStart": 6,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "には",
+    "reading": "ni wa",
+    "meaning": "to; for; in",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E3%81%AF-ni-wa-meaning/",
+    "example": {
+      "japanese": "日本には行ったことがありますか？",
+      "english": "Have you ever been to Japan?",
+      "blankStart": 2,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "でさえ",
+    "reading": "de sae",
+    "meaning": "Even; as much as",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A7%E3%81%95%E3%81%88-de-sae-meaning/",
+    "example": {
+      "japanese": "子どもでさえできる。",
+      "english": "Even a child can do it.",
+      "blankStart": 3,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "と言っても",
+    "reading": "to ittemo",
+    "meaning": "(Although) I say; Even if one says...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E8%A8%80%E3%81%A3%E3%81%A6%E3%82%82-to-ittemo-meaning/",
+    "example": {
+      "japanese": "昨日は海に行ったと言っても、近くの川でした。",
+      "english": "Although I say I went to the sea yesterday, it was actually a nearby river.",
+      "blankStart": 8,
+      "blankEnd": 13
+    }
+  },
+  {
+    "pattern": "わけではない",
+    "reading": "wake dewa nai",
+    "meaning": "It does not mean that; it's not the case that",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%8F%E3%81%91%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84-wake-dewa-nai-meaning/",
+    "example": {
+      "japanese": "彼が遅いわけではない。",
+      "english": "It’s not that he is late.",
+      "blankStart": 4,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "ばかりで",
+    "reading": "bakari de",
+    "meaning": "Only; merely (negative connotation)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%A7-bakari-de-meaning/",
+    "example": {
+      "japanese": "食べるばかりで、遊びません。",
+      "english": "He only eats and doesn't play.",
+      "blankStart": 3,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "だけど",
+    "reading": "dakedo",
+    "meaning": "however; but",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A0%E3%81%91%E3%81%A9-dakedo-meaning/",
+    "example": {
+      "japanese": "今日は雨だけど、明日は晴れです。",
+      "english": "It's raining today, but it will be sunny tomorrow.",
+      "blankStart": 4,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "まるで",
+    "reading": "marude",
+    "meaning": "Completely; entirely; just like",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%BE%E3%82%8B%E3%81%A7-marude-meaning/",
+    "example": {
+      "japanese": "彼はまるでロボットのようだ。",
+      "english": "He is just like a robot.",
+      "blankStart": 2,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "に比べて",
+    "reading": "ni kurabete",
+    "meaning": "Compared to; in comparison with",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E6%AF%94%E3%81%B9%E3%81%A6-ni-kurabete-meaning/",
+    "example": {
+      "japanese": "今年は去年に比べて暑いです。",
+      "english": "This year is hotter compared to last year.",
+      "blankStart": 5,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "さらに",
+    "reading": "sarani",
+    "meaning": "furthermore; even more",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%95%E3%82%89%E3%81%AB-sarani-meaning/",
+    "example": {
+      "japanese": "私はりんごを食べました。さらにバナナも食べました。",
+      "english": "I ate an apple. Furthermore, I also ate a banana.",
+      "blankStart": 12,
+      "blankEnd": 15
+    }
+  },
+  {
+    "pattern": "しばらく",
+    "reading": "shibaraku",
+    "meaning": "For a moment; for a while",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%97%E3%81%B0%E3%82%89%E3%81%8F-shibaraku-meaning/",
+    "example": {
+      "japanese": "しばらく、お待ちください。",
+      "english": "Please wait for a moment.",
+      "blankStart": 0,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "ついでに",
+    "reading": "tsuide ni",
+    "meaning": "While you’re at it; taking the opportunity",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A4%E3%81%84%E3%81%A7%E3%81%AB-tsuide-ni-meaning/",
+    "example": {
+      "japanese": "スーパーに行くついでに、パンを買いました。",
+      "english": "While I was at the supermarket, I bought bread.",
+      "blankStart": 7,
+      "blankEnd": 11
+    }
+  },
+  {
+    "pattern": "べき",
+    "reading": "beki",
+    "meaning": "Should; must; ought to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%B9%E3%81%8D-beki-meaning/",
+    "example": {
+      "japanese": "勉強すべきです。",
+      "english": "You should study.",
+      "blankStart": 3,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "ことはない",
+    "reading": "koto wa nai",
+    "meaning": "There is no need to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84-koto-wa-nai-meaning/",
+    "example": {
+      "japanese": "急ぐことはない。",
+      "english": "There is no need to hurry.",
+      "blankStart": 2,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "むしろ",
+    "reading": "mushiro",
+    "meaning": "rather; instead",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%80%E3%81%97%E3%82%8D-mushiro-meaning/",
+    "example": {
+      "japanese": "この本は面白くない。むしろ、つまらない。",
+      "english": "This book is not interesting. Rather, it's boring.",
+      "blankStart": 10,
+      "blankEnd": 13
+    }
+  },
+  {
+    "pattern": "に対して",
+    "reading": "ni taishite",
+    "meaning": "Towards; against; regarding",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E5%AF%BE%E3%81%97%E3%81%A6-ni-taishite-meaning/",
+    "example": {
+      "japanese": "学生に対して、先生は宿題を出します。",
+      "english": "The teacher gives homework to the students.",
+      "blankStart": 2,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "について",
+    "reading": "ni tsuite",
+    "meaning": "About; regarding",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-ni-tsuite-meaning/",
+    "example": {
+      "japanese": "日本の文化について話します。",
+      "english": "I will talk about Japanese culture.",
+      "blankStart": 5,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "っぽい",
+    "reading": "-ppoi",
+    "meaning": "-ish; -like",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A3%E3%81%BD%E3%81%84--ppoi-meaning/",
+    "example": {
+      "japanese": "彼は男っぽいです。",
+      "english": "He is manly.",
+      "blankStart": 3,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "ばよかった",
+    "reading": "ba yokatta",
+    "meaning": "It would have been better if...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%B0%E3%82%88%E3%81%8B%E3%81%A3%E3%81%9F-ba-yokatta-meaning/",
+    "example": {
+      "japanese": "映画を見ればよかった。",
+      "english": "It would have been better if I had watched the movie.",
+      "blankStart": 5,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "切る",
+    "reading": "kiru",
+    "meaning": "To go through; to finish completely",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E5%88%87%E3%82%8B-kiru-meaning/",
+    "example": {
+      "japanese": "彼は本を読み切った。",
+      "english": "He finished reading the book.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "直す",
+    "reading": "naosu",
+    "meaning": "To fix; to correct",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E7%9B%B4%E3%81%99-naosu-meaning/",
+    "example": {
+      "japanese": "本を直す。",
+      "english": "Fix the book.",
+      "blankStart": 2,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "すでに",
+    "reading": "sudeni",
+    "meaning": "Already",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%99%E3%81%A7%E3%81%AB-sudeni-meaning/",
+    "example": {
+      "japanese": "すでに朝ごはんを食べました。",
+      "english": "I have already eaten breakfast.",
+      "blankStart": 0,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "てごらん",
+    "reading": "te goran",
+    "meaning": "Try to; give it a try (commanding)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A6%E3%81%94%E3%82%89%E3%82%93-te-goran-meaning/",
+    "example": {
+      "japanese": "これを食べてごらん。",
+      "english": "Try eating this.",
+      "blankStart": 5,
+      "blankEnd": 9
+    }
+  },
+  {
+    "pattern": "てもしょうがない",
+    "reading": "temo shouganai",
+    "meaning": "Even if you do, it's useless",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A6%E3%82%82%E3%81%97%E3%82%87%E3%81%86%E3%81%8C%E3%81%AA%E3%81%84-temo-shouganai-meaning/",
+    "example": {
+      "japanese": "勉強してもしょうがない。",
+      "english": "Even if you study, it's useless.",
+      "blankStart": 3,
+      "blankEnd": 11
+    }
+  },
+  {
+    "pattern": "と共に",
+    "reading": "to tomoni",
+    "meaning": "Together with; as X happens, Y also happens.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E5%85%B1%E3%81%AB-to-tomoni-meaning/",
+    "example": {
+      "japanese": "花がさくと共に、天気も良くなる。",
+      "english": "As the flowers bloom, the weather also becomes good.",
+      "blankStart": 4,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "結果",
+    "reading": "kekka",
+    "meaning": "As a result; outcome",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E7%B5%90%E6%9E%9C-kekka-meaning/",
+    "example": {
+      "japanese": "彼はたくさん勉強した。結果、試験に合格した。",
+      "english": "He studied a lot. As a result, he passed the exam.",
+      "blankStart": 11,
+      "blankEnd": 13
+    }
+  },
+  {
+    "pattern": "くせに",
+    "reading": "kuseni",
+    "meaning": "even though; despite",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%8F%E3%81%9B%E3%81%AB-kuseni-meaning/",
+    "example": {
+      "japanese": "あなたは学生のくせに勉強しない。",
+      "english": "Even though you are a student, you don't study.",
+      "blankStart": 7,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "んだって",
+    "reading": "ndatte",
+    "meaning": "I heard that; they say..",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%93%E3%81%A0%E3%81%A3%E3%81%A6-ndatte-meaning/",
+    "example": {
+      "japanese": "明日、雨が降るんだって。",
+      "english": "I heard that it will rain tomorrow.",
+      "blankStart": 7,
+      "blankEnd": 11
+    }
+  },
+  {
+    "pattern": "たて",
+    "reading": "tate",
+    "meaning": "just made",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9F%E3%81%A6-tate-meaning/",
+    "example": {
+      "japanese": "焼きたてのパンを食べます。",
+      "english": "I eat freshly baked bread.",
+      "blankStart": 2,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "しょうがない",
+    "reading": "shou ga nai",
+    "meaning": "It can’t be helped",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%97%E3%82%87%E3%81%86%E3%81%8C%E3%81%AA%E3%81%84-shou-ga-nai-meaning/",
+    "example": {
+      "japanese": "雨だから、外に行けないのはしょうがない。",
+      "english": "Since it’s raining, it can’t be helped that we can’t go outside.",
+      "blankStart": 13,
+      "blankEnd": 19
+    }
+  },
+  {
+    "pattern": "通す",
+    "reading": "toosu",
+    "meaning": "to go through",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E9%80%9A%E3%81%99-toosu-meaning/",
+    "example": {
+      "japanese": "ドアを開けて通す",
+      "english": "Open the door and let (someone/something) through.",
+      "blankStart": 6,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "AからBにかけて",
+    "reading": "A kara B ni kakete",
+    "meaning": "From A to B",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/A%E3%81%8B%E3%82%89B%E3%81%AB%E3%81%8B%E3%81%91%E3%81%A6-a-kara-b-ni-kakete-meaning/",
+    "example": {
+      "japanese": "朝から夜にかけて働きます。",
+      "english": "I work from morning to night.",
+      "blankStart": 4,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "まさか",
+    "reading": "masaka",
+    "meaning": "No way",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%BE%E3%81%95%E3%81%8B-masaka-meaning/",
+    "example": {
+      "japanese": "まさか、あの人が先生！？",
+      "english": "No way, is that person a teacher!?",
+      "blankStart": 0,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "にとって",
+    "reading": "ni totte",
+    "meaning": "For; concerning; as far as... is concerned.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E3%81%A8%E3%81%A3%E3%81%A6-ni-totte-meaning/",
+    "example": {
+      "japanese": "私にとって、日本語はとても大切です。",
+      "english": "For me, Japanese is very important.",
+      "blankStart": 1,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "せいぜい",
+    "reading": "seizei",
+    "meaning": "At most; at best",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9B%E3%81%84%E3%81%9C%E3%81%84-seizei-meaning/",
+    "example": {
+      "japanese": "せいぜい三ヶ月ぐらい日本にいます。",
+      "english": "I will stay in Japan for at most three months.",
+      "blankStart": 0,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "あまりにも",
+    "reading": "amari ni mo",
+    "meaning": "Too much; excessively",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%82%E3%81%BE%E3%82%8A%E3%81%AB%E3%82%82-amari-ni-mo-meaning/",
+    "example": {
+      "japanese": "あまりにも暑いです。",
+      "english": "It is too hot.",
+      "blankStart": 0,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "ごとに",
+    "reading": "goto ni",
+    "meaning": "Each; every",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%94%E3%81%A8%E3%81%AB-goto-ni-meaning/",
+    "example": {
+      "japanese": "毎日ごとに勉強します。",
+      "english": "I study every day.",
+      "blankStart": 2,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "きり",
+    "reading": "kiri",
+    "meaning": "just; only",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%8D%E3%82%8A-kiri-meaning/",
+    "example": {
+      "japanese": "一人きりです。",
+      "english": "It's just one person.",
+      "blankStart": 2,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "ないと",
+    "reading": "naito",
+    "meaning": "If not; unless",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AA%E3%81%84%E3%81%A8-naito-meaning/",
+    "example": {
+      "japanese": "勉強しないと合格できない。",
+      "english": "If I don't study, I cannot pass.",
+      "blankStart": 3,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "なるべく",
+    "reading": "narubeku",
+    "meaning": "As much as possible",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AA%E3%82%8B%E3%81%B9%E3%81%8F-narubeku-meaning/",
+    "example": {
+      "japanese": "なるべくはやく来てください。",
+      "english": "Please come as quickly as possible.",
+      "blankStart": 0,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "というと",
+    "reading": "to iu to",
+    "meaning": "If you mean; speaking of",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%84%E3%81%86%E3%81%A8-to-iu-to-meaning/",
+    "example": {
+      "japanese": "日本といえば、寿司ですね。",
+      "english": "Speaking of Japan, it's sushi, right?",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "つまり",
+    "reading": "tsumari",
+    "meaning": "In other words; that is to say",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A4%E3%81%BE%E3%82%8A-tsumari-meaning/",
+    "example": {
+      "japanese": "彼は学生です。つまり、テストを受けます。",
+      "english": "He is a student. In other words, he takes tests.",
+      "blankStart": 7,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "ぶり",
+    "reading": "buri",
+    "meaning": "Style; way; manner",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%B6%E3%82%8A-buri-meaning/",
+    "example": {
+      "japanese": "彼の仕事ぶりはすごいです。",
+      "english": "His way of working is amazing.",
+      "blankStart": 4,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "切れない",
+    "reading": "kirenai",
+    "meaning": "Cannot completely",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E5%88%87%E3%82%8C%E3%81%AA%E3%81%84-kirenai-meaning/",
+    "example": {
+      "japanese": "この本は長くて、一日で読み切れない。",
+      "english": "This book is long, and I can't finish reading it in one day.",
+      "blankStart": 13,
+      "blankEnd": 17
+    }
+  },
+  {
+    "pattern": "込む",
+    "reading": "komu",
+    "meaning": "To be crowded; to be packed",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E8%BE%BC%E3%82%80-komu-meaning/",
+    "example": {
+      "japanese": "電車が込みます。",
+      "english": "The train gets crowded.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "向き",
+    "reading": "muki",
+    "meaning": "Intended for; suitable for",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E5%90%91%E3%81%8D-muki-meaning/",
+    "example": {
+      "japanese": "この本は子供向きです。",
+      "english": "This book is suitable for children.",
+      "blankStart": 6,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "てはいけないから",
+    "reading": "te wa ikenai kara",
+    "meaning": "Because it cannot be done.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A6%E3%81%AF%E3%81%84%E3%81%91%E3%81%AA%E3%81%84%E3%81%8B%E3%82%89-te-wa-ikenai-kara-meaning/",
+    "example": {
+      "japanese": "図書館では静かにしないといけないから。",
+      "english": "Because you must be quiet in the library.",
+      "blankStart": null,
+      "blankEnd": null
+    }
+  },
+  {
+    "pattern": "ところが",
+    "reading": "tokoroga",
+    "meaning": "However; but; even so",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A8%E3%81%93%E3%82%8D%E3%81%8C-tokoroga-meaning/",
+    "example": {
+      "japanese": "今日は晴れだと思った。ところが、雨が降り始めた。",
+      "english": "I thought it would be sunny today. However, it started raining.",
+      "blankStart": 11,
+      "blankEnd": 15
+    }
+  },
+  {
+    "pattern": "もちろん",
+    "reading": "mochiron",
+    "meaning": "Of course; certainly",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%82%E3%81%A1%E3%82%8D%E3%82%93-mochiron-meaning/",
+    "example": {
+      "japanese": "もちろん、いきますよ。",
+      "english": "Of course, I will go.",
+      "blankStart": 0,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "だらけ",
+    "reading": "darake",
+    "meaning": "Full of; riddled with.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A0%E3%82%89%E3%81%91-darake-meaning/",
+    "example": {
+      "japanese": "こどものへやはおもちゃだらけです。",
+      "english": "The child's room is full of toys.",
+      "blankStart": 11,
+      "blankEnd": 14
+    }
+  },
+  {
+    "pattern": "こと",
+    "reading": "koto",
+    "meaning": "Nominalizer",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%93%E3%81%A8-koto-meaning/",
+    "example": {
+      "japanese": "日本語を勉強することが好きです。",
+      "english": "I like studying Japanese.",
+      "blankStart": 8,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "めったに〇〇ない",
+    "reading": "mettani 〇〇 nai",
+    "meaning": "Rarely; seldom",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%81%E3%81%A3%E3%81%9F%E3%81%AB%E3%80%87%E3%80%87%E3%81%AA%E3%81%84-mettani-%E3%80%87%E3%80%87-nai-meaning/",
+    "example": {
+      "japanese": "私はめったに映画を見ない。",
+      "english": "I rarely watch movies.",
+      "blankStart": 2,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "にしても",
+    "reading": "ni shitemo",
+    "meaning": "Even if; even though.",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82-ni-shitemo-meaning/",
+    "example": {
+      "japanese": "雨が降るにしても、私は行きます。",
+      "english": "Even if it rains, I will go.",
+      "blankStart": 4,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "際に",
+    "reading": "sai ni",
+    "meaning": "On the occasion of; at the time of",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E9%9A%9B%E3%81%AB-sai-ni-meaning/",
+    "example": {
+      "japanese": "図書館を利用する際に、カードが必要です。",
+      "english": "When using the library, a card is necessary.",
+      "blankStart": 8,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "さて",
+    "reading": "sate",
+    "meaning": "Well then; now; so",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%95%E3%81%A6-sate-meaning/",
+    "example": {
+      "japanese": "さて、お茶を飲みましょう。",
+      "english": "Well then, let's drink some tea.",
+      "blankStart": 0,
+      "blankEnd": 2
+    }
+  },
+  {
+    "pattern": "そうもない",
+    "reading": "sou mo nai",
+    "meaning": "Unlikely; improbable",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9D%E3%81%86%E3%82%82%E3%81%AA%E3%81%84-sou-mo-nai-meaning/",
+    "example": {
+      "japanese": "この本は読めそうもない。",
+      "english": "It doesn't look like I can read this book.",
+      "blankStart": 6,
+      "blankEnd": 11
+    }
+  },
+  {
+    "pattern": "ために",
+    "reading": "tame ni",
+    "meaning": "For the sake of; in order to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9F%E3%82%81%E3%81%AB-tame-ni-meaning/",
+    "example": {
+      "japanese": "勉強するために本を読みます。",
+      "english": "I read books in order to study.",
+      "blankStart": 4,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "てからでないと",
+    "reading": "tekara de nai to",
+    "meaning": "Unless... is done first",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A6%E3%81%8B%E3%82%89%E3%81%A7%E3%81%AA%E3%81%84%E3%81%A8-tekara-de-nai-to-meaning/",
+    "example": {
+      "japanese": "宿題をしてからでないと遊べません。",
+      "english": "You cannot play unless you finish your homework first.",
+      "blankStart": 4,
+      "blankEnd": 11
+    }
+  },
+  {
+    "pattern": "的",
+    "reading": "teki",
+    "meaning": "Like; -al; Pertaining to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E7%9A%84-teki-meaning/",
+    "example": {
+      "japanese": "科学的な本",
+      "english": "A scientific book",
+      "blankStart": 2,
+      "blankEnd": 3
+    }
+  },
+  {
+    "pattern": "つもりだった",
+    "reading": "tsumori datta",
+    "meaning": "Was intending to..",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A4%E3%82%82%E3%82%8A%E3%81%A0%E3%81%A3%E3%81%9F-tsumori-datta-meaning/",
+    "example": {
+      "japanese": "昨日、勉強するつもりだった。",
+      "english": "I was intending to study yesterday.",
+      "blankStart": 7,
+      "blankEnd": 13
+    }
+  },
+  {
+    "pattern": "割に",
+    "reading": "wari ni",
+    "meaning": "Considering; relatively",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E5%89%B2%E3%81%AB-wari-ni-meaning/",
+    "example": {
+      "japanese": "このケーキは安い割においしいです。",
+      "english": "This cake is delicious considering how cheap it is.",
+      "blankStart": 8,
+      "blankEnd": 10
+    }
+  },
+  {
+    "pattern": "ずに",
+    "reading": "zu ni",
+    "meaning": "Without doing",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9A%E3%81%AB-zu-ni-meaning/",
+    "example": {
+      "japanese": "勉強せずに出かけました。",
+      "english": "I went out without studying.",
+      "blankStart": 3,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "合う",
+    "reading": "au",
+    "meaning": "to fit; to match; to come together",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E5%90%88%E3%81%86-au-meaning/",
+    "example": {
+      "japanese": "彼らは意見が合う。",
+      "english": "Their opinions match.",
+      "blankStart": 6,
+      "blankEnd": 8
+    }
+  },
+  {
+    "pattern": "だけ",
+    "reading": "dake",
+    "meaning": "Only; just",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A0%E3%81%91-dake-meaning/",
+    "example": {
+      "japanese": "私は水だけ飲みます。",
+      "english": "I only drink water.",
+      "blankStart": 3,
+      "blankEnd": 5
+    }
+  },
+  {
+    "pattern": "かける",
+    "reading": "kakeru",
+    "meaning": "kakeru",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%8B%E3%81%91%E3%82%8B-kakeru-meaning/",
+    "example": {
+      "japanese": "本を読みかける。",
+      "english": "(I) start reading a book.",
+      "blankStart": 4,
+      "blankEnd": 7
+    }
+  },
+  {
+    "pattern": "を中心に",
+    "reading": "wo chuushin ni",
+    "meaning": "focusing on; centered around",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%92%E4%B8%AD%E5%BF%83%E3%81%AB-wo-chuushin-ni-meaning/",
+    "example": {
+      "japanese": "この プロジェクトは 学生 を中心に 進めます。",
+      "english": "This project will be carried out centered around students.",
+      "blankStart": 14,
+      "blankEnd": 18
+    }
+  },
+  {
+    "pattern": "をはじめ",
+    "reading": "wo hajime",
+    "meaning": "Starting with; including",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%92%E3%81%AF%E3%81%98%E3%82%81-wo-hajime-meaning/",
+    "example": {
+      "japanese": "学校をはじめ、図書館や公園も行きました。",
+      "english": "Starting with the school, I also went to the library and the park.",
+      "blankStart": 2,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "てばかりいる",
+    "reading": "te bakari iru",
+    "meaning": "Doing nothing but..",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%A6%E3%81%B0%E3%81%8B%E3%82%8A%E3%81%84%E3%82%8B-te-bakari-iru-meaning/",
+    "example": {
+      "japanese": "彼はテレビを見てばかりいる。",
+      "english": "He does nothing but watch TV.",
+      "blankStart": 7,
+      "blankEnd": 13
+    }
+  },
+  {
+    "pattern": "上に",
+    "reading": "ue ni",
+    "meaning": "On top of that; in addition to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E4%B8%8A%E3%81%AB-ue-ni-meaning/",
+    "example": {
+      "japanese": "今日は雨が降っている上に、風も強いです。",
+      "english": "On top of raining today, the wind is also strong.",
+      "blankStart": 10,
+      "blankEnd": 12
+    }
+  },
+  {
+    "pattern": "ことは〇〇が",
+    "reading": "koto wa 〇〇 ga",
+    "meaning": "The fact is that...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%93%E3%81%A8%E3%81%AF%E3%80%87%E3%80%87%E3%81%8C-koto-wa-%E3%80%87%E3%80%87-ga-meaning/",
+    "example": {
+      "japanese": "食べることは食べたが、おいしくない。",
+      "english": "The fact is, I ate, but it wasn't tasty.",
+      "blankStart": 3,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "のでしょうか",
+    "reading": "nodeshouka",
+    "meaning": "Would; is it the case that...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%AE%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%81%8B-nodeshouka-meaning/",
+    "example": {
+      "japanese": "天気はいいのでしょうか。",
+      "english": "Would the weather be good?",
+      "blankStart": 5,
+      "blankEnd": 11
+    }
+  },
+  {
+    "pattern": "わけがない",
+    "reading": "wake ga nai",
+    "meaning": "There is no way that...",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%8F%E3%81%91%E3%81%8C%E3%81%AA%E3%81%84-wake-ga-nai-meaning/",
+    "example": {
+      "japanese": "こんなに難しい問題がわかるわけがない。",
+      "english": "There is no way I can understand such a difficult problem.",
+      "blankStart": 13,
+      "blankEnd": 18
+    }
+  },
+  {
+    "pattern": "ふりをする",
+    "reading": "furi wo suru",
+    "meaning": "To pretend; to act as if",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%B5%E3%82%8A%E3%82%92%E3%81%99%E3%82%8B-furi-wo-suru-meaning/",
+    "example": {
+      "japanese": "彼は寝ているふりをする。",
+      "english": "He pretends to be sleeping.",
+      "blankStart": 6,
+      "blankEnd": 11
+    }
+  },
+  {
+    "pattern": "がち",
+    "reading": "gachi",
+    "meaning": "Tend to; prone to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%8C%E3%81%A1-gachi-meaning/",
+    "example": {
+      "japanese": "彼は忘れがちです。",
+      "english": "He tends to forget.",
+      "blankStart": 4,
+      "blankEnd": 6
+    }
+  },
+  {
+    "pattern": "気味",
+    "reading": "gimi",
+    "meaning": "Slightly; a touch of",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E6%B0%97%E5%91%B3-gimi-meaning/",
+    "example": {
+      "japanese": "風邪気味です。",
+      "english": "I feel a bit like I have a cold.",
+      "blankStart": 2,
+      "blankEnd": 4
+    }
+  },
+  {
+    "pattern": "わけだ",
+    "reading": "wake da",
+    "meaning": "It means that; no wonder",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%82%8F%E3%81%91%E3%81%A0-wake-da-meaning/",
+    "example": {
+      "japanese": "彼は毎日勉強しているわけだ。",
+      "english": "That’s why he studies every day.",
+      "blankStart": 10,
+      "blankEnd": 13
+    }
+  },
+  {
+    "pattern": "ずつ",
+    "reading": "zutsu",
+    "meaning": "Each; apiece",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-grammar/%E3%81%9A%E3%81%A4-zutsu-meaning/",
+    "example": {
+      "japanese": "お菓子をふたりに二つずつあげた。",
+      "english": "I gave the candies two apiece to two people.",
+      "blankStart": 10,
+      "blankEnd": 12
+    }
+  }
+]

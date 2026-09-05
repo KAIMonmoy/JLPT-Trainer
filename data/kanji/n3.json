@@ -1,0 +1,5966 @@
+[
+  {
+    "character": "議",
+    "onyomi": [
+      "ギ"
+    ],
+    "kunyomi": [],
+    "meaning": "deliberation, consultation, debate, consideration",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%AD%B0-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%AD%B0"
+  },
+  {
+    "character": "民",
+    "onyomi": [
+      "ミン"
+    ],
+    "kunyomi": [
+      "たみ"
+    ],
+    "meaning": "people, nation, subjects",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B0%91-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B0%91"
+  },
+  {
+    "character": "連",
+    "onyomi": [
+      "レン"
+    ],
+    "kunyomi": [
+      "つら.なる",
+      "つら.ねる",
+      "つ.れる",
+      "-づ.れ"
+    ],
+    "meaning": "take along, lead, join, connect, party, gang, clique",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%80%A3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%80%A3"
+  },
+  {
+    "character": "対",
+    "onyomi": [
+      "タイ",
+      "ツイ"
+    ],
+    "kunyomi": [
+      "あいて",
+      "こた.える",
+      "そろ.い",
+      "つれあ.い",
+      "なら.ぶ",
+      "むか.う"
+    ],
+    "meaning": "vis-a-vis, opposite, even, equal, versus, anti-, compare",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AF%BE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AF%BE"
+  },
+  {
+    "character": "部",
+    "onyomi": [
+      "ブ"
+    ],
+    "kunyomi": [
+      "-べ"
+    ],
+    "meaning": "section, bureau, dept, class, copy, part, portion, counter for copies of a newspaper or magazine",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%83%A8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%83%A8"
+  },
+  {
+    "character": "合",
+    "onyomi": [
+      "ゴウ",
+      "ガッ",
+      "カッ"
+    ],
+    "kunyomi": [
+      "あ.う",
+      "-あ.う",
+      "あ.い",
+      "あい-",
+      "-あ.い",
+      "-あい",
+      "あ.わす",
+      "あ.わせる",
+      "-あ.わせる"
+    ],
+    "meaning": "fit, suit, join, 0.1",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%90%88-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%90%88"
+  },
+  {
+    "character": "市",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "いち"
+    ],
+    "meaning": "market, city, town",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B8%82-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B8%82"
+  },
+  {
+    "character": "内",
+    "onyomi": [
+      "ナイ",
+      "ダイ"
+    ],
+    "kunyomi": [
+      "うち"
+    ],
+    "meaning": "inside, within, between, among, house, home",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%86%85-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%86%85"
+  },
+  {
+    "character": "相",
+    "onyomi": [
+      "ソウ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "あい-"
+    ],
+    "meaning": "inter-, mutual, together, each other, minister of state, councillor, aspect, phase, physiognomy",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%9B%B8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%9B%B8"
+  },
+  {
+    "character": "定",
+    "onyomi": [
+      "テイ",
+      "ジョウ"
+    ],
+    "kunyomi": [
+      "さだ.める",
+      "さだ.まる",
+      "さだ.か"
+    ],
+    "meaning": "determine, fix, establish, decide",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AE%9A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AE%9A"
+  },
+  {
+    "character": "回",
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "kunyomi": [
+      "まわ.る",
+      "-まわ.る",
+      "-まわ.り",
+      "まわ.す",
+      "-まわ.す",
+      "まわ.し-",
+      "-まわ.し",
+      "もとお.る",
+      "か.える"
+    ],
+    "meaning": "-times, round, game, revolve, counter for occurrences",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%9B%9E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%9B%9E"
+  },
+  {
+    "character": "選",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "えら.ぶ",
+      "え.る",
+      "よ.る"
+    ],
+    "meaning": "elect, select, choose, prefer",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%81%B8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%81%B8"
+  },
+  {
+    "character": "米",
+    "onyomi": [
+      "ベイ",
+      "マイ",
+      "メエトル"
+    ],
+    "kunyomi": [
+      "こめ",
+      "よね"
+    ],
+    "meaning": "rice, USA, metre",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%B1%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%B1%B3"
+  },
+  {
+    "character": "実",
+    "onyomi": [
+      "ジツ",
+      "シツ"
+    ],
+    "kunyomi": [
+      "み",
+      "みの.る",
+      "まこと",
+      "みの",
+      "みち.る"
+    ],
+    "meaning": "reality, truth, seed, fruit, nut",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AE%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AE%9F"
+  },
+  {
+    "character": "関",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [
+      "せき",
+      "-ぜき",
+      "かか.わる",
+      "からくり",
+      "かんぬき"
+    ],
+    "meaning": "connection, barrier, gateway, involve, concerning",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%96%A2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%96%A2"
+  },
+  {
+    "character": "決",
+    "onyomi": [
+      "ケツ"
+    ],
+    "kunyomi": [
+      "き.める",
+      "-ぎ.め",
+      "き.まる",
+      "さ.く"
+    ],
+    "meaning": "decide, fix, agree upon, appoint",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B1%BA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B1%BA"
+  },
+  {
+    "character": "全",
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まった.く",
+      "すべ.て"
+    ],
+    "meaning": "whole, entire, all, complete, fulfill",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%85%A8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%85%A8"
+  },
+  {
+    "character": "表",
+    "onyomi": [
+      "ヒョウ"
+    ],
+    "kunyomi": [
+      "おもて",
+      "-おもて",
+      "あらわ.す",
+      "あらわ.れる",
+      "あら.わす"
+    ],
+    "meaning": "surface, table, chart, diagram",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A1%A8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A1%A8"
+  },
+  {
+    "character": "戦",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "いくさ",
+      "たたか.う",
+      "おのの.く",
+      "そよ.ぐ",
+      "わなな.く"
+    ],
+    "meaning": "war, battle, match",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%88%A6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%88%A6"
+  },
+  {
+    "character": "経",
+    "onyomi": [
+      "ケイ",
+      "キョウ",
+      "キン"
+    ],
+    "kunyomi": [
+      "へ.る",
+      "た.つ",
+      "たていと",
+      "はか.る",
+      "のり"
+    ],
+    "meaning": "sutra, longitude, pass thru, expire, warp",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%B5%8C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%B5%8C"
+  },
+  {
+    "character": "最",
+    "onyomi": [
+      "サイ",
+      "シュ"
+    ],
+    "kunyomi": [
+      "もっと.も",
+      "つま"
+    ],
+    "meaning": "utmost, most, extreme",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9C%80-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9C%80"
+  },
+  {
+    "character": "現",
+    "onyomi": [
+      "ゲン"
+    ],
+    "kunyomi": [
+      "あらわ.れる",
+      "あらわ.す",
+      "うつつ",
+      "うつ.つ"
+    ],
+    "meaning": "present, existing, actual",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%8F%BE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%8F%BE"
+  },
+  {
+    "character": "調",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "しら.べる",
+      "しら.べ",
+      "ととの.う",
+      "ととの.える"
+    ],
+    "meaning": "tune, tone, meter, key (music), writing style, prepare, exorcise, investigate, harmonize, mediate",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%AA%BF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%AA%BF"
+  },
+  {
+    "character": "化",
+    "onyomi": [
+      "カ",
+      "ケ"
+    ],
+    "kunyomi": [
+      "ば.ける",
+      "ば.かす",
+      "ふ.ける",
+      "け.する"
+    ],
+    "meaning": "change, take the form of, influence, enchant, delude, -ization",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8C%96-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8C%96"
+  },
+  {
+    "character": "当",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "あ.たる",
+      "あ.たり",
+      "あ.てる",
+      "あ.て",
+      "まさ.に",
+      "まさ.にべし"
+    ],
+    "meaning": "hit, right, appropriate, himself",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BD%93-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BD%93"
+  },
+  {
+    "character": "約",
+    "onyomi": [
+      "ヤク"
+    ],
+    "kunyomi": [
+      "つづ.まる",
+      "つづ.める",
+      "つづま.やか"
+    ],
+    "meaning": "promise, approximately, shrink",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%B4%84-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%B4%84"
+  },
+  {
+    "character": "首",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "くび"
+    ],
+    "meaning": "neck, counter for songs and poems",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%A6%96-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%A6%96"
+  },
+  {
+    "character": "法",
+    "onyomi": [
+      "ホウ",
+      "ハッ",
+      "ホッ",
+      "フラン"
+    ],
+    "kunyomi": [
+      "のり"
+    ],
+    "meaning": "method, law, rule, principle, model, system",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B3%95-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B3%95"
+  },
+  {
+    "character": "性",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "さが"
+    ],
+    "meaning": "sex, gender, nature",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%80%A7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%80%A7"
+  },
+  {
+    "character": "的",
+    "onyomi": [
+      "テキ"
+    ],
+    "kunyomi": [
+      "まと"
+    ],
+    "meaning": "bull's eye, mark, target, object, adjective ending",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%9A%84-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%9A%84"
+  },
+  {
+    "character": "要",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [
+      "い.る",
+      "かなめ"
+    ],
+    "meaning": "need, main point, essence, pivot, key to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A6%81-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A6%81"
+  },
+  {
+    "character": "制",
+    "onyomi": [
+      "セイ"
+    ],
+    "kunyomi": [],
+    "meaning": "system, law, rule",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%88%B6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%88%B6"
+  },
+  {
+    "character": "治",
+    "onyomi": [
+      "ジ",
+      "チ"
+    ],
+    "kunyomi": [
+      "おさ.める",
+      "おさ.まる",
+      "なお.る",
+      "なお.す"
+    ],
+    "meaning": "reign, be at peace, calm down, subdue, quell, govt, cure, heal, rule, conserve",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B2%BB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B2%BB"
+  },
+  {
+    "character": "務",
+    "onyomi": [
+      "ム"
+    ],
+    "kunyomi": [
+      "つと.める"
+    ],
+    "meaning": "task, duties",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8B%99-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8B%99"
+  },
+  {
+    "character": "成",
+    "onyomi": [
+      "セイ",
+      "ジョウ"
+    ],
+    "kunyomi": [
+      "な.る",
+      "な.す",
+      "-な.す"
+    ],
+    "meaning": "turn into, become, get, grow, elapse, reach",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%88%90-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%88%90"
+  },
+  {
+    "character": "期",
+    "onyomi": [
+      "キ",
+      "ゴ"
+    ],
+    "kunyomi": [],
+    "meaning": "period, time, date, term",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9C%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9C%9F"
+  },
+  {
+    "character": "取",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "と.る",
+      "と.り",
+      "と.り-",
+      "とり",
+      "-ど.り"
+    ],
+    "meaning": "take, fetch, take up",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8F%96-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8F%96"
+  },
+  {
+    "character": "都",
+    "onyomi": [
+      "ト",
+      "ツ"
+    ],
+    "kunyomi": [
+      "みやこ"
+    ],
+    "meaning": "metropolis, capital, all, everything",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%83%BD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%83%BD"
+  },
+  {
+    "character": "和",
+    "onyomi": [
+      "ワ",
+      "オ",
+      "カ"
+    ],
+    "kunyomi": [
+      "やわ.らぐ",
+      "やわ.らげる",
+      "なご.む",
+      "なご.やか",
+      "あ.える"
+    ],
+    "meaning": "harmony, Japanese style, peace, soften, Japan",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%92%8C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%92%8C"
+  },
+  {
+    "character": "機",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "はた"
+    ],
+    "meaning": "loom, mechanism, machine, airplane, opportunity, potency, efficacy, occasion",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%A9%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%A9%9F"
+  },
+  {
+    "character": "平",
+    "onyomi": [
+      "ヘイ",
+      "ビョウ",
+      "ヒョウ"
+    ],
+    "kunyomi": [
+      "たい.ら",
+      "たい.らげる",
+      "ひら"
+    ],
+    "meaning": "even, flat, peace",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B9%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B9%B3"
+  },
+  {
+    "character": "加",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "くわ.える",
+      "くわ.わる"
+    ],
+    "meaning": "add, addition, increase, join, include, Canada",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8A%A0-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8A%A0"
+  },
+  {
+    "character": "受",
+    "onyomi": [
+      "ジュ"
+    ],
+    "kunyomi": [
+      "う.ける",
+      "-う.け",
+      "う.かる"
+    ],
+    "meaning": "accept, undergo, answer (phone), take, get, catch, receive",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8F%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8F%97"
+  },
+  {
+    "character": "続",
+    "onyomi": [
+      "ゾク",
+      "ショク",
+      "コウ",
+      "キョウ"
+    ],
+    "kunyomi": [
+      "つづ.く",
+      "つづ.ける",
+      "つぐ.ない"
+    ],
+    "meaning": "continue, series, sequel",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%B6%9A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%B6%9A"
+  },
+  {
+    "character": "進",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "すす.む",
+      "すす.める"
+    ],
+    "meaning": "advance, proceed, progress, promote",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%80%B2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%80%B2"
+  },
+  {
+    "character": "数",
+    "onyomi": [
+      "スウ",
+      "ス",
+      "サク",
+      "ソク",
+      "シュ"
+    ],
+    "kunyomi": [
+      "かず",
+      "かぞ.える",
+      "しばしば",
+      "せ.める",
+      "わずらわ.しい"
+    ],
+    "meaning": "number, strength, fate, law, figures",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%95%B0-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%95%B0"
+  },
+  {
+    "character": "記",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "しる.す"
+    ],
+    "meaning": "scribe, account, narrative",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A8%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A8%98"
+  },
+  {
+    "character": "初",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "はじ.め",
+      "はじ.めて",
+      "はつ",
+      "はつ-",
+      "うい-",
+      "-そ.める",
+      "-ぞ.め"
+    ],
+    "meaning": "first time, beginning",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%88%9D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%88%9D"
+  },
+  {
+    "character": "指",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "ゆび",
+      "さ.す",
+      "-さ.し"
+    ],
+    "meaning": "finger, point to, indicate, put into, play (chess), measure (ruler)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%8C%87-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%8C%87"
+  },
+  {
+    "character": "権",
+    "onyomi": [
+      "ケン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "おもり",
+      "かり",
+      "はか.る"
+    ],
+    "meaning": "authority, power, rights",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%A8%A9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%A8%A9"
+  },
+  {
+    "character": "支",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "ささ.える",
+      "つか.える",
+      "か.う"
+    ],
+    "meaning": "branch, support, sustain, branch radical (no. 65)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%94%AF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%94%AF"
+  },
+  {
+    "character": "産",
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "う.む",
+      "う.まれる",
+      "うぶ-",
+      "む.す"
+    ],
+    "meaning": "products, bear, give birth, yield, childbirth, native, property",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%94%A3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%94%A3"
+  },
+  {
+    "character": "点",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "つ.ける",
+      "つ.く",
+      "た.てる",
+      "さ.す",
+      "とぼ.す",
+      "とも.す",
+      "ぼち"
+    ],
+    "meaning": "spot, point, mark, speck, decimal point",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%82%B9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%82%B9"
+  },
+  {
+    "character": "報",
+    "onyomi": [
+      "ホウ"
+    ],
+    "kunyomi": [
+      "むく.いる"
+    ],
+    "meaning": "report, news, reward, retribution",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A0%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A0%B1"
+  },
+  {
+    "character": "済",
+    "onyomi": [
+      "サイ",
+      "セイ"
+    ],
+    "kunyomi": [
+      "す.む",
+      "-ず.み",
+      "-ずみ",
+      "す.まない",
+      "す.ます",
+      "-す.ます",
+      "すく.う",
+      "な.す",
+      "わたし",
+      "わた.る"
+    ],
+    "meaning": "settle (debt, etc.), relieve (burden), finish, come to an end, excusable, need not",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B8%88-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B8%88"
+  },
+  {
+    "character": "活",
+    "onyomi": [
+      "カツ"
+    ],
+    "kunyomi": [
+      "い.きる",
+      "い.かす",
+      "い.ける"
+    ],
+    "meaning": "lively, resuscitation, being helped, living",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B4%BB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B4%BB"
+  },
+  {
+    "character": "原",
+    "onyomi": [
+      "ゲン"
+    ],
+    "kunyomi": [
+      "はら"
+    ],
+    "meaning": "meadow, original, primitive, field, plain, prairie, tundra, wilderness",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8E%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8E%9F"
+  },
+  {
+    "character": "共",
+    "onyomi": [
+      "キョウ"
+    ],
+    "kunyomi": [
+      "とも",
+      "とも.に",
+      "-ども"
+    ],
+    "meaning": "together, both, neither, all, and, alike, with",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%85%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%85%B1"
+  },
+  {
+    "character": "得",
+    "onyomi": [
+      "トク"
+    ],
+    "kunyomi": [
+      "え.る",
+      "う.る"
+    ],
+    "meaning": "gain, get, find, earn, acquire, can, may, able to, profit, advantage, benefit",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BE%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BE%97"
+  },
+  {
+    "character": "解",
+    "onyomi": [
+      "カイ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "と.く",
+      "と.かす",
+      "と.ける",
+      "ほど.く",
+      "ほぐ.す",
+      "わか.る",
+      "さと.る"
+    ],
+    "meaning": "unravel, notes, key, explanation, understanding, untie, undo, solve, answer, cancel, absolve, explain, minute",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A7%A3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A7%A3"
+  },
+  {
+    "character": "交",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "まじ.わる",
+      "まじ.える",
+      "ま.じる",
+      "まじ.る",
+      "ま.ざる",
+      "ま.ぜる",
+      "-か.う",
+      "か.わす",
+      "かわ.す",
+      "こもごも"
+    ],
+    "meaning": "mingle, mixing, association, coming & going",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BA%A4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BA%A4"
+  },
+  {
+    "character": "資",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [],
+    "meaning": "assets, resources, capital, funds, data, be conducive to, contribute to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%B3%87-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%B3%87"
+  },
+  {
+    "character": "予",
+    "onyomi": [
+      "ヨ",
+      "シャ"
+    ],
+    "kunyomi": [
+      "あらかじ.め"
+    ],
+    "meaning": "beforehand, previous, myself, I",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BA%88-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BA%88"
+  },
+  {
+    "character": "向",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "む.く",
+      "む.い",
+      "-む.き",
+      "む.ける",
+      "-む.け",
+      "む.かう",
+      "む.かい",
+      "む.こう",
+      "む.こう-",
+      "むこ",
+      "むか.い"
+    ],
+    "meaning": "yonder, facing, beyond, confront, defy, tend toward, approach",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%90%91-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%90%91"
+  },
+  {
+    "character": "際",
+    "onyomi": [
+      "サイ"
+    ],
+    "kunyomi": [
+      "きわ",
+      "-ぎわ"
+    ],
+    "meaning": "occasion, side, edge, verge, dangerous, adventurous, indecent, time, when",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%9A%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%9A%9B"
+  },
+  {
+    "character": "勝",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "か.つ",
+      "-が.ち",
+      "まさ.る",
+      "すぐ.れる",
+      "かつ"
+    ],
+    "meaning": "victory, win, prevail, excel",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8B%9D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8B%9D"
+  },
+  {
+    "character": "面",
+    "onyomi": [
+      "メン",
+      "ベン"
+    ],
+    "kunyomi": [
+      "おも",
+      "おもて",
+      "つら"
+    ],
+    "meaning": "mask, face, features, surface",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%9D%A2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%9D%A2"
+  },
+  {
+    "character": "告",
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "つ.げる"
+    ],
+    "meaning": "revelation, tell, inform, announce",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%91%8A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%91%8A"
+  },
+  {
+    "character": "反",
+    "onyomi": [
+      "ハン",
+      "ホン",
+      "タン",
+      "ホ"
+    ],
+    "kunyomi": [
+      "そ.る",
+      "そ.らす",
+      "かえ.す",
+      "かえ.る",
+      "-かえ.る"
+    ],
+    "meaning": "anti-",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8F%8D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8F%8D"
+  },
+  {
+    "character": "判",
+    "onyomi": [
+      "ハン",
+      "バン"
+    ],
+    "kunyomi": [
+      "わか.る"
+    ],
+    "meaning": "judgement, judgment, signature, stamp, seal",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%88%A4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%88%A4"
+  },
+  {
+    "character": "認",
+    "onyomi": [
+      "ニン"
+    ],
+    "kunyomi": [
+      "みと.める",
+      "したた.める"
+    ],
+    "meaning": "acknowledge, witness, discern, recognize, appreciate, believe",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%AA%8D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%AA%8D"
+  },
+  {
+    "character": "参",
+    "onyomi": [
+      "サン",
+      "シン"
+    ],
+    "kunyomi": [
+      "まい.る",
+      "まい-",
+      "まじわる",
+      "みつ"
+    ],
+    "meaning": "nonplussed, three (in documents), going, coming, visiting, visit, be defeated, die, be madly in love, participate, take part in",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8F%82-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8F%82"
+  },
+  {
+    "character": "利",
+    "onyomi": [
+      "リ"
+    ],
+    "kunyomi": [
+      "き.く"
+    ],
+    "meaning": "profit, advantage, benefit",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%88%A9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%88%A9"
+  },
+  {
+    "character": "組",
+    "onyomi": [
+      "ソ"
+    ],
+    "kunyomi": [
+      "く.む",
+      "くみ",
+      "-ぐみ"
+    ],
+    "meaning": "association, braid, plait, construct, assemble, unite, cooperate, grapple",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%B5%84-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%B5%84"
+  },
+  {
+    "character": "信",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [],
+    "meaning": "faith, truth, fidelity, trust",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BF%A1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BF%A1"
+  },
+  {
+    "character": "在",
+    "onyomi": [
+      "ザイ"
+    ],
+    "kunyomi": [
+      "あ.る"
+    ],
+    "meaning": "exist, outskirts, suburbs, located in",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%9C%A8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%9C%A8"
+  },
+  {
+    "character": "件",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "くだん"
+    ],
+    "meaning": "affair, case, matter, item",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BB%B6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BB%B6"
+  },
+  {
+    "character": "側",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "かわ",
+      "がわ",
+      "そば"
+    ],
+    "meaning": "side, lean, oppose, regret",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%81%B4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%81%B4"
+  },
+  {
+    "character": "任",
+    "onyomi": [
+      "ニン"
+    ],
+    "kunyomi": [
+      "まか.せる",
+      "まか.す"
+    ],
+    "meaning": "responsibility, duty, term, entrust to, appoint",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BB%BB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BB%BB"
+  },
+  {
+    "character": "引",
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "ひ.く",
+      "ひ.ける"
+    ],
+    "meaning": "pull, tug, jerk, admit, install, quote, refer to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BC%95-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BC%95"
+  },
+  {
+    "character": "求",
+    "onyomi": [
+      "キュウ",
+      "グ"
+    ],
+    "kunyomi": [
+      "もと.める"
+    ],
+    "meaning": "request, want, wish for, require, demand",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B1%82-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B1%82"
+  },
+  {
+    "character": "所",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "ところ",
+      "-ところ",
+      "どころ",
+      "とこ"
+    ],
+    "meaning": "place, extent",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%89%80-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%89%80"
+  },
+  {
+    "character": "次",
+    "onyomi": [
+      "ジ",
+      "シ"
+    ],
+    "kunyomi": [
+      "つ.ぐ",
+      "つぎ"
+    ],
+    "meaning": "next, order, sequence",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%AC%A1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%AC%A1"
+  },
+  {
+    "character": "昨",
+    "onyomi": [
+      "サク"
+    ],
+    "kunyomi": [],
+    "meaning": "yesterday, previous",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%98%A8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%98%A8"
+  },
+  {
+    "character": "論",
+    "onyomi": [
+      "ロン"
+    ],
+    "kunyomi": [
+      "あげつら.う"
+    ],
+    "meaning": "argument, discourse",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%AB%96-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%AB%96"
+  },
+  {
+    "character": "官",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [],
+    "meaning": "bureaucrat, the government, organ",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AE%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AE%98"
+  },
+  {
+    "character": "増",
+    "onyomi": [
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "ま.す",
+      "ま.し",
+      "ふ.える",
+      "ふ.やす"
+    ],
+    "meaning": "increase, add, augment, gain, promote",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A2%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A2%97"
+  },
+  {
+    "character": "係",
+    "onyomi": [
+      "ケイ"
+    ],
+    "kunyomi": [
+      "かか.る",
+      "かかり",
+      "-がかり",
+      "かか.わる"
+    ],
+    "meaning": "person in charge, connection, duty, concern oneself",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BF%82-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BF%82"
+  },
+  {
+    "character": "感",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [],
+    "meaning": "emotion, feeling, sensation",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%84%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%84%9F"
+  },
+  {
+    "character": "情",
+    "onyomi": [
+      "ジョウ",
+      "セイ"
+    ],
+    "kunyomi": [
+      "なさ.け"
+    ],
+    "meaning": "feelings, emotion, passion, sympathy, circumstances, facts",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%83%85-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%83%85"
+  },
+  {
+    "character": "投",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "な.げる",
+      "-な.げ"
+    ],
+    "meaning": "throw, discard, abandon, launch into, join, invest in, hurl, give up, sell at a loss",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%8A%95-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%8A%95"
+  },
+  {
+    "character": "示",
+    "onyomi": [
+      "ジ",
+      "シ"
+    ],
+    "kunyomi": [
+      "しめ.す"
+    ],
+    "meaning": "show, indicate, point out, express, display",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%A4%BA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%A4%BA"
+  },
+  {
+    "character": "変",
+    "onyomi": [
+      "ヘン"
+    ],
+    "kunyomi": [
+      "か.わる",
+      "か.わり",
+      "か.える"
+    ],
+    "meaning": "unusual, change, strange",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A4%89-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A4%89"
+  },
+  {
+    "character": "打",
+    "onyomi": [
+      "ダ",
+      "ダース"
+    ],
+    "kunyomi": [
+      "う.つ",
+      "う.ち-",
+      "ぶ.つ"
+    ],
+    "meaning": "strike, hit, knock, pound, dozen",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%89%93-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%89%93"
+  },
+  {
+    "character": "直",
+    "onyomi": [
+      "チョク",
+      "ジキ",
+      "ジカ"
+    ],
+    "kunyomi": [
+      "ただ.ちに",
+      "なお.す",
+      "-なお.す",
+      "なお.る",
+      "なお.き",
+      "す.ぐ"
+    ],
+    "meaning": "straightaway, honesty, frankness, fix, repair",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%9B%B4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%9B%B4"
+  },
+  {
+    "character": "両",
+    "onyomi": [
+      "リョウ"
+    ],
+    "kunyomi": [
+      "てる",
+      "ふたつ"
+    ],
+    "meaning": "both, old Japanese coin, counter for carriages (e.g., in a train), two",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%A1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%A1"
+  },
+  {
+    "character": "式",
+    "onyomi": [
+      "シキ"
+    ],
+    "kunyomi": [],
+    "meaning": "style, ceremony, rite, function, method, system, form, expression",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BC%8F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BC%8F"
+  },
+  {
+    "character": "確",
+    "onyomi": [
+      "カク",
+      "コウ"
+    ],
+    "kunyomi": [
+      "たし.か",
+      "たし.かめる"
+    ],
+    "meaning": "assurance, firm, tight, hard, solid, confirm, clear, evident",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%A2%BA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%A2%BA"
+  },
+  {
+    "character": "果",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "は.たす",
+      "はた.す",
+      "-は.たす",
+      "は.てる",
+      "-は.てる",
+      "は.て"
+    ],
+    "meaning": "fruit, reward, carry out, achieve, complete, end, finish, succeed",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9E%9C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9E%9C"
+  },
+  {
+    "character": "容",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [
+      "い.れる"
+    ],
+    "meaning": "contain, form, looks",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AE%B9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AE%B9"
+  },
+  {
+    "character": "必",
+    "onyomi": [
+      "ヒツ"
+    ],
+    "kunyomi": [
+      "かなら.ず"
+    ],
+    "meaning": "invariably, certain, inevitable",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BF%85-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BF%85"
+  },
+  {
+    "character": "演",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [],
+    "meaning": "performance, act, play, render, stage",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%BC%94-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%BC%94"
+  },
+  {
+    "character": "歳",
+    "onyomi": [
+      "サイ",
+      "セイ"
+    ],
+    "kunyomi": [
+      "とし",
+      "とせ",
+      "よわい"
+    ],
+    "meaning": "year-end, age, occasion, opportunity",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%AD%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%AD%B3"
+  },
+  {
+    "character": "争",
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [
+      "あらそ.う",
+      "いか.でか"
+    ],
+    "meaning": "contend, dispute, argue",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BA%89-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BA%89"
+  },
+  {
+    "character": "談",
+    "onyomi": [
+      "ダン"
+    ],
+    "kunyomi": [],
+    "meaning": "discuss, talk",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%AB%87-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%AB%87"
+  },
+  {
+    "character": "能",
+    "onyomi": [
+      "ノウ"
+    ],
+    "kunyomi": [
+      "よ.く",
+      "あた.う"
+    ],
+    "meaning": "ability, talent, skill, capacity",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%83%BD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%83%BD"
+  },
+  {
+    "character": "無",
+    "onyomi": [
+      "ム",
+      "ブ"
+    ],
+    "kunyomi": [
+      "な.い"
+    ],
+    "meaning": "nothingness, none, ain't, nothing, nil, not",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%84%A1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%84%A1"
+  },
+  {
+    "character": "位",
+    "onyomi": [
+      "イ"
+    ],
+    "kunyomi": [
+      "くらい",
+      "ぐらい"
+    ],
+    "meaning": "rank, grade, throne, crown, about, some",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BD%8D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BD%8D"
+  },
+  {
+    "character": "置",
+    "onyomi": [
+      "チ"
+    ],
+    "kunyomi": [
+      "お.く",
+      "-お.き"
+    ],
+    "meaning": "placement, put, set, deposit, leave behind, keep, employ, pawn",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%BD%AE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%BD%AE"
+  },
+  {
+    "character": "流",
+    "onyomi": [
+      "リュウ",
+      "ル"
+    ],
+    "kunyomi": [
+      "なが.れる",
+      "なが.れ",
+      "なが.す",
+      "-なが.す"
+    ],
+    "meaning": "current, a sink, flow, forfeit",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B5%81-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B5%81"
+  },
+  {
+    "character": "格",
+    "onyomi": [
+      "カク",
+      "コウ",
+      "キャク",
+      "ゴウ"
+    ],
+    "kunyomi": [],
+    "meaning": "status, rank, capacity, character, case (law, grammar)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%A0%BC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%A0%BC"
+  },
+  {
+    "character": "疑",
+    "onyomi": [
+      "ギ"
+    ],
+    "kunyomi": [
+      "うたが.う"
+    ],
+    "meaning": "doubt, distrust, be suspicious, question",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%96%91-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%96%91"
+  },
+  {
+    "character": "過",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "す.ぎる",
+      "す.ごす",
+      "あやま.ち",
+      "あやま.つ",
+      "よぎ.る",
+      "よ.ぎる"
+    ],
+    "meaning": "overdo, exceed, go beyond, error",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%81%8E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%81%8E"
+  },
+  {
+    "character": "局",
+    "onyomi": [
+      "キョク"
+    ],
+    "kunyomi": [
+      "つぼね"
+    ],
+    "meaning": "bureau, board, office, affair, conclusion, court lady, lady-in-waiting, her apartment",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B1%80-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B1%80"
+  },
+  {
+    "character": "放",
+    "onyomi": [
+      "ホウ"
+    ],
+    "kunyomi": [
+      "はな.す",
+      "-っぱな.し",
+      "はな.つ",
+      "はな.れる",
+      "こ.く",
+      "ほう.る"
+    ],
+    "meaning": "set free, release, fire, shoot, emit, banish, liberate",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%94%BE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%94%BE"
+  },
+  {
+    "character": "常",
+    "onyomi": [
+      "ジョウ"
+    ],
+    "kunyomi": [
+      "つね",
+      "とこ-"
+    ],
+    "meaning": "usual, ordinary, normal, common, regular, continually, always, long-lasting",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B8%B8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B8%B8"
+  },
+  {
+    "character": "状",
+    "onyomi": [
+      "ジョウ"
+    ],
+    "kunyomi": [],
+    "meaning": "status quo, conditions, circumstances, form, appearance",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%8A%B6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%8A%B6"
+  },
+  {
+    "character": "球",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "たま"
+    ],
+    "meaning": "ball, sphere",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%90%83-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%90%83"
+  },
+  {
+    "character": "職",
+    "onyomi": [
+      "ショク",
+      "ソク"
+    ],
+    "kunyomi": [],
+    "meaning": "post, employment, work",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%81%B7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%81%B7"
+  },
+  {
+    "character": "与",
+    "onyomi": [
+      "ヨ"
+    ],
+    "kunyomi": [
+      "あた.える",
+      "あずか.る",
+      "くみ.する",
+      "ともに"
+    ],
+    "meaning": "bestow, participate in, give, award, impart, provide, cause, gift, godsend",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%8E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%8E"
+  },
+  {
+    "character": "供",
+    "onyomi": [
+      "キョウ",
+      "ク",
+      "クウ",
+      "グ"
+    ],
+    "kunyomi": [
+      "そな.える",
+      "とも",
+      "-ども"
+    ],
+    "meaning": "submit, offer, present, serve (meal), accompany",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BE%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BE%9B"
+  },
+  {
+    "character": "可",
+    "onyomi": [
+      "カ",
+      "コク"
+    ],
+    "kunyomi": [
+      "-べ.き",
+      "-べ.し"
+    ],
+    "meaning": "can, passable, approval",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8F%AF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8F%AF"
+  },
+  {
+    "character": "役",
+    "onyomi": [
+      "ヤク",
+      "エキ"
+    ],
+    "kunyomi": [],
+    "meaning": "duty, war, campaign, drafted labor, office, service, role",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BD%B9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BD%B9"
+  },
+  {
+    "character": "構",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "かま.える",
+      "かま.う"
+    ],
+    "meaning": "posture, stance, appearance, build, set up",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%A7%8B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%A7%8B"
+  },
+  {
+    "character": "割",
+    "onyomi": [
+      "カツ"
+    ],
+    "kunyomi": [
+      "わ.る",
+      "わり",
+      "わ.り",
+      "わ.れる",
+      "さ.く"
+    ],
+    "meaning": "proportion, comparatively, divide, cut, separate, split",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%89%B2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%89%B2"
+  },
+  {
+    "character": "費",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "つい.やす",
+      "つい.える"
+    ],
+    "meaning": "expense, cost, spend, consume, waste",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%B2%BB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%B2%BB"
+  },
+  {
+    "character": "付",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "つ.ける",
+      "-つ.ける",
+      "-づ.ける",
+      "つ.け",
+      "つ.け-",
+      "-つ.け",
+      "-づ.け",
+      "-づけ",
+      "つ.く",
+      "-づ.く",
+      "つ.き",
+      "-つ.き",
+      "-つき",
+      "-づ.き",
+      "-づき"
+    ],
+    "meaning": "adhere, attach, refer to, append",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BB%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BB%98"
+  },
+  {
+    "character": "由",
+    "onyomi": [
+      "ユ",
+      "ユウ",
+      "ユイ"
+    ],
+    "kunyomi": [
+      "よし",
+      "よ.る"
+    ],
+    "meaning": "wherefore, a reason",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%94%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%94%B1"
+  },
+  {
+    "character": "説",
+    "onyomi": [
+      "セツ",
+      "ゼイ"
+    ],
+    "kunyomi": [
+      "と.く"
+    ],
+    "meaning": "opinion, theory, explanation, rumor",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%AA%AC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%AA%AC"
+  },
+  {
+    "character": "難",
+    "onyomi": [
+      "ナン"
+    ],
+    "kunyomi": [
+      "かた.い",
+      "-がた.い",
+      "むずか.しい",
+      "むづか.しい",
+      "むつか.しい",
+      "-にく.い"
+    ],
+    "meaning": "difficult, impossible, trouble, accident, defect",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%9B%A3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%9B%A3"
+  },
+  {
+    "character": "優",
+    "onyomi": [
+      "ユウ",
+      "ウ"
+    ],
+    "kunyomi": [
+      "やさ.しい",
+      "すぐ.れる",
+      "まさ.る"
+    ],
+    "meaning": "tenderness, excel, surpass, actor, superiority, gentleness",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%84%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%84%AA"
+  },
+  {
+    "character": "夫",
+    "onyomi": [
+      "フ",
+      "フウ",
+      "ブ"
+    ],
+    "kunyomi": [
+      "おっと",
+      "それ"
+    ],
+    "meaning": "husband, man",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A4%AB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A4%AB"
+  },
+  {
+    "character": "収",
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [
+      "おさ.める",
+      "おさ.まる"
+    ],
+    "meaning": "income, obtain, reap, pay, supply, store",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8F%8E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8F%8E"
+  },
+  {
+    "character": "断",
+    "onyomi": [
+      "ダン"
+    ],
+    "kunyomi": [
+      "た.つ",
+      "ことわ.る",
+      "さだ.める"
+    ],
+    "meaning": "severance, decline, refuse, apologize, warn, dismiss, prohibit, decision, judgement, cutting",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%96%AD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%96%AD"
+  },
+  {
+    "character": "石",
+    "onyomi": [
+      "セキ",
+      "シャク",
+      "コク"
+    ],
+    "kunyomi": [
+      "いし"
+    ],
+    "meaning": "stone",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%9F%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%9F%B3"
+  },
+  {
+    "character": "違",
+    "onyomi": [
+      "イ"
+    ],
+    "kunyomi": [
+      "ちが.う",
+      "ちが.い",
+      "ちが.える",
+      "-ちが.える",
+      "たが.う",
+      "たが.える"
+    ],
+    "meaning": "difference, differ",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%81%95-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%81%95"
+  },
+  {
+    "character": "消",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "き.える",
+      "け.す"
+    ],
+    "meaning": "extinguish, blow out, turn off, neutralize, cancel",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B6%88-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B6%88"
+  },
+  {
+    "character": "神",
+    "onyomi": [
+      "シン",
+      "ジン"
+    ],
+    "kunyomi": [
+      "かみ",
+      "かん-",
+      "こう-"
+    ],
+    "meaning": "gods, mind, soul",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%A5%9E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%A5%9E"
+  },
+  {
+    "character": "番",
+    "onyomi": [
+      "バン"
+    ],
+    "kunyomi": [
+      "つが.い"
+    ],
+    "meaning": "turn, number in a series",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%95%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%95%AA"
+  },
+  {
+    "character": "規",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [],
+    "meaning": "standard, measure",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A6%8F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A6%8F"
+  },
+  {
+    "character": "術",
+    "onyomi": [
+      "ジュツ"
+    ],
+    "kunyomi": [
+      "すべ"
+    ],
+    "meaning": "art, technique, skill, means, trick, resources, magic",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A1%93-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A1%93"
+  },
+  {
+    "character": "備",
+    "onyomi": [
+      "ビ"
+    ],
+    "kunyomi": [
+      "そな.える",
+      "そな.わる",
+      "つぶさ.に"
+    ],
+    "meaning": "equip, provision, preparation",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%82%99-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%82%99"
+  },
+  {
+    "character": "宅",
+    "onyomi": [
+      "タク"
+    ],
+    "kunyomi": [],
+    "meaning": "home, house, residence, our house, my husband",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AE%85-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AE%85"
+  },
+  {
+    "character": "害",
+    "onyomi": [
+      "ガイ"
+    ],
+    "kunyomi": [],
+    "meaning": "harm, injury",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AE%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AE%B3"
+  },
+  {
+    "character": "配",
+    "onyomi": [
+      "ハイ"
+    ],
+    "kunyomi": [
+      "くば.る"
+    ],
+    "meaning": "distribute, spouse, exile, rationing",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%85%8D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%85%8D"
+  },
+  {
+    "character": "警",
+    "onyomi": [
+      "ケイ"
+    ],
+    "kunyomi": [
+      "いまし.める"
+    ],
+    "meaning": "admonish, commandment",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%AD%A6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%AD%A6"
+  },
+  {
+    "character": "育",
+    "onyomi": [
+      "イク"
+    ],
+    "kunyomi": [
+      "そだ.つ",
+      "そだ.ち",
+      "そだ.てる",
+      "はぐく.む"
+    ],
+    "meaning": "bring up, grow up, raise, rear",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%82%B2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%82%B2"
+  },
+  {
+    "character": "席",
+    "onyomi": [
+      "セキ"
+    ],
+    "kunyomi": [
+      "むしろ"
+    ],
+    "meaning": "seat, mat, occasion, place",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B8%AD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B8%AD"
+  },
+  {
+    "character": "訪",
+    "onyomi": [
+      "ホウ"
+    ],
+    "kunyomi": [
+      "おとず.れる",
+      "たず.ねる",
+      "と.う"
+    ],
+    "meaning": "call on, visit, look up, offer sympathy",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A8%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A8%AA"
+  },
+  {
+    "character": "乗",
+    "onyomi": [
+      "ジョウ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "の.る",
+      "-の.り",
+      "の.せる"
+    ],
+    "meaning": "ride, power, multiplication, record, counter for vehicles, board, mount, join",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B9%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B9%97"
+  },
+  {
+    "character": "残",
+    "onyomi": [
+      "ザン",
+      "サン"
+    ],
+    "kunyomi": [
+      "のこ.る",
+      "のこ.す",
+      "そこな.う",
+      "のこ.り"
+    ],
+    "meaning": "remainder, leftover, balance",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%AE%8B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%AE%8B"
+  },
+  {
+    "character": "想",
+    "onyomi": [
+      "ソウ",
+      "ソ"
+    ],
+    "kunyomi": [
+      "おも.う"
+    ],
+    "meaning": "idea, thought, conception, think",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%83%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%83%B3"
+  },
+  {
+    "character": "声",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "こえ",
+      "こわ-"
+    ],
+    "meaning": "voice",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A3%B0-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A3%B0"
+  },
+  {
+    "character": "念",
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [],
+    "meaning": "wish, sense, idea, thought, feeling, desire, attention",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BF%B5-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BF%B5"
+  },
+  {
+    "character": "助",
+    "onyomi": [
+      "ジョ"
+    ],
+    "kunyomi": [
+      "たす.ける",
+      "たす.かる",
+      "す.ける",
+      "すけ"
+    ],
+    "meaning": "help, rescue, assist",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8A%A9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8A%A9"
+  },
+  {
+    "character": "労",
+    "onyomi": [
+      "ロウ"
+    ],
+    "kunyomi": [
+      "ろう.する",
+      "いたわ.る",
+      "いた.ずき",
+      "ねぎら",
+      "つか.れる",
+      "ねぎら.う"
+    ],
+    "meaning": "labor, thank for, reward for, toil, trouble",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8A%B4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8A%B4"
+  },
+  {
+    "character": "例",
+    "onyomi": [
+      "レイ"
+    ],
+    "kunyomi": [
+      "たと.える"
+    ],
+    "meaning": "example, custom, usage, precedent",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BE%8B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BE%8B"
+  },
+  {
+    "character": "然",
+    "onyomi": [
+      "ゼン",
+      "ネン"
+    ],
+    "kunyomi": [
+      "しか",
+      "しか.り",
+      "しか.し",
+      "さ"
+    ],
+    "meaning": "sort of thing, so, if so, in that case, well",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%84%B6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%84%B6"
+  },
+  {
+    "character": "限",
+    "onyomi": [
+      "ゲン"
+    ],
+    "kunyomi": [
+      "かぎ.る",
+      "かぎ.り",
+      "-かぎ.り"
+    ],
+    "meaning": "limit, restrict, to best of ability",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%99%90-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%99%90"
+  },
+  {
+    "character": "追",
+    "onyomi": [
+      "ツイ"
+    ],
+    "kunyomi": [
+      "お.う"
+    ],
+    "meaning": "chase, drive away, follow, pursue, meanwhile",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%BF%BD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%BF%BD"
+  },
+  {
+    "character": "商",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "あきな.う"
+    ],
+    "meaning": "make a deal, selling, dealing in, merchant",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%95%86-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%95%86"
+  },
+  {
+    "character": "葉",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [
+      "は"
+    ],
+    "meaning": "leaf, plane, lobe, needle, blade, spear, counter for flat things, fragment, piece",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%91%89-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%91%89"
+  },
+  {
+    "character": "伝",
+    "onyomi": [
+      "デン",
+      "テン"
+    ],
+    "kunyomi": [
+      "つた.わる",
+      "つた.える",
+      "つた.う",
+      "つだ.う",
+      "-づた.い",
+      "つて"
+    ],
+    "meaning": "transmit, go along, walk along, follow, report, communicate, legend, tradition",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BC%9D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BC%9D"
+  },
+  {
+    "character": "働",
+    "onyomi": [
+      "ドウ"
+    ],
+    "kunyomi": [
+      "はたら.く"
+    ],
+    "meaning": "work, (kokuji)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%83%8D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%83%8D"
+  },
+  {
+    "character": "形",
+    "onyomi": [
+      "ケイ",
+      "ギョウ"
+    ],
+    "kunyomi": [
+      "かた",
+      "-がた",
+      "かたち",
+      "なり"
+    ],
+    "meaning": "shape, form, style",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BD%A2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BD%A2"
+  },
+  {
+    "character": "景",
+    "onyomi": [
+      "ケイ"
+    ],
+    "kunyomi": [],
+    "meaning": "scenery, view",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%99%AF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%99%AF"
+  },
+  {
+    "character": "落",
+    "onyomi": [
+      "ラク"
+    ],
+    "kunyomi": [
+      "お.ちる",
+      "お.ち",
+      "お.とす"
+    ],
+    "meaning": "fall, drop, come down, village, hamlet",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%90%BD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%90%BD"
+  },
+  {
+    "character": "好",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "この.む",
+      "す.く",
+      "よ.い",
+      "い.い"
+    ],
+    "meaning": "fond, pleasing, like something",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A5%BD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A5%BD"
+  },
+  {
+    "character": "退",
+    "onyomi": [
+      "タイ"
+    ],
+    "kunyomi": [
+      "しりぞ.く",
+      "しりぞ.ける",
+      "ひ.く",
+      "の.く",
+      "の.ける",
+      "ど.く"
+    ],
+    "meaning": "retreat, withdraw, retire, resign, repel, expel, reject",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%80%80-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%80%80"
+  },
+  {
+    "character": "頭",
+    "onyomi": [
+      "トウ",
+      "ズ",
+      "ト"
+    ],
+    "kunyomi": [
+      "あたま",
+      "かしら",
+      "-がしら",
+      "かぶり"
+    ],
+    "meaning": "head, counter for large animals",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%A0%AD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%A0%AD"
+  },
+  {
+    "character": "負",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ま.ける",
+      "ま.かす",
+      "お.う"
+    ],
+    "meaning": "defeat, negative, -, minus, bear, owe, assume a responsibility",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%B2%A0-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%B2%A0"
+  },
+  {
+    "character": "韓",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [
+      "から",
+      "いげた"
+    ],
+    "meaning": "Korea",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%9F%93-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%9F%93"
+  },
+  {
+    "character": "渡",
+    "onyomi": [
+      "ト"
+    ],
+    "kunyomi": [
+      "わた.る",
+      "-わた.る",
+      "わた.す"
+    ],
+    "meaning": "transit, ford, ferry, cross, import, deliver, diameter, migrate",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B8%A1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B8%A1"
+  },
+  {
+    "character": "失",
+    "onyomi": [
+      "シツ"
+    ],
+    "kunyomi": [
+      "うしな.う",
+      "う.せる"
+    ],
+    "meaning": "lose, error, fault, disadvantage, loss",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A4%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A4%B1"
+  },
+  {
+    "character": "差",
+    "onyomi": [
+      "サ"
+    ],
+    "kunyomi": [
+      "さ.す",
+      "さ.し"
+    ],
+    "meaning": "distinction, difference, variation, discrepancy, margin, balance",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B7%AE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B7%AE"
+  },
+  {
+    "character": "末",
+    "onyomi": [
+      "マツ",
+      "バツ"
+    ],
+    "kunyomi": [
+      "すえ",
+      "うら",
+      "うれ"
+    ],
+    "meaning": "end, close, tip, powder, posterity",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9C%AB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9C%AB"
+  },
+  {
+    "character": "守",
+    "onyomi": [
+      "シュ",
+      "ス"
+    ],
+    "kunyomi": [
+      "まも.る",
+      "まも.り",
+      "もり",
+      "-もり",
+      "かみ"
+    ],
+    "meaning": "guard, protect, defend, obey",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AE%88-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AE%88"
+  },
+  {
+    "character": "若",
+    "onyomi": [
+      "ジャク",
+      "ニャク",
+      "ニャ"
+    ],
+    "kunyomi": [
+      "わか.い",
+      "わか-",
+      "も.しくわ",
+      "も.し",
+      "も.しくは",
+      "ごと.し"
+    ],
+    "meaning": "young, if, perhaps, possibly, low number, immature",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%8B%A5-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%8B%A5"
+  },
+  {
+    "character": "種",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "たね",
+      "-ぐさ"
+    ],
+    "meaning": "species, kind, class, variety, seed",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%A8%AE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%A8%AE"
+  },
+  {
+    "character": "美",
+    "onyomi": [
+      "ビ",
+      "ミ"
+    ],
+    "kunyomi": [
+      "うつく.しい"
+    ],
+    "meaning": "beauty, beautiful",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%BE%8E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%BE%8E"
+  },
+  {
+    "character": "岡",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "おか"
+    ],
+    "meaning": "mount, hill, knoll",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B2%A1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B2%A1"
+  },
+  {
+    "character": "命",
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunyomi": [
+      "いのち"
+    ],
+    "meaning": "fate, command, decree, destiny, life, appoint",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%91%BD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%91%BD"
+  },
+  {
+    "character": "福",
+    "onyomi": [
+      "フク"
+    ],
+    "kunyomi": [],
+    "meaning": "blessing, fortune, luck, wealth",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%A6%8F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%A6%8F"
+  },
+  {
+    "character": "望",
+    "onyomi": [
+      "ボウ",
+      "モウ"
+    ],
+    "kunyomi": [
+      "のぞ.む",
+      "もち"
+    ],
+    "meaning": "ambition, full moon, hope, desire, aspire to, expect",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9C%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9C%9B"
+  },
+  {
+    "character": "非",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "あら.ず"
+    ],
+    "meaning": "un-, mistake, negative, injustice, non-",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%9D%9E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%9D%9E"
+  },
+  {
+    "character": "観",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [
+      "み.る",
+      "しめ.す"
+    ],
+    "meaning": "outlook, look, appearance, condition, view",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A6%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A6%B3"
+  },
+  {
+    "character": "察",
+    "onyomi": [
+      "サツ"
+    ],
+    "kunyomi": [],
+    "meaning": "guess, presume, surmise, judge, understand",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AF%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AF%9F"
+  },
+  {
+    "character": "段",
+    "onyomi": [
+      "ダン",
+      "タン"
+    ],
+    "kunyomi": [],
+    "meaning": "grade, steps, stairs",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%AE%B5-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%AE%B5"
+  },
+  {
+    "character": "横",
+    "onyomi": [
+      "オウ"
+    ],
+    "kunyomi": [
+      "よこ"
+    ],
+    "meaning": "sideways, side, horizontal, width, woof, unreasonable, perverse",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%A8%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%A8%AA"
+  },
+  {
+    "character": "深",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "ふか.い",
+      "-ぶか.い",
+      "ふか.まる",
+      "ふか.める",
+      "み-"
+    ],
+    "meaning": "deep, heighten, intensify, strengthen",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B7%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B7%B1"
+  },
+  {
+    "character": "申",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "もう.す",
+      "もう.し-",
+      "さる"
+    ],
+    "meaning": "have the honor to, sign of the monkey, 3-5PM, ninth sign of Chinese zodiac",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%94%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%94%B3"
+  },
+  {
+    "character": "様",
+    "onyomi": [
+      "ヨウ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "さま",
+      "さん"
+    ],
+    "meaning": "Esq., way, manner, situation, polite suffix",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%A7%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%A7%98"
+  },
+  {
+    "character": "財",
+    "onyomi": [
+      "ザイ",
+      "サイ",
+      "ゾク"
+    ],
+    "kunyomi": [
+      "たから"
+    ],
+    "meaning": "property, money, wealth, assets",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%B2%A1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%B2%A1"
+  },
+  {
+    "character": "港",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "みなと"
+    ],
+    "meaning": "harbor",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B8%AF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B8%AF"
+  },
+  {
+    "character": "識",
+    "onyomi": [
+      "シキ"
+    ],
+    "kunyomi": [
+      "し.る",
+      "しる.す"
+    ],
+    "meaning": "discriminating, know, write",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%AD%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%AD%98"
+  },
+  {
+    "character": "呼",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "よ.ぶ"
+    ],
+    "meaning": "call, call out to, invite",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%91%BC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%91%BC"
+  },
+  {
+    "character": "達",
+    "onyomi": [
+      "タツ",
+      "ダ"
+    ],
+    "kunyomi": [
+      "-たち"
+    ],
+    "meaning": "accomplished, reach, arrive, attain",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%81%94-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%81%94"
+  },
+  {
+    "character": "良",
+    "onyomi": [
+      "リョウ"
+    ],
+    "kunyomi": [
+      "よ.い",
+      "-よ.い",
+      "い.い",
+      "-い.い"
+    ],
+    "meaning": "good, pleasing, skilled",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%89%AF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%89%AF"
+  },
+  {
+    "character": "阪",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "さか"
+    ],
+    "meaning": "heights, slope",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%98%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%98%AA"
+  },
+  {
+    "character": "候",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "そうろう"
+    ],
+    "meaning": "climate, season, weather, wait for, expect",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%80%99-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%80%99"
+  },
+  {
+    "character": "程",
+    "onyomi": [
+      "テイ"
+    ],
+    "kunyomi": [
+      "ほど",
+      "-ほど"
+    ],
+    "meaning": "extent, degree, law, formula, distance, limits, amount",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%A8%8B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%A8%8B"
+  },
+  {
+    "character": "満",
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "kunyomi": [
+      "み.ちる",
+      "み.つ",
+      "み.たす"
+    ],
+    "meaning": "full, fullness, enough, satisfy",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%BA%80-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%BA%80"
+  },
+  {
+    "character": "敗",
+    "onyomi": [
+      "ハイ"
+    ],
+    "kunyomi": [
+      "やぶ.れる"
+    ],
+    "meaning": "failure, defeat, reversal",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%95%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%95%97"
+  },
+  {
+    "character": "値",
+    "onyomi": [
+      "チ"
+    ],
+    "kunyomi": [
+      "ね",
+      "あたい"
+    ],
+    "meaning": "price, cost, value",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%80%A4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%80%A4"
+  },
+  {
+    "character": "突",
+    "onyomi": [
+      "トツ",
+      "カ"
+    ],
+    "kunyomi": [
+      "つ.く"
+    ],
+    "meaning": "stab, protruding, thrust, pierce, prick, collision, sudden",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%AA%81-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%AA%81"
+  },
+  {
+    "character": "光",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "ひか.る",
+      "ひかり"
+    ],
+    "meaning": "ray, light",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%85%89-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%85%89"
+  },
+  {
+    "character": "路",
+    "onyomi": [
+      "ロ",
+      "ル"
+    ],
+    "kunyomi": [
+      "-じ",
+      "みち"
+    ],
+    "meaning": "path, route, road, distance",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%B7%AF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%B7%AF"
+  },
+  {
+    "character": "科",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [],
+    "meaning": "department, course, section",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%A7%91-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%A7%91"
+  },
+  {
+    "character": "積",
+    "onyomi": [
+      "セキ"
+    ],
+    "kunyomi": [
+      "つ.む",
+      "-づ.み",
+      "つ.もる",
+      "つ.もり"
+    ],
+    "meaning": "volume, product (x*y), acreage, contents, pile up, stack, load, amass",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%A9%8D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%A9%8D"
+  },
+  {
+    "character": "他",
+    "onyomi": [
+      "タ"
+    ],
+    "kunyomi": [
+      "ほか"
+    ],
+    "meaning": "other, another, the others",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BB%96-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BB%96"
+  },
+  {
+    "character": "処",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "ところ",
+      "-こ",
+      "お.る"
+    ],
+    "meaning": "dispose, manage, deal with, sentence, condemn, act, behave, place",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%87%A6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%87%A6"
+  },
+  {
+    "character": "太",
+    "onyomi": [
+      "タイ",
+      "タ"
+    ],
+    "kunyomi": [
+      "ふと.い",
+      "ふと.る"
+    ],
+    "meaning": "plump, thick, big around",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A4%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A4%AA"
+  },
+  {
+    "character": "客",
+    "onyomi": [
+      "キャク",
+      "カク"
+    ],
+    "kunyomi": [],
+    "meaning": "guest, visitor, customer, client",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AE%A2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AE%A2"
+  },
+  {
+    "character": "否",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "いな",
+      "いや"
+    ],
+    "meaning": "negate, no, noes, refuse, decline, deny",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%90%A6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%90%A6"
+  },
+  {
+    "character": "師",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "いくさ"
+    ],
+    "meaning": "expert, teacher, master, model, exemplar, army (incl. counter), war",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B8%AB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B8%AB"
+  },
+  {
+    "character": "登",
+    "onyomi": [
+      "トウ",
+      "ト",
+      "ドウ",
+      "ショウ",
+      "チョウ"
+    ],
+    "kunyomi": [
+      "のぼ.る",
+      "あ.がる"
+    ],
+    "meaning": "ascend, climb up",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%99%BB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%99%BB"
+  },
+  {
+    "character": "易",
+    "onyomi": [
+      "エキ",
+      "イ"
+    ],
+    "kunyomi": [
+      "やさ.しい",
+      "やす.い"
+    ],
+    "meaning": "easy, ready to, simple, fortune-telling, divination",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%98%93-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%98%93"
+  },
+  {
+    "character": "速",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "はや.い",
+      "はや-",
+      "はや.める",
+      "すみ.やか"
+    ],
+    "meaning": "quick, fast",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%80%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%80%9F"
+  },
+  {
+    "character": "存",
+    "onyomi": [
+      "ソン",
+      "ゾン"
+    ],
+    "kunyomi": [
+      "ながら.える",
+      "あ.る",
+      "たも.つ",
+      "と.う"
+    ],
+    "meaning": "exist, suppose, be aware of, believe, feel",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AD%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AD%98"
+  },
+  {
+    "character": "飛",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "と.ぶ",
+      "と.ばす",
+      "-と.ばす"
+    ],
+    "meaning": "fly, skip (pages), scatter",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%A3%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%A3%9B"
+  },
+  {
+    "character": "殺",
+    "onyomi": [
+      "サツ",
+      "サイ",
+      "セツ"
+    ],
+    "kunyomi": [
+      "ころ.す",
+      "-ごろ.し",
+      "そ.ぐ",
+      "あや.める"
+    ],
+    "meaning": "kill, murder, butcher, slice off, split, diminish, reduce, spoil",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%AE%BA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%AE%BA"
+  },
+  {
+    "character": "号",
+    "onyomi": [
+      "ゴウ"
+    ],
+    "kunyomi": [
+      "さけ.ぶ",
+      "よびな"
+    ],
+    "meaning": "nickname, number, item, title, pseudonym, name, call",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8F%B7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8F%B7"
+  },
+  {
+    "character": "単",
+    "onyomi": [
+      "タン"
+    ],
+    "kunyomi": [
+      "ひとえ"
+    ],
+    "meaning": "simple, one, single, merely",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8D%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8D%98"
+  },
+  {
+    "character": "座",
+    "onyomi": [
+      "ザ"
+    ],
+    "kunyomi": [
+      "すわ.る"
+    ],
+    "meaning": "squat, seat, cushion, gathering, sit",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BA%A7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BA%A7"
+  },
+  {
+    "character": "破",
+    "onyomi": [
+      "ハ"
+    ],
+    "kunyomi": [
+      "やぶ.る",
+      "やぶ.れる",
+      "わ.れる"
+    ],
+    "meaning": "rend, rip, tear, break, destroy, defeat, frustrate",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%A0%B4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%A0%B4"
+  },
+  {
+    "character": "除",
+    "onyomi": [
+      "ジョ",
+      "ジ"
+    ],
+    "kunyomi": [
+      "のぞ.く",
+      "-よ.け"
+    ],
+    "meaning": "exclude, division (x/3), remove, abolish, cancel, except",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%99%A4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%99%A4"
+  },
+  {
+    "character": "完",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [],
+    "meaning": "perfect, completion, end",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AE%8C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AE%8C"
+  },
+  {
+    "character": "降",
+    "onyomi": [
+      "コウ",
+      "ゴ"
+    ],
+    "kunyomi": [
+      "お.りる",
+      "お.ろす",
+      "ふ.る",
+      "ふ.り",
+      "くだ.る",
+      "くだ.す"
+    ],
+    "meaning": "descend, precipitate, fall, surrender",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%99%8D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%99%8D"
+  },
+  {
+    "character": "責",
+    "onyomi": [
+      "セキ"
+    ],
+    "kunyomi": [
+      "せ.める"
+    ],
+    "meaning": "blame, condemn, censure",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%B2%AC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%B2%AC"
+  },
+  {
+    "character": "捕",
+    "onyomi": [
+      "ホ"
+    ],
+    "kunyomi": [
+      "と.らえる",
+      "と.らわれる",
+      "と.る",
+      "とら.える",
+      "とら.われる",
+      "つか.まえる",
+      "つか.まる"
+    ],
+    "meaning": "catch, capture",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%8D%95-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%8D%95"
+  },
+  {
+    "character": "危",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "あぶ.ない",
+      "あや.うい",
+      "あや.ぶむ"
+    ],
+    "meaning": "dangerous, fear, uneasy",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8D%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8D%B1"
+  },
+  {
+    "character": "給",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "たま.う",
+      "たも.う",
+      "-たま.え"
+    ],
+    "meaning": "salary, wage, gift, allow, grant, bestow on",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%B5%A6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%B5%A6"
+  },
+  {
+    "character": "苦",
+    "onyomi": [
+      "ク"
+    ],
+    "kunyomi": [
+      "くる.しい",
+      "-ぐる.しい",
+      "くる.しむ",
+      "くる.しめる",
+      "にが.い",
+      "にが.る"
+    ],
+    "meaning": "suffering, trial, worry, hardship, feel bitter, scowl",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%8B%A6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%8B%A6"
+  },
+  {
+    "character": "迎",
+    "onyomi": [
+      "ゲイ"
+    ],
+    "kunyomi": [
+      "むか.える"
+    ],
+    "meaning": "welcome, meet, greet",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%BF%8E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%BF%8E"
+  },
+  {
+    "character": "園",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "その"
+    ],
+    "meaning": "park, garden, yard, farm",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%9C%92-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%9C%92"
+  },
+  {
+    "character": "具",
+    "onyomi": [
+      "グ"
+    ],
+    "kunyomi": [
+      "そな.える",
+      "つぶさ.に"
+    ],
+    "meaning": "tool, utensil, means, possess, ingredients, counter for armor, suits, sets of furniture",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%85%B7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%85%B7"
+  },
+  {
+    "character": "辞",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "や.める",
+      "いな.む"
+    ],
+    "meaning": "resign, word, term, expression",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%BE%9E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%BE%9E"
+  },
+  {
+    "character": "因",
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "よ.る",
+      "ちな.む"
+    ],
+    "meaning": "cause, factor, be associated with, depend on, be limited to",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%9B%A0-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%9B%A0"
+  },
+  {
+    "character": "馬",
+    "onyomi": [
+      "バ"
+    ],
+    "kunyomi": [
+      "うま",
+      "うま-",
+      "ま"
+    ],
+    "meaning": "horse",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%A6%AC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%A6%AC"
+  },
+  {
+    "character": "愛",
+    "onyomi": [
+      "アイ"
+    ],
+    "kunyomi": [
+      "いと.しい",
+      "かな.しい",
+      "め.でる",
+      "お.しむ",
+      "まな"
+    ],
+    "meaning": "love, affection, favourite",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%84%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%84%9B"
+  },
+  {
+    "character": "富",
+    "onyomi": [
+      "フ",
+      "フウ"
+    ],
+    "kunyomi": [
+      "と.む",
+      "とみ"
+    ],
+    "meaning": "wealth, enrich, abundant",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AF%8C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AF%8C"
+  },
+  {
+    "character": "彼",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "かれ",
+      "かの",
+      "か.の"
+    ],
+    "meaning": "he, that, the",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BD%BC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BD%BC"
+  },
+  {
+    "character": "未",
+    "onyomi": [
+      "ミ",
+      "ビ"
+    ],
+    "kunyomi": [
+      "いま.だ",
+      "ま.だ",
+      "ひつじ"
+    ],
+    "meaning": "un-, not yet, hitherto, still, even now, sign of the ram, 1-3PM, eighth sign of Chinese zodiac",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9C%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9C%AA"
+  },
+  {
+    "character": "舞",
+    "onyomi": [
+      "ブ"
+    ],
+    "kunyomi": [
+      "ま.う",
+      "-ま.う",
+      "まい"
+    ],
+    "meaning": "dance, flit, circle, wheel",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%88%9E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%88%9E"
+  },
+  {
+    "character": "亡",
+    "onyomi": [
+      "ボウ",
+      "モウ"
+    ],
+    "kunyomi": [
+      "な.い",
+      "な.き-",
+      "ほろ.びる",
+      "ほろ.ぶ",
+      "ほろ.ぼす"
+    ],
+    "meaning": "deceased, the late, dying, perish",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BA%A1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BA%A1"
+  },
+  {
+    "character": "冷",
+    "onyomi": [
+      "レイ"
+    ],
+    "kunyomi": [
+      "つめ.たい",
+      "ひ.える",
+      "ひ.や",
+      "ひ.ややか",
+      "ひ.やす",
+      "ひ.やかす",
+      "さ.める",
+      "さ.ます"
+    ],
+    "meaning": "cool, cold (beer, person), chill",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%86%B7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%86%B7"
+  },
+  {
+    "character": "適",
+    "onyomi": [
+      "テキ"
+    ],
+    "kunyomi": [
+      "かな.う"
+    ],
+    "meaning": "suitable, occasional, rare, qualified, capable",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%81%A9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%81%A9"
+  },
+  {
+    "character": "婦",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "よめ"
+    ],
+    "meaning": "lady, woman, wife, bride",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A9%A6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A9%A6"
+  },
+  {
+    "character": "寄",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "よ.る",
+      "-よ.り",
+      "よ.せる"
+    ],
+    "meaning": "draw near, stop in, bring near, gather, collect, send, forward",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AF%84-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AF%84"
+  },
+  {
+    "character": "込",
+    "onyomi": [],
+    "kunyomi": [
+      "-こ.む",
+      "こ.む",
+      "こ.み",
+      "-こ.み",
+      "こ.める"
+    ],
+    "meaning": "crowded, mixture, in bulk, included, (kokuji)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%BE%BC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%BE%BC"
+  },
+  {
+    "character": "顔",
+    "onyomi": [
+      "ガン"
+    ],
+    "kunyomi": [
+      "かお"
+    ],
+    "meaning": "face, expression",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%A1%94-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%A1%94"
+  },
+  {
+    "character": "類",
+    "onyomi": [
+      "ルイ"
+    ],
+    "kunyomi": [
+      "たぐ.い"
+    ],
+    "meaning": "sort, kind, variety, class, genus",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%A1%9E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%A1%9E"
+  },
+  {
+    "character": "余",
+    "onyomi": [
+      "ヨ"
+    ],
+    "kunyomi": [
+      "あま.る",
+      "あま.り",
+      "あま.す",
+      "あんま.り"
+    ],
+    "meaning": "too much, myself, surplus, other, remainder",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BD%99-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BD%99"
+  },
+  {
+    "character": "王",
+    "onyomi": [
+      "オウ",
+      "-ノウ"
+    ],
+    "kunyomi": [],
+    "meaning": "king, rule, magnate",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%8E%8B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%8E%8B"
+  },
+  {
+    "character": "返",
+    "onyomi": [
+      "ヘン"
+    ],
+    "kunyomi": [
+      "かえ.す",
+      "-かえ.す",
+      "かえ.る",
+      "-かえ.る"
+    ],
+    "meaning": "return, answer, fade, repay",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%BF%94-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%BF%94"
+  },
+  {
+    "character": "妻",
+    "onyomi": [
+      "サイ"
+    ],
+    "kunyomi": [
+      "つま"
+    ],
+    "meaning": "wife, spouse",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A6%BB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A6%BB"
+  },
+  {
+    "character": "背",
+    "onyomi": [
+      "ハイ"
+    ],
+    "kunyomi": [
+      "せ",
+      "せい",
+      "そむ.く",
+      "そむ.ける"
+    ],
+    "meaning": "stature, height, back, behind, disobey, defy, go back on, rebel",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%83%8C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%83%8C"
+  },
+  {
+    "character": "熱",
+    "onyomi": [
+      "ネツ"
+    ],
+    "kunyomi": [
+      "あつ.い"
+    ],
+    "meaning": "heat, temperature, fever, mania, passion",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%86%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%86%B1"
+  },
+  {
+    "character": "宿",
+    "onyomi": [
+      "シュク"
+    ],
+    "kunyomi": [
+      "やど",
+      "やど.る",
+      "やど.す"
+    ],
+    "meaning": "inn, lodging, relay station, dwell, lodge, be pregnant, home, dwelling",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AE%BF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AE%BF"
+  },
+  {
+    "character": "薬",
+    "onyomi": [
+      "ヤク"
+    ],
+    "kunyomi": [
+      "くすり"
+    ],
+    "meaning": "medicine, chemical, enamel, gunpowder, benefit",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%96%AC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%96%AC"
+  },
+  {
+    "character": "険",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "けわ.しい"
+    ],
+    "meaning": "precipitous, inaccessible place, impregnable position, steep place, sharp eyes",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%99%BA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%99%BA"
+  },
+  {
+    "character": "頼",
+    "onyomi": [
+      "ライ"
+    ],
+    "kunyomi": [
+      "たの.む",
+      "たの.もしい",
+      "たよ.る"
+    ],
+    "meaning": "trust, request",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%A0%BC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%A0%BC"
+  },
+  {
+    "character": "覚",
+    "onyomi": [
+      "カク"
+    ],
+    "kunyomi": [
+      "おぼ.える",
+      "さ.ます",
+      "さ.める",
+      "さと.る"
+    ],
+    "meaning": "memorize, learn, remember, awake, sober up",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A6%9A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A6%9A"
+  },
+  {
+    "character": "船",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ふね",
+      "ふな-"
+    ],
+    "meaning": "ship, boat",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%88%B9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%88%B9"
+  },
+  {
+    "character": "途",
+    "onyomi": [
+      "ト"
+    ],
+    "kunyomi": [
+      "みち"
+    ],
+    "meaning": "route, way, road",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%80%94-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%80%94"
+  },
+  {
+    "character": "許",
+    "onyomi": [
+      "キョ"
+    ],
+    "kunyomi": [
+      "ゆる.す",
+      "もと"
+    ],
+    "meaning": "permit, approve",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A8%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A8%B1"
+  },
+  {
+    "character": "抜",
+    "onyomi": [
+      "バツ",
+      "ハツ",
+      "ハイ"
+    ],
+    "kunyomi": [
+      "ぬ.く",
+      "-ぬ.く",
+      "ぬ.き",
+      "ぬ.ける",
+      "ぬ.かす",
+      "ぬ.かる"
+    ],
+    "meaning": "slip out, extract, pull out, pilfer, quote, remove, omit",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%8A%9C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%8A%9C"
+  },
+  {
+    "character": "便",
+    "onyomi": [
+      "ベン",
+      "ビン"
+    ],
+    "kunyomi": [
+      "たよ.り"
+    ],
+    "meaning": "convenience, facility, excrement, feces, letter, chance",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BE%BF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BE%BF"
+  },
+  {
+    "character": "留",
+    "onyomi": [
+      "リュウ",
+      "ル"
+    ],
+    "kunyomi": [
+      "と.める",
+      "と.まる",
+      "とど.める",
+      "とど.まる",
+      "るうぶる"
+    ],
+    "meaning": "detain, fasten, halt, stop",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%95%99-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%95%99"
+  },
+  {
+    "character": "罪",
+    "onyomi": [
+      "ザイ"
+    ],
+    "kunyomi": [
+      "つみ"
+    ],
+    "meaning": "guilt, sin, crime, fault, blame, offense",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%BD%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%BD%AA"
+  },
+  {
+    "character": "狙",
+    "onyomi": [
+      "ソ",
+      "ショ"
+    ],
+    "kunyomi": [
+      "ねら.う",
+      "ねら.い"
+    ],
+    "meaning": "aim at, sight, shadow, stalk",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%8B%99-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%8B%99"
+  },
+  {
+    "character": "努",
+    "onyomi": [
+      "ド"
+    ],
+    "kunyomi": [
+      "つと.める"
+    ],
+    "meaning": "toil, diligent, as much as possible",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8A%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8A%AA"
+  },
+  {
+    "character": "精",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "しら.げる",
+      "くわ.しい"
+    ],
+    "meaning": "refined, ghost, fairy, energy, vitality, semen, excellence, purity, skill",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%B2%BE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%B2%BE"
+  },
+  {
+    "character": "散",
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "ち.る",
+      "ち.らす",
+      "-ち.らす",
+      "ち.らかす",
+      "ち.らかる",
+      "ち.らばる",
+      "ばら",
+      "ばら.ける"
+    ],
+    "meaning": "scatter, disperse, spend, squander",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%95%A3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%95%A3"
+  },
+  {
+    "character": "静",
+    "onyomi": [
+      "セイ",
+      "ジョウ"
+    ],
+    "kunyomi": [
+      "しず-",
+      "しず.か",
+      "しず.まる",
+      "しず.める"
+    ],
+    "meaning": "quiet",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%9D%99-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%9D%99"
+  },
+  {
+    "character": "婚",
+    "onyomi": [
+      "コン"
+    ],
+    "kunyomi": [],
+    "meaning": "marriage",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A9%9A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A9%9A"
+  },
+  {
+    "character": "喜",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "よろこ.ぶ",
+      "よろこ.ばす"
+    ],
+    "meaning": "rejoice, take pleasure in",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%96%9C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%96%9C"
+  },
+  {
+    "character": "浮",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "う.く",
+      "う.かれる",
+      "う.かぶ",
+      "う.かべる"
+    ],
+    "meaning": "floating, float, rise to surface",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B5%AE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B5%AE"
+  },
+  {
+    "character": "絶",
+    "onyomi": [
+      "ゼツ"
+    ],
+    "kunyomi": [
+      "た.える",
+      "た.やす",
+      "た.つ"
+    ],
+    "meaning": "discontinue, sever, cut off, abstain, interrupt, suppress, be beyond, without match, peerless, unparalleled",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%B5%B6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%B5%B6"
+  },
+  {
+    "character": "幸",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "さいわ.い",
+      "さち",
+      "しあわ.せ"
+    ],
+    "meaning": "happiness, blessing, fortune",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B9%B8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B9%B8"
+  },
+  {
+    "character": "押",
+    "onyomi": [
+      "オウ"
+    ],
+    "kunyomi": [
+      "お.す",
+      "お.し-",
+      "お.っ-",
+      "お.さえる",
+      "おさ.える"
+    ],
+    "meaning": "push, stop, check, subdue, attach, seize, weight, shove, press, seal, do in spite of",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%8A%BC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%8A%BC"
+  },
+  {
+    "character": "倒",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "たお.れる",
+      "-だお.れ",
+      "たお.す",
+      "さかさま",
+      "さかさ",
+      "さかしま"
+    ],
+    "meaning": "overthrow, fall, collapse, drop, break down",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%80%92-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%80%92"
+  },
+  {
+    "character": "等",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ひと.しい",
+      "など",
+      "-ら"
+    ],
+    "meaning": "etc., and so forth, class (first), quality, equal, similar",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%AD%89-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%AD%89"
+  },
+  {
+    "character": "老",
+    "onyomi": [
+      "ロウ"
+    ],
+    "kunyomi": [
+      "お.いる",
+      "ふ.ける"
+    ],
+    "meaning": "old man, old age, grow old",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%80%81-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%80%81"
+  },
+  {
+    "character": "曲",
+    "onyomi": [
+      "キョク"
+    ],
+    "kunyomi": [
+      "ま.がる",
+      "ま.げる",
+      "くま"
+    ],
+    "meaning": "bend, music, melody, composition, pleasure, injustice, fault, curve, crooked, perverse, lean",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9B%B2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9B%B2"
+  },
+  {
+    "character": "払",
+    "onyomi": [
+      "フツ",
+      "ヒツ",
+      "ホツ"
+    ],
+    "kunyomi": [
+      "はら.う",
+      "-はら.い",
+      "-ばら.い"
+    ],
+    "meaning": "pay, clear out, prune, banish, dispose of",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%89%95-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%89%95"
+  },
+  {
+    "character": "庭",
+    "onyomi": [
+      "テイ"
+    ],
+    "kunyomi": [
+      "にわ"
+    ],
+    "meaning": "courtyard, garden, yard",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BA%AD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BA%AD"
+  },
+  {
+    "character": "徒",
+    "onyomi": [
+      "ト"
+    ],
+    "kunyomi": [
+      "いたずら",
+      "あだ"
+    ],
+    "meaning": "on foot, junior, emptiness, vanity, futility, uselessness, ephemeral thing, gang, set, party, people",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BE%92-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BE%92"
+  },
+  {
+    "character": "勤",
+    "onyomi": [
+      "キン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "つと.める",
+      "-づと.め",
+      "つと.まる",
+      "いそ.しむ"
+    ],
+    "meaning": "diligence, become employed, serve",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8B%A4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8B%A4"
+  },
+  {
+    "character": "遅",
+    "onyomi": [
+      "チ"
+    ],
+    "kunyomi": [
+      "おく.れる",
+      "おく.らす",
+      "おそ.い"
+    ],
+    "meaning": "slow, late, back, later",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%81%85-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%81%85"
+  },
+  {
+    "character": "居",
+    "onyomi": [
+      "キョ",
+      "コ"
+    ],
+    "kunyomi": [
+      "い.る",
+      "-い",
+      "お.る"
+    ],
+    "meaning": "reside, to be, exist, live with",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B1%85-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B1%85"
+  },
+  {
+    "character": "雑",
+    "onyomi": [
+      "ザツ",
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "まじ.える",
+      "まじ.る"
+    ],
+    "meaning": "miscellaneous",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%9B%91-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%9B%91"
+  },
+  {
+    "character": "招",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "まね.く"
+    ],
+    "meaning": "beckon, invite, summon, engage",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%8B%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%8B%9B"
+  },
+  {
+    "character": "困",
+    "onyomi": [
+      "コン"
+    ],
+    "kunyomi": [
+      "こま.る"
+    ],
+    "meaning": "quandary, become distressed, annoyed",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%9B%B0-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%9B%B0"
+  },
+  {
+    "character": "欠",
+    "onyomi": [
+      "ケツ",
+      "ケン"
+    ],
+    "kunyomi": [
+      "か.ける",
+      "か.く"
+    ],
+    "meaning": "lack, gap, fail, yawning radical (no. 76)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%AC%A0-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%AC%A0"
+  },
+  {
+    "character": "更",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "さら",
+      "さら.に",
+      "ふ.ける",
+      "ふ.かす"
+    ],
+    "meaning": "grow late, night watch, sit up late, of course, renew, renovate, again, more and more, further",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9B%B4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9B%B4"
+  },
+  {
+    "character": "刻",
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "きざ.む",
+      "きざ.み"
+    ],
+    "meaning": "engrave, cut fine, chop, hash, mince, time, carving",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%88%BB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%88%BB"
+  },
+  {
+    "character": "賛",
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "たす.ける",
+      "たた.える"
+    ],
+    "meaning": "approve, praise, title or inscription on picture, assist, agree with",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%B3%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%B3%9B"
+  },
+  {
+    "character": "抱",
+    "onyomi": [
+      "ホウ"
+    ],
+    "kunyomi": [
+      "だ.く",
+      "いだ.く",
+      "かか.える"
+    ],
+    "meaning": "embrace, hug, hold in arms",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%8A%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%8A%B1"
+  },
+  {
+    "character": "犯",
+    "onyomi": [
+      "ハン",
+      "ボン"
+    ],
+    "kunyomi": [
+      "おか.す"
+    ],
+    "meaning": "crime, sin, offense",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%8A%AF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%8A%AF"
+  },
+  {
+    "character": "恐",
+    "onyomi": [
+      "キョウ"
+    ],
+    "kunyomi": [
+      "おそ.れる",
+      "おそ.る",
+      "おそ.ろしい",
+      "こわ.い",
+      "こわ.がる"
+    ],
+    "meaning": "fear, dread, awe",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%81%90-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%81%90"
+  },
+  {
+    "character": "息",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "いき"
+    ],
+    "meaning": "breath, respiration, son, interest (on money), nuture, rest, coming to an end",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%81%AF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%81%AF"
+  },
+  {
+    "character": "遠",
+    "onyomi": [
+      "エン",
+      "オン"
+    ],
+    "kunyomi": [
+      "とお.い"
+    ],
+    "meaning": "distant, far",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%81%A0-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%81%A0"
+  },
+  {
+    "character": "戻",
+    "onyomi": [
+      "レイ"
+    ],
+    "kunyomi": [
+      "もど.す",
+      "もど.る"
+    ],
+    "meaning": "re-, return, revert, resume, restore, go backwards",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%88%BB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%88%BB"
+  },
+  {
+    "character": "願",
+    "onyomi": [
+      "ガン"
+    ],
+    "kunyomi": [
+      "ねが.う",
+      "-ねがい"
+    ],
+    "meaning": "petition, request, vow, wish, hope",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%A1%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%A1%98"
+  },
+  {
+    "character": "絵",
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "kunyomi": [],
+    "meaning": "picture, drawing, painting, sketch",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%B5%B5-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%B5%B5"
+  },
+  {
+    "character": "越",
+    "onyomi": [
+      "エツ",
+      "オツ"
+    ],
+    "kunyomi": [
+      "こ.す",
+      "-こ.す",
+      "-ご.し",
+      "こ.える",
+      "-ご.え"
+    ],
+    "meaning": "surpass, cross over, move to, exceed, Vietnam",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%B6%8A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%B6%8A"
+  },
+  {
+    "character": "欲",
+    "onyomi": [
+      "ヨク"
+    ],
+    "kunyomi": [
+      "ほっ.する",
+      "ほ.しい"
+    ],
+    "meaning": "longing, covetousness, greed, passion, desire, craving",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%AC%B2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%AC%B2"
+  },
+  {
+    "character": "痛",
+    "onyomi": [
+      "ツウ"
+    ],
+    "kunyomi": [
+      "いた.い",
+      "いた.む",
+      "いた.ましい",
+      "いた.める"
+    ],
+    "meaning": "pain, hurt, damage, bruise",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%97%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%97%9B"
+  },
+  {
+    "character": "笑",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "わら.う",
+      "え.む"
+    ],
+    "meaning": "laugh",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%AC%91-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%AC%91"
+  },
+  {
+    "character": "互",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "たが.い",
+      "かたみ.に"
+    ],
+    "meaning": "mutually, reciprocally, together",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BA%92-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BA%92"
+  },
+  {
+    "character": "束",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "たば",
+      "たば.ねる",
+      "つか",
+      "つか.ねる"
+    ],
+    "meaning": "bundle, sheaf, ream, tie in bundles, govern, manage, control",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9D%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9D%9F"
+  },
+  {
+    "character": "似",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "に.る",
+      "ひ.る"
+    ],
+    "meaning": "becoming, resemble, counterfeit, imitate, suitable",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BC%BC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BC%BC"
+  },
+  {
+    "character": "列",
+    "onyomi": [
+      "レツ",
+      "レ"
+    ],
+    "kunyomi": [],
+    "meaning": "file, row, rank, tier, column",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%88%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%88%97"
+  },
+  {
+    "character": "探",
+    "onyomi": [
+      "タン"
+    ],
+    "kunyomi": [
+      "さぐ.る",
+      "さが.す"
+    ],
+    "meaning": "grope, search, look for",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%8E%A2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%8E%A2"
+  },
+  {
+    "character": "逃",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "に.げる",
+      "に.がす",
+      "のが.す",
+      "のが.れる"
+    ],
+    "meaning": "escape, flee, shirk, evade, set free",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%80%83-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%80%83"
+  },
+  {
+    "character": "遊",
+    "onyomi": [
+      "ユウ",
+      "ユ"
+    ],
+    "kunyomi": [
+      "あそ.ぶ",
+      "あそ.ばす"
+    ],
+    "meaning": "play",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%81%8A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%81%8A"
+  },
+  {
+    "character": "迷",
+    "onyomi": [
+      "メイ"
+    ],
+    "kunyomi": [
+      "まよ.う"
+    ],
+    "meaning": "astray, be perplexed, in doubt, lost, err, illusion",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%BF%B7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%BF%B7"
+  },
+  {
+    "character": "夢",
+    "onyomi": [
+      "ム",
+      "ボウ"
+    ],
+    "kunyomi": [
+      "ゆめ",
+      "ゆめ.みる",
+      "くら.い"
+    ],
+    "meaning": "dream, vision, illusion",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A4%A2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A4%A2"
+  },
+  {
+    "character": "君",
+    "onyomi": [
+      "クン"
+    ],
+    "kunyomi": [
+      "きみ",
+      "-ぎみ"
+    ],
+    "meaning": "mister, you, ruler, male name suffix",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%90%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%90%9B"
+  },
+  {
+    "character": "閉",
+    "onyomi": [
+      "ヘイ"
+    ],
+    "kunyomi": [
+      "と.じる",
+      "と.ざす",
+      "し.める",
+      "し.まる",
+      "た.てる"
+    ],
+    "meaning": "closed, shut",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%96%89-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%96%89"
+  },
+  {
+    "character": "緒",
+    "onyomi": [
+      "ショ",
+      "チョ"
+    ],
+    "kunyomi": [
+      "お",
+      "いとぐち"
+    ],
+    "meaning": "thong, beginning, inception, end, cord, strap, mental or emotional state",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%B7%92-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%B7%92"
+  },
+  {
+    "character": "折",
+    "onyomi": [
+      "セツ",
+      "シャク"
+    ],
+    "kunyomi": [
+      "お.る",
+      "おり",
+      "お.り",
+      "-お.り",
+      "お.れる"
+    ],
+    "meaning": "fold, break, fracture, bend, yield, submit",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%8A%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%8A%98"
+  },
+  {
+    "character": "草",
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [
+      "くさ",
+      "くさ-",
+      "-ぐさ"
+    ],
+    "meaning": "grass, weeds, herbs, pasture, write, draft",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%8D%89-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%8D%89"
+  },
+  {
+    "character": "埼",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "さき",
+      "さい",
+      "みさき"
+    ],
+    "meaning": "cape, spit, promontory",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%9F%BC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%9F%BC"
+  },
+  {
+    "character": "暮",
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [
+      "く.れる",
+      "く.らす"
+    ],
+    "meaning": "evening, twilight, season's end, livelihood, make a living, spend time",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9A%AE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9A%AE"
+  },
+  {
+    "character": "酒",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "さけ",
+      "さか-"
+    ],
+    "meaning": "sake, alcohol",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%85%92-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%85%92"
+  },
+  {
+    "character": "悲",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "かな.しい",
+      "かな.しむ"
+    ],
+    "meaning": "grieve, sad, deplore, regret",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%82%B2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%82%B2"
+  },
+  {
+    "character": "晴",
+    "onyomi": [
+      "セイ"
+    ],
+    "kunyomi": [
+      "は.れる",
+      "は.れ",
+      "は.れ-",
+      "-ば.れ",
+      "は.らす"
+    ],
+    "meaning": "clear up",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%99%B4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%99%B4"
+  },
+  {
+    "character": "掛",
+    "onyomi": [
+      "カイ",
+      "ケイ"
+    ],
+    "kunyomi": [
+      "か.ける",
+      "-か.ける",
+      "か.け",
+      "-か.け",
+      "-が.け",
+      "か.かる",
+      "-か.かる",
+      "-が.かる",
+      "か.かり",
+      "-が.かり",
+      "かかり",
+      "-がかり"
+    ],
+    "meaning": "hang, suspend, depend, arrive at, tax, pour",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%8E%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%8E%9B"
+  },
+  {
+    "character": "孝",
+    "onyomi": [
+      "コウ",
+      "キョウ"
+    ],
+    "kunyomi": [],
+    "meaning": "filial piety, child's respect",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AD%9D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AD%9D"
+  },
+  {
+    "character": "到",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "いた.る"
+    ],
+    "meaning": "arrival, proceed, reach, attain, result in",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%88%B0-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%88%B0"
+  },
+  {
+    "character": "寝",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "ね.る",
+      "ね.かす",
+      "い.ぬ",
+      "みたまや",
+      "や.める"
+    ],
+    "meaning": "lie down, sleep, rest, bed, remain unsold",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AF%9D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AF%9D"
+  },
+  {
+    "character": "暗",
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [
+      "くら.い",
+      "くら.む",
+      "くれ.る"
+    ],
+    "meaning": "darkness, disappear, shade, informal, grow dark, be blinded",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9A%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9A%97"
+  },
+  {
+    "character": "盗",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ぬす.む",
+      "ぬす.み"
+    ],
+    "meaning": "steal, rob, pilfer",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%9B%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%9B%97"
+  },
+  {
+    "character": "吸",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "す.う"
+    ],
+    "meaning": "suck, imbibe, inhale, sip",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%90%B8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%90%B8"
+  },
+  {
+    "character": "陽",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [
+      "ひ"
+    ],
+    "meaning": "sunshine, yang principle, positive, male, heaven, daytime",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%99%BD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%99%BD"
+  },
+  {
+    "character": "御",
+    "onyomi": [
+      "ギョ",
+      "ゴ"
+    ],
+    "kunyomi": [
+      "おん-",
+      "お-",
+      "み-"
+    ],
+    "meaning": "honorable, manipulate, govern",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BE%A1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BE%A1"
+  },
+  {
+    "character": "歯",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よわい",
+      "は",
+      "よわ.い",
+      "よわい.する"
+    ],
+    "meaning": "tooth, cog",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%AD%AF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%AD%AF"
+  },
+  {
+    "character": "忘",
+    "onyomi": [
+      "ボウ"
+    ],
+    "kunyomi": [
+      "わす.れる"
+    ],
+    "meaning": "forget",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BF%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BF%98"
+  },
+  {
+    "character": "雪",
+    "onyomi": [
+      "セツ"
+    ],
+    "kunyomi": [
+      "ゆき"
+    ],
+    "meaning": "snow",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%9B%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%9B%AA"
+  },
+  {
+    "character": "吹",
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "ふ.く"
+    ],
+    "meaning": "blow, breathe, puff, emit, smoke",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%90%B9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%90%B9"
+  },
+  {
+    "character": "娘",
+    "onyomi": [
+      "ジョウ"
+    ],
+    "kunyomi": [
+      "むすめ",
+      "こ"
+    ],
+    "meaning": "daughter, girl",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A8%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A8%98"
+  },
+  {
+    "character": "誤",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "あやま.る",
+      "-あやま.る"
+    ],
+    "meaning": "mistake, err, do wrong, mislead",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%AA%A4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%AA%A4"
+  },
+  {
+    "character": "洗",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "あら.う"
+    ],
+    "meaning": "wash, inquire into, probe",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B4%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B4%97"
+  },
+  {
+    "character": "慣",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [
+      "な.れる",
+      "な.らす"
+    ],
+    "meaning": "accustomed, get used to, become experienced",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%85%A3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%85%A3"
+  },
+  {
+    "character": "礼",
+    "onyomi": [
+      "レイ",
+      "ライ"
+    ],
+    "kunyomi": [],
+    "meaning": "salute, bow, ceremony, thanks, remuneration",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%A4%BC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%A4%BC"
+  },
+  {
+    "character": "窓",
+    "onyomi": [
+      "ソウ",
+      "ス"
+    ],
+    "kunyomi": [
+      "まど",
+      "てんまど",
+      "けむだし"
+    ],
+    "meaning": "window, pane",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%AA%93-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%AA%93"
+  },
+  {
+    "character": "昔",
+    "onyomi": [
+      "セキ",
+      "シャク"
+    ],
+    "kunyomi": [
+      "むかし"
+    ],
+    "meaning": "once upon a time, antiquity, old times",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%98%94-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%98%94"
+  },
+  {
+    "character": "茨",
+    "onyomi": [
+      "シ",
+      "ジ"
+    ],
+    "kunyomi": [
+      "いばら",
+      "かや",
+      "くさぶき"
+    ],
+    "meaning": "briar, thorn",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%8C%A8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%8C%A8"
+  },
+  {
+    "character": "貧",
+    "onyomi": [
+      "ヒン",
+      "ビン"
+    ],
+    "kunyomi": [
+      "まず.しい"
+    ],
+    "meaning": "poverty, poor",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%B2%A7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%B2%A7"
+  },
+  {
+    "character": "怒",
+    "onyomi": [
+      "ド",
+      "ヌ"
+    ],
+    "kunyomi": [
+      "いか.る",
+      "おこ.る"
+    ],
+    "meaning": "angry, be offended",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%80%92-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%80%92"
+  },
+  {
+    "character": "泳",
+    "onyomi": [
+      "エイ"
+    ],
+    "kunyomi": [
+      "およ.ぐ"
+    ],
+    "meaning": "swim",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B3%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B3%B3"
+  },
+  {
+    "character": "祖",
+    "onyomi": [
+      "ソ"
+    ],
+    "kunyomi": [],
+    "meaning": "ancestor, pioneer, founder",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%A5%96-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%A5%96"
+  },
+  {
+    "character": "杯",
+    "onyomi": [
+      "ハイ"
+    ],
+    "kunyomi": [
+      "さかずき"
+    ],
+    "meaning": "counter for cupfuls, wine glass, glass, toast",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9D%AF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9D%AF"
+  },
+  {
+    "character": "寿",
+    "onyomi": [
+      "ジュ",
+      "ス",
+      "シュウ"
+    ],
+    "kunyomi": [
+      "ことぶき",
+      "ことぶ.く",
+      "ことほ.ぐ"
+    ],
+    "meaning": "longevity, congratulations, one's natural life",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AF%BF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AF%BF"
+  },
+  {
+    "character": "疲",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "つか.れる",
+      "-づか.れ",
+      "つか.らす"
+    ],
+    "meaning": "exhausted, tire, weary",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%96%B2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%96%B2"
+  },
+  {
+    "character": "皆",
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [
+      "みな",
+      "みんな"
+    ],
+    "meaning": "all, everything",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%9A%86-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%9A%86"
+  },
+  {
+    "character": "鳴",
+    "onyomi": [
+      "メイ"
+    ],
+    "kunyomi": [
+      "な.く",
+      "な.る",
+      "な.らす"
+    ],
+    "meaning": "chirp, cry, bark, sound, ring, echo, honk",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%B3%B4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%B3%B4"
+  },
+  {
+    "character": "腹",
+    "onyomi": [
+      "フク"
+    ],
+    "kunyomi": [
+      "はら"
+    ],
+    "meaning": "abdomen, belly, stomach",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%85%B9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%85%B9"
+  },
+  {
+    "character": "煙",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "けむ.る",
+      "けむり",
+      "けむ.い"
+    ],
+    "meaning": "smoke",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%85%99-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%85%99"
+  },
+  {
+    "character": "眠",
+    "onyomi": [
+      "ミン"
+    ],
+    "kunyomi": [
+      "ねむ.る",
+      "ねむ.い"
+    ],
+    "meaning": "sleep, die, sleepy",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%9C%A0-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%9C%A0"
+  },
+  {
+    "character": "曽",
+    "onyomi": [
+      "ソウ",
+      "ソ",
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "かつ",
+      "かつて",
+      "すなわち"
+    ],
+    "meaning": "formerly, once, before, ever, never, ex-",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9B%BD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9B%BD"
+  },
+  {
+    "character": "怖",
+    "onyomi": [
+      "フ",
+      "ホ"
+    ],
+    "kunyomi": [
+      "こわ.い",
+      "こわ.がる",
+      "お.じる",
+      "おそ.れる"
+    ],
+    "meaning": "dreadful, be frightened, fearful",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%80%96-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%80%96"
+  },
+  {
+    "character": "耳",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "みみ"
+    ],
+    "meaning": "ear",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%80%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%80%B3"
+  },
+  {
+    "character": "頂",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "いただ.く",
+      "いただき"
+    ],
+    "meaning": "place on the head, receive, top of head, top, summit, peak",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%A0%82-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%A0%82"
+  },
+  {
+    "character": "箱",
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [
+      "はこ"
+    ],
+    "meaning": "box, chest, case, bin, railway car",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%AE%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%AE%B1"
+  },
+  {
+    "character": "丈",
+    "onyomi": [
+      "ジョウ"
+    ],
+    "kunyomi": [
+      "たけ",
+      "だけ"
+    ],
+    "meaning": "length, ten shaku, measure, Mr., Ms., height, stature, all (one has), only, that's all, merely",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%88-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%88"
+  },
+  {
+    "character": "晩",
+    "onyomi": [
+      "バン"
+    ],
+    "kunyomi": [],
+    "meaning": "nightfall, night",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%99%A9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%99%A9"
+  },
+  {
+    "character": "栃",
+    "onyomi": [],
+    "kunyomi": [
+      "とち"
+    ],
+    "meaning": "horse chestnut, (kokuji)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%A0%83-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%A0%83"
+  },
+  {
+    "character": "寒",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [
+      "さむ.い"
+    ],
+    "meaning": "cold",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AF%92-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AF%92"
+  },
+  {
+    "character": "髪",
+    "onyomi": [
+      "ハツ"
+    ],
+    "kunyomi": [
+      "かみ"
+    ],
+    "meaning": "hair of the head",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%AB%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%AB%AA"
+  },
+  {
+    "character": "忙",
+    "onyomi": [
+      "ボウ",
+      "モウ"
+    ],
+    "kunyomi": [
+      "いそが.しい",
+      "せわ.しい",
+      "おそ.れる",
+      "うれえるさま"
+    ],
+    "meaning": "busy, occupied, restless",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BF%99-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BF%99"
+  },
+  {
+    "character": "才",
+    "onyomi": [
+      "サイ"
+    ],
+    "kunyomi": [],
+    "meaning": "genius, years old, cubic shaku",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%89%8D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%89%8D"
+  },
+  {
+    "character": "阜",
+    "onyomi": [
+      "フ",
+      "フウ"
+    ],
+    "kunyomi": [],
+    "meaning": "hill, mound, left village radical (no. 170)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%98%9C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%98%9C"
+  },
+  {
+    "character": "粧",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [],
+    "meaning": "cosmetics, adorn (one's person)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%B2%A7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%B2%A7"
+  },
+  {
+    "character": "葛",
+    "onyomi": [
+      "カツ",
+      "カチ"
+    ],
+    "kunyomi": [
+      "つづら",
+      "くず"
+    ],
+    "meaning": "arrowroot, kudzu",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%91%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%91%9B"
+  },
+  {
+    "character": "靴",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "くつ"
+    ],
+    "meaning": "shoes",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%9D%B4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%9D%B4"
+  },
+  {
+    "character": "恥",
+    "onyomi": [
+      "チ"
+    ],
+    "kunyomi": [
+      "は.じる",
+      "はじ",
+      "は.じらう",
+      "は.ずかしい"
+    ],
+    "meaning": "shame, dishonor",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%81%A5-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%81%A5"
+  },
+  {
+    "character": "偶",
+    "onyomi": [
+      "グウ"
+    ],
+    "kunyomi": [
+      "たま"
+    ],
+    "meaning": "accidentally, even number, couple, man & wife, same kind",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%81%B6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%81%B6"
+  },
+  {
+    "character": "偉",
+    "onyomi": [
+      "イ"
+    ],
+    "kunyomi": [
+      "えら.い"
+    ],
+    "meaning": "admirable, greatness, remarkable, conceited, famous, excellent",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%81%89-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%81%89"
+  },
+  {
+    "character": "尻",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "しり"
+    ],
+    "meaning": "buttocks, hips, butt, rear",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B0%BB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B0%BB"
+  },
+  {
+    "character": "猫",
+    "onyomi": [
+      "ビョウ"
+    ],
+    "kunyomi": [
+      "ねこ"
+    ],
+    "meaning": "cat",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%8C%AB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%8C%AB"
+  },
+  {
+    "character": "幾",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "いく-",
+      "いく.つ",
+      "いく.ら"
+    ],
+    "meaning": "how many, how much, how far, how long, some, several",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B9%BE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B9%BE"
+  },
+  {
+    "character": "坊",
+    "onyomi": [
+      "ボウ",
+      "ボッ"
+    ],
+    "kunyomi": [],
+    "meaning": "boy, priest's residence, priest",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%9D%8A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%9D%8A"
+  },
+  {
+    "character": "瓦",
+    "onyomi": [
+      "ガ"
+    ],
+    "kunyomi": [
+      "かわら",
+      "ぐらむ"
+    ],
+    "meaning": "tile, gram",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%93%A6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%93%A6"
+  },
+  {
+    "character": "妖",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [
+      "あや.しい",
+      "なま.めく",
+      "わざわ.い"
+    ],
+    "meaning": "attractive, bewitching, calamity",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A6%96-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A6%96"
+  },
+  {
+    "character": "汎",
+    "onyomi": [
+      "ハン",
+      "ブ",
+      "フウ",
+      "ホウ",
+      "ホン"
+    ],
+    "kunyomi": [
+      "ただよ.う",
+      "ひろ.い"
+    ],
+    "meaning": "pan-",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B1%8E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B1%8E"
+  },
+  {
+    "character": "爪",
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [
+      "つめ",
+      "つま-"
+    ],
+    "meaning": "claw, nail, talon",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%88%AA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%88%AA"
+  },
+  {
+    "character": "臼",
+    "onyomi": [
+      "キュウ",
+      "グ"
+    ],
+    "kunyomi": [
+      "うす",
+      "うすづ.く"
+    ],
+    "meaning": "mortar",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%87%BC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%87%BC"
+  },
+  {
+    "character": "牙",
+    "onyomi": [
+      "ガ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "きば",
+      "は"
+    ],
+    "meaning": "tusk, fang, tusk radical (no. 92)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%89%99-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%89%99"
+  },
+  {
+    "character": "丼",
+    "onyomi": [
+      "トン",
+      "タン",
+      "ショウ",
+      "セイ"
+    ],
+    "kunyomi": [
+      "どんぶり"
+    ],
+    "meaning": "bowl, bowl of food",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%BC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%BC"
+  },
+  {
+    "character": "串",
+    "onyomi": [
+      "カン",
+      "ケン",
+      "セン"
+    ],
+    "kunyomi": [
+      "くし",
+      "つらぬ.く"
+    ],
+    "meaning": "spit, skewer",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%B2-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%B2"
+  },
+  {
+    "character": "芯",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [],
+    "meaning": "wick",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%8A%AF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%8A%AF"
+  },
+  {
+    "character": "匂",
+    "onyomi": [],
+    "kunyomi": [
+      "にお.う",
+      "にお.い",
+      "にお.わせる"
+    ],
+    "meaning": "fragrant, stink, glow, insinuate, (kokuji)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8C%82-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8C%82"
+  },
+  {
+    "character": "乞",
+    "onyomi": [
+      "コツ",
+      "キツ",
+      "キ",
+      "キケ",
+      "コチ"
+    ],
+    "kunyomi": [
+      "こ.う"
+    ],
+    "meaning": "beg, invite, ask",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B9%9E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B9%9E"
+  },
+  {
+    "character": "巾",
+    "onyomi": [
+      "キン",
+      "フク"
+    ],
+    "kunyomi": [
+      "おお.い",
+      "ちきり",
+      "きれ"
+    ],
+    "meaning": "towel, hanging scroll, width, cloth radical (no. 50)",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B7%BE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B7%BE"
+  },
+  {
+    "character": "勾",
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "かぎ",
+      "ま.がる"
+    ],
+    "meaning": "be bent, slope, capture",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8B%BE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8B%BE"
+  },
+  {
+    "character": "氾",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "ひろ.がる"
+    ],
+    "meaning": "spread out, wide",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B0%BE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B0%BE"
+  },
+  {
+    "character": "肘",
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "ひじ"
+    ],
+    "meaning": "elbow, arm",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%82%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%82%98"
+  },
+  {
+    "character": "沃",
+    "onyomi": [
+      "ヨウ",
+      "ヨク",
+      "オク"
+    ],
+    "kunyomi": [
+      "そそ.ぐ"
+    ],
+    "meaning": "fertility",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B2%83-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B2%83"
+  },
+  {
+    "character": "弄",
+    "onyomi": [
+      "ロウ",
+      "ル"
+    ],
+    "kunyomi": [
+      "いじく.る",
+      "ろう.する",
+      "いじ.る",
+      "ひねく.る",
+      "たわむ.れる",
+      "もてあそ.ぶ"
+    ],
+    "meaning": "play with, tamper, trifle with",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BC%84-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BC%84"
+  },
+  {
+    "character": "𠮟",
+    "onyomi": [
+      "シツ",
+      "シチ",
+      "カ"
+    ],
+    "kunyomi": [
+      "しか.る"
+    ],
+    "meaning": "scold, reprove",
+    "level": "N3",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%F0%A0%AE%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%F0%A0%AE%9F"
+  }
+]

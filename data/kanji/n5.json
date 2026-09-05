@@ -1,0 +1,1247 @@
+[
+  {
+    "character": "日",
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-び",
+      "-か"
+    ],
+    "meaning": "day, sun, Japan, counter for days",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%97%A5-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%97%A5"
+  },
+  {
+    "character": "一",
+    "onyomi": [
+      "イチ",
+      "イツ"
+    ],
+    "kunyomi": [
+      "ひと-",
+      "ひと.つ"
+    ],
+    "meaning": "one, one radical (no.1)",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%80-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%80"
+  },
+  {
+    "character": "国",
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "くに"
+    ],
+    "meaning": "country",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%9B%BD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%9B%BD"
+  },
+  {
+    "character": "人",
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと",
+      "-り",
+      "-と"
+    ],
+    "meaning": "person",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BA%BA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BA%BA"
+  },
+  {
+    "character": "年",
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "meaning": "year, counter for years",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B9%B4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B9%B4"
+  },
+  {
+    "character": "大",
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おお-",
+      "おお.きい",
+      "-おお.いに"
+    ],
+    "meaning": "large, big",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A4%A7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A4%A7"
+  },
+  {
+    "character": "十",
+    "onyomi": [
+      "ジュウ",
+      "ジッ",
+      "ジュッ"
+    ],
+    "kunyomi": [
+      "とお",
+      "と",
+      "そ"
+    ],
+    "meaning": "ten",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8D%81-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8D%81"
+  },
+  {
+    "character": "二",
+    "onyomi": [
+      "ニ",
+      "ジ"
+    ],
+    "kunyomi": [
+      "ふた",
+      "ふた.つ",
+      "ふたたび"
+    ],
+    "meaning": "two, two radical (no. 7)",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BA%8C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BA%8C"
+  },
+  {
+    "character": "本",
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "meaning": "book, present, main, origin, true, real, counter for long cylindrical things",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9C%AC-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9C%AC"
+  },
+  {
+    "character": "中",
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "なか",
+      "うち",
+      "あた.る"
+    ],
+    "meaning": "in, inside, middle, mean, center",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%AD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%AD"
+  },
+  {
+    "character": "長",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "なが.い",
+      "おさ"
+    ],
+    "meaning": "long, leader, superior, senior",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%95%B7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%95%B7"
+  },
+  {
+    "character": "出",
+    "onyomi": [
+      "シュツ",
+      "スイ"
+    ],
+    "kunyomi": [
+      "で.る",
+      "-で",
+      "だ.す",
+      "-だ.す",
+      "い.でる",
+      "い.だす"
+    ],
+    "meaning": "exit, leave, go out, come out, put out, protrude",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%87%BA-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%87%BA"
+  },
+  {
+    "character": "三",
+    "onyomi": [
+      "サン",
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "み",
+      "み.つ",
+      "みっ.つ"
+    ],
+    "meaning": "three",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%89-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%89"
+  },
+  {
+    "character": "時",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "とき",
+      "-どき"
+    ],
+    "meaning": "time, hour",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%99%82-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%99%82"
+  },
+  {
+    "character": "行",
+    "onyomi": [
+      "コウ",
+      "ギョウ",
+      "アン"
+    ],
+    "kunyomi": [
+      "い.く",
+      "ゆ.く",
+      "-ゆ.き",
+      "-ゆき",
+      "-い.き",
+      "-いき",
+      "おこな.う",
+      "おこ.なう"
+    ],
+    "meaning": "going, journey, carry out, conduct, act, line, row, bank",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A1%8C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A1%8C"
+  },
+  {
+    "character": "見",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "み.る",
+      "み.える",
+      "み.せる"
+    ],
+    "meaning": "see, hopes, chances, idea, opinion, look at, visible",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A6%8B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A6%8B"
+  },
+  {
+    "character": "月",
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "meaning": "month, moon",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9C%88-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9C%88"
+  },
+  {
+    "character": "分",
+    "onyomi": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "kunyomi": [
+      "わ.ける",
+      "わ.け",
+      "わ.かれる",
+      "わ.かる",
+      "わ.かつ"
+    ],
+    "meaning": "part, minute of time, segment, share, degree, one's lot, duty, understand, know, rate, 1%, chances, shaku/100",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%88%86-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%88%86"
+  },
+  {
+    "character": "後",
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunyomi": [
+      "のち",
+      "うし.ろ",
+      "うしろ",
+      "あと",
+      "おく.れる"
+    ],
+    "meaning": "behind, back, later",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%BE%8C-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%BE%8C"
+  },
+  {
+    "character": "前",
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まえ",
+      "-まえ"
+    ],
+    "meaning": "in front, before",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%89%8D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%89%8D"
+  },
+  {
+    "character": "生",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "い.きる",
+      "い.かす",
+      "い.ける",
+      "う.まれる",
+      "うま.れる",
+      "う.まれ",
+      "うまれ",
+      "う.む",
+      "お.う",
+      "は.える",
+      "は.やす",
+      "き",
+      "なま",
+      "なま-",
+      "な.る",
+      "な.す",
+      "む.す",
+      "-う"
+    ],
+    "meaning": "life, genuine, birth",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%94%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%94%9F"
+  },
+  {
+    "character": "五",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "いつ",
+      "いつ.つ"
+    ],
+    "meaning": "five",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BA%94-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BA%94"
+  },
+  {
+    "character": "間",
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "kunyomi": [
+      "あいだ",
+      "ま",
+      "あい"
+    ],
+    "meaning": "interval, space",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%96%93-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%96%93"
+  },
+  {
+    "character": "上",
+    "onyomi": [
+      "ジョウ",
+      "ショウ",
+      "シャン"
+    ],
+    "kunyomi": [
+      "うえ",
+      "-うえ",
+      "うわ-",
+      "かみ",
+      "あ.げる",
+      "-あ.げる",
+      "あ.がる",
+      "-あ.がる",
+      "あ.がり",
+      "-あ.がり",
+      "のぼ.る",
+      "のぼ.り",
+      "のぼ.せる",
+      "のぼ.す",
+      "たてまつ.る"
+    ],
+    "meaning": "above, up",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%8A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%8A"
+  },
+  {
+    "character": "東",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ひがし"
+    ],
+    "meaning": "east",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9D%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9D%B1"
+  },
+  {
+    "character": "四",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よ",
+      "よ.つ",
+      "よっ.つ",
+      "よん"
+    ],
+    "meaning": "four",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%9B%9B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%9B%9B"
+  },
+  {
+    "character": "今",
+    "onyomi": [
+      "コン",
+      "キン"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "meaning": "now",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BB%8A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BB%8A"
+  },
+  {
+    "character": "金",
+    "onyomi": [
+      "キン",
+      "コン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "かね",
+      "かな-",
+      "-がね"
+    ],
+    "meaning": "gold",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%87%91-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%87%91"
+  },
+  {
+    "character": "九",
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "ここの",
+      "ここの.つ"
+    ],
+    "meaning": "nine",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B9%9D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B9%9D"
+  },
+  {
+    "character": "入",
+    "onyomi": [
+      "ニュウ",
+      "ジュ"
+    ],
+    "kunyomi": [
+      "い.る",
+      "-い.る",
+      "-い.り",
+      "い.れる",
+      "-い.れ",
+      "はい.る"
+    ],
+    "meaning": "enter, insert",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%85%A5-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%85%A5"
+  },
+  {
+    "character": "学",
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まな.ぶ"
+    ],
+    "meaning": "study, learning, science",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AD%A6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AD%A6"
+  },
+  {
+    "character": "高",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "たか.い",
+      "たか",
+      "-だか",
+      "たか.まる",
+      "たか.める"
+    ],
+    "meaning": "tall, high, expensive",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%AB%98-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%AB%98"
+  },
+  {
+    "character": "円",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "まる.い",
+      "まる",
+      "まど",
+      "まど.か",
+      "まろ.やか"
+    ],
+    "meaning": "circle, yen, round",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%86%86-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%86%86"
+  },
+  {
+    "character": "子",
+    "onyomi": [
+      "シ",
+      "ス",
+      "ツ"
+    ],
+    "kunyomi": [
+      "こ",
+      "-こ",
+      "ね"
+    ],
+    "meaning": "child, sign of the rat, 11PM-1AM, first sign of Chinese zodiac",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%AD%90-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%AD%90"
+  },
+  {
+    "character": "外",
+    "onyomi": [
+      "ガイ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "そと",
+      "ほか",
+      "はず.す",
+      "はず.れる",
+      "と-"
+    ],
+    "meaning": "outside",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A4%96-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A4%96"
+  },
+  {
+    "character": "八",
+    "onyomi": [
+      "ハチ",
+      "ハツ"
+    ],
+    "kunyomi": [
+      "や",
+      "や.つ",
+      "やっ.つ",
+      "よう"
+    ],
+    "meaning": "eight, eight radical (no. 12)",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%85%AB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%85%AB"
+  },
+  {
+    "character": "六",
+    "onyomi": [
+      "ロク",
+      "リク"
+    ],
+    "kunyomi": [
+      "む",
+      "む.つ",
+      "むっ.つ",
+      "むい"
+    ],
+    "meaning": "six",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%85%AD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%85%AD"
+  },
+  {
+    "character": "下",
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "しも",
+      "もと",
+      "さ.げる",
+      "さ.がる",
+      "くだ.る",
+      "くだ.り",
+      "くだ.す",
+      "-くだ.す",
+      "くだ.さる",
+      "お.ろす",
+      "お.りる"
+    ],
+    "meaning": "below, down, descend, give, low, inferior",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%8B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%8B"
+  },
+  {
+    "character": "来",
+    "onyomi": [
+      "ライ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "く.る",
+      "きた.る",
+      "きた.す",
+      "き.たす",
+      "き.たる",
+      "き",
+      "こ"
+    ],
+    "meaning": "come, due, next, cause, become",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9D%A5-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9D%A5"
+  },
+  {
+    "character": "気",
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [
+      "き"
+    ],
+    "meaning": "spirit, mind, air, atmosphere, mood",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B0%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B0%97"
+  },
+  {
+    "character": "小",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ちい.さい",
+      "こ-",
+      "お-",
+      "さ-"
+    ],
+    "meaning": "little, small",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B0%8F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B0%8F"
+  },
+  {
+    "character": "七",
+    "onyomi": [
+      "シチ"
+    ],
+    "kunyomi": [
+      "なな",
+      "なな.つ",
+      "なの"
+    ],
+    "meaning": "seven",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%83-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%83"
+  },
+  {
+    "character": "山",
+    "onyomi": [
+      "サン",
+      "セン"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "meaning": "mountain",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B1%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B1%B1"
+  },
+  {
+    "character": "話",
+    "onyomi": [
+      "ワ"
+    ],
+    "kunyomi": [
+      "はな.す",
+      "はなし"
+    ],
+    "meaning": "tale, talk",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A9%B1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A9%B1"
+  },
+  {
+    "character": "女",
+    "onyomi": [
+      "ジョ",
+      "ニョ",
+      "ニョウ"
+    ],
+    "kunyomi": [
+      "おんな",
+      "め"
+    ],
+    "meaning": "woman, female",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A5%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A5%B3"
+  },
+  {
+    "character": "北",
+    "onyomi": [
+      "ホク"
+    ],
+    "kunyomi": [
+      "きた"
+    ],
+    "meaning": "north",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8C%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8C%97"
+  },
+  {
+    "character": "午",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "うま"
+    ],
+    "meaning": "noon, sign of the horse, 11AM-1PM, seventh sign of Chinese zodiac",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8D%88-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8D%88"
+  },
+  {
+    "character": "百",
+    "onyomi": [
+      "ヒャク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "もも"
+    ],
+    "meaning": "hundred",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%99%BE-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%99%BE"
+  },
+  {
+    "character": "書",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "か.く",
+      "-が.き",
+      "-がき"
+    ],
+    "meaning": "write",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9B%B8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9B%B8"
+  },
+  {
+    "character": "先",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき",
+      "ま.ず"
+    ],
+    "meaning": "before, ahead, previous, future, precedence",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%85%88-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%85%88"
+  },
+  {
+    "character": "名",
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunyomi": [
+      "な",
+      "-な"
+    ],
+    "meaning": "name, noted, distinguished, reputation",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%90%8D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%90%8D"
+  },
+  {
+    "character": "川",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "meaning": "stream, river, river or three-stroke river radical (no. 47)",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B7%9D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B7%9D"
+  },
+  {
+    "character": "千",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "meaning": "thousand",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8D%83-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8D%83"
+  },
+  {
+    "character": "水",
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず",
+      "みず-"
+    ],
+    "meaning": "water",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%B0%B4-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%B0%B4"
+  },
+  {
+    "character": "半",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "なか.ば"
+    ],
+    "meaning": "half, middle, odd number, semi-, part-",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8D%8A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8D%8A"
+  },
+  {
+    "character": "男",
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "kunyomi": [
+      "おとこ",
+      "お"
+    ],
+    "meaning": "male",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%94%B7-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%94%B7"
+  },
+  {
+    "character": "西",
+    "onyomi": [
+      "セイ",
+      "サイ",
+      "ス"
+    ],
+    "kunyomi": [
+      "にし"
+    ],
+    "meaning": "west, Spain",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%A5%BF-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%A5%BF"
+  },
+  {
+    "character": "電",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [],
+    "meaning": "electricity",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%9B%BB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%9B%BB"
+  },
+  {
+    "character": "校",
+    "onyomi": [
+      "コウ",
+      "キョウ"
+    ],
+    "kunyomi": [],
+    "meaning": "exam, school, printing, proof, correction",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%A0%A1-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%A0%A1"
+  },
+  {
+    "character": "語",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "かた.る",
+      "かた.らう"
+    ],
+    "meaning": "word, speech, language",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%AA%9E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%AA%9E"
+  },
+  {
+    "character": "土",
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "meaning": "soil, earth, ground, Turkey",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%9C%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%9C%9F"
+  },
+  {
+    "character": "木",
+    "onyomi": [
+      "ボク",
+      "モク"
+    ],
+    "kunyomi": [
+      "き",
+      "こ-"
+    ],
+    "meaning": "tree, wood",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%9C%A8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%9C%A8"
+  },
+  {
+    "character": "聞",
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "き.く",
+      "き.こえる"
+    ],
+    "meaning": "hear, ask, listen",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%81%9E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%81%9E"
+  },
+  {
+    "character": "食",
+    "onyomi": [
+      "ショク",
+      "ジキ"
+    ],
+    "kunyomi": [
+      "く.う",
+      "く.らう",
+      "た.べる",
+      "は.む"
+    ],
+    "meaning": "eat, food",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%A3%9F-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%A3%9F"
+  },
+  {
+    "character": "車",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "meaning": "car",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%BB%8A-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%BB%8A"
+  },
+  {
+    "character": "何",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん",
+      "なに-",
+      "なん-"
+    ],
+    "meaning": "what",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BD%95-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BD%95"
+  },
+  {
+    "character": "南",
+    "onyomi": [
+      "ナン",
+      "ナ"
+    ],
+    "kunyomi": [
+      "みなみ"
+    ],
+    "meaning": "south",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8D%97-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8D%97"
+  },
+  {
+    "character": "万",
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "kunyomi": [
+      "よろず"
+    ],
+    "meaning": "ten thousand, 10,000",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%B8%87-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%B8%87"
+  },
+  {
+    "character": "毎",
+    "onyomi": [
+      "マイ"
+    ],
+    "kunyomi": [
+      "ごと",
+      "-ごと.に"
+    ],
+    "meaning": "every",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%AF%8E-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%AF%8E"
+  },
+  {
+    "character": "白",
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "しろ",
+      "しら-",
+      "しろ.い"
+    ],
+    "meaning": "white",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%99%BD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%99%BD"
+  },
+  {
+    "character": "天",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "あまつ",
+      "あめ",
+      "あま-"
+    ],
+    "meaning": "heavens, sky, imperial",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%A4%A9-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%A4%A9"
+  },
+  {
+    "character": "母",
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [
+      "はは",
+      "も"
+    ],
+    "meaning": "mother",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E6%AF%8D-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E6%AF%8D"
+  },
+  {
+    "character": "火",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-び",
+      "ほ-"
+    ],
+    "meaning": "fire",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%81%AB-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%81%AB"
+  },
+  {
+    "character": "右",
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "meaning": "right",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8F%B3-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8F%B3"
+  },
+  {
+    "character": "読",
+    "onyomi": [
+      "ドク",
+      "トク",
+      "トウ"
+    ],
+    "kunyomi": [
+      "よ.む",
+      "-よ.み"
+    ],
+    "meaning": "read",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E8%AA%AD-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E8%AA%AD"
+  },
+  {
+    "character": "友",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "meaning": "friend",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%8F%8B-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%8F%8B"
+  },
+  {
+    "character": "左",
+    "onyomi": [
+      "サ",
+      "シャ"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "meaning": "left",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E5%B7%A6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E5%B7%A6"
+  },
+  {
+    "character": "休",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やす.む",
+      "やす.まる",
+      "やす.める"
+    ],
+    "meaning": "rest, day off, retire, sleep",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E4%BC%91-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E4%BC%91"
+  },
+  {
+    "character": "父",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "meaning": "father",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E7%88%B6-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E7%88%B6"
+  },
+  {
+    "character": "雨",
+    "onyomi": [
+      "ウ"
+    ],
+    "kunyomi": [
+      "あめ",
+      "あま-",
+      "-さめ"
+    ],
+    "meaning": "rain",
+    "level": "N5",
+    "jlptbenkyoUrl": "https://jlptbenkyo.com/japanese-kanji/%E9%9B%A8-kanji-meaning/",
+    "wanikaniUrl": "https://www.wanikani.com/kanji/%E9%9B%A8"
+  }
+]
