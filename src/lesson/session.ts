@@ -1,0 +1,87 @@
+import { isExactMatch, isFuzzyMatch } from '../grader/grader'
+import type { KanjiItem } from '../pipeline/kanji/types'
+import type { ExampleSentence, GrammarItem } from '../pipeline/grammar/types'
+import type { Batch, ScheduleEntry } from '../schedule/types'
+import { itemKey } from './itemKey'
+import type { LessonState } from './store'
+
+export function selectNextBatch(
+  schedule: readonly Batch[],
+  completedBatches: readonly number[],
+): { batchNumber: number; batch: Batch } | null {
+  const completed = new Set(completedBatches)
+  for (let batchNumber = 0; batchNumber < schedule.length; batchNumber++) {
+    if (!completed.has(batchNumber)) {
+      return { batchNumber, batch: schedule[batchNumber] }
+    }
+  }
+  return null
+}
+
+/** Fisher-Yates shuffle. `random` is injectable so callers can get deterministic output in tests. */
+export function shuffle<T>(items: readonly T[], random: () => number = Math.random): T[] {
+  const result = [...items]
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1))
+    ;[result[i], result[j]] = [result[j], result[i]]
+  }
+  return result
+}
+
+/** Interleaves and shuffles a batch's kanji and grammar items into one presentation order. */
+export function buildLessonQueue(
+  batch: Batch,
+  shuffleFn: (items: readonly ScheduleEntry[]) => ScheduleEntry[] = (items) => shuffle(items),
+): ScheduleEntry[] {
+  return shuffleFn(batch)
+}
+
+export interface KanjiAnswer {
+  meaning: string
+  onyomi: string
+}
+
+export function gradeKanjiAnswer(item: KanjiItem, answer: KanjiAnswer): boolean {
+  const meaningCorrect = isFuzzyMatch(item.meaning, answer.meaning)
+  const onyomiCorrect = item.onyomi.some((reading) => isExactMatch(reading, answer.onyomi))
+  return meaningCorrect && onyomiCorrect
+}
+
+export function gradeGrammarAnswer(item: GrammarItem, selectedPattern: string): boolean {
+  return selectedPattern === item.pattern
+}
+
+/** Renders a grammar example sentence with its pattern span replaced by a blank. */
+export function blankSentence(example: ExampleSentence): string {
+  if (example.blankStart === null || example.blankEnd === null) return example.japanese
+  const blank = '＿＿'
+  return example.japanese.slice(0, example.blankStart) + blank + example.japanese.slice(example.blankEnd)
+}
+
+/** Builds the 4 MCQ choices (correct pattern + 3 curated distractors), shuffled. */
+export function buildGrammarChoices(
+  item: GrammarItem,
+  shuffleFn: (items: readonly string[]) => string[] = (items) => shuffle(items),
+): string[] {
+  return shuffleFn([item.pattern, ...item.distractors])
+}
+
+/**
+ * Inserts every batch item into SRS state at Apprentice 1, unless it's already
+ * present (e.g. fast-tracked via the Known flag), and marks the batch completed.
+ */
+export function completeBatch(state: LessonState, batchNumber: number, batch: Batch): LessonState {
+  const srsState = { ...state.srsState }
+  for (const entry of batch) {
+    const key = itemKey(entry)
+    if (!(key in srsState)) {
+      srsState[key] = { stage: 'apprentice1', burned: false }
+    }
+  }
+
+  const completedBatches = state.completedBatches.includes(batchNumber)
+    ? state.completedBatches
+    : [...state.completedBatches, batchNumber]
+
+  return { srsState, completedBatches }
+}
