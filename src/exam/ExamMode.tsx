@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { entriesByKey } from '../content/allEntries'
 import { itemKey } from '../lesson/itemKey'
 import { shuffle } from '../lesson/session'
@@ -8,12 +8,21 @@ import { Session } from '../session/Session'
 import { applyAnswer, burn } from '../srs/srsEngine'
 import { selectMatureEntries } from './session'
 
+/** How long a tap-armed Burn stays armed before reverting, so a stray second tap can't fire it. */
+const BURN_ARM_TIMEOUT_MS = 3500
+
 export function ExamMode() {
   const [state, setState] = useState<LessonState>(() => loadState(window.localStorage))
   const [queue, setQueue] = useState<ScheduleEntry[] | null>(null)
   const [sessionId, setSessionId] = useState(0)
   const [burnedKeys, setBurnedKeys] = useState<Set<string>>(new Set())
+  const [armedBurnKey, setArmedBurnKey] = useState<string | null>(null)
   const [justFinished, setJustFinished] = useState<number | null>(null)
+  const armTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  useEffect(() => () => {
+    if (armTimeoutRef.current) clearTimeout(armTimeoutRef.current)
+  }, [])
 
   const matureCount = selectMatureEntries(state.srsState, entriesByKey).length
 
@@ -35,7 +44,16 @@ export function ExamMode() {
     setState(nextState)
   }
 
-  function handleBurn(entry: ScheduleEntry) {
+  function armBurn(key: string) {
+    if (armTimeoutRef.current) clearTimeout(armTimeoutRef.current)
+    setArmedBurnKey(key)
+    armTimeoutRef.current = setTimeout(() => setArmedBurnKey(null), BURN_ARM_TIMEOUT_MS)
+  }
+
+  function confirmBurn(entry: ScheduleEntry) {
+    if (armTimeoutRef.current) clearTimeout(armTimeoutRef.current)
+    setArmedBurnKey(null)
+
     const key = itemKey(entry)
     const current = state.srsState[key]
     if (!current) return
@@ -80,9 +98,16 @@ export function ExamMode() {
       renderAfterGrade={(entry, wasCorrect) => {
         if (!wasCorrect) return null
         const key = itemKey(entry)
-        if (burnedKeys.has(key)) return <span className="text-ink-soft">Burned</span>
+        if (burnedKeys.has(key)) return <span className="text-ink-soft/60">Burned</span>
+        if (armedBurnKey === key) {
+          return (
+            <button type="button" onClick={() => confirmBurn(entry)} className="font-medium text-vermillion underline underline-offset-2">
+              Confirm Burn
+            </button>
+          )
+        }
         return (
-          <button type="button" onClick={() => handleBurn(entry)} className="text-vermillion underline underline-offset-2">
+          <button type="button" onClick={() => armBurn(key)} className="text-ink-soft/60 underline decoration-dotted underline-offset-2">
             Burn
           </button>
         )

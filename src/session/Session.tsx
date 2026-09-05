@@ -18,7 +18,7 @@ export interface SessionProps {
   onAnswer: (entry: ScheduleEntry, wasCorrect: boolean) => void
   /** Called once the last item's Next button is pressed. */
   onComplete: () => void
-  /** Extra controls shown alongside Reveal/Next once an item has been graded (e.g. Exam's Burn). */
+  /** A control tucked below Next, out of the main tap flow, once an item has been graded (e.g. Exam's Burn). */
   renderAfterGrade?: (entry: ScheduleEntry, wasCorrect: boolean) => ReactNode
 }
 
@@ -43,6 +43,9 @@ export function Session({ title, queue, positionLabel, onAnswer, onComplete, ren
     if (!currentEntry || currentEntry.kind !== 'grammar') return []
     return choices
   }, [currentEntry, choices])
+
+  const belowNextContent =
+    grade && currentEntry ? renderAfterGrade?.(currentEntry, grade.wasCorrect) : null
 
   function resetPerItemState() {
     setGrade(null)
@@ -129,7 +132,9 @@ export function Session({ title, queue, positionLabel, onAnswer, onComplete, ren
           <ul className="flex flex-col gap-2.5">
             {grammarChoices.map((choice) => {
               const isSelected = selectedChoice === choice
-              const showResult = grade !== null && isSelected
+              const isCorrectChoice = choice === currentEntry.item.pattern
+              const showAsCorrect = grade !== null && isCorrectChoice
+              const showAsWrong = grade !== null && isSelected && !isCorrectChoice
               return (
                 <li key={choice}>
                   <button
@@ -138,9 +143,9 @@ export function Session({ title, queue, positionLabel, onAnswer, onComplete, ren
                     onClick={() => selectGrammarChoice(choice)}
                     aria-pressed={isSelected}
                     className={`w-full rounded-md border px-4 py-3 text-left ${
-                      showResult && grade?.wasCorrect
+                      showAsCorrect
                         ? 'border-moss bg-moss-soft'
-                        : showResult
+                        : showAsWrong
                           ? 'border-vermillion bg-vermillion-soft'
                           : 'border-line'
                     }`}
@@ -156,30 +161,52 @@ export function Session({ title, queue, positionLabel, onAnswer, onComplete, ren
 
       {grade && currentEntry && (
         <div className="mt-6 flex w-full flex-col items-center gap-4">
-          <p className={grade.wasCorrect ? 'text-moss' : 'text-vermillion'}>
+          <p className={`font-serif text-2xl ${grade.wasCorrect ? 'text-moss' : 'text-vermillion'}`}>
             {grade.wasCorrect ? 'Correct' : 'Incorrect'}
           </p>
-          <div className="flex flex-wrap justify-center gap-3 text-sm">
+          {!grade.wasCorrect && currentEntry.kind === 'kanji' && (
+            <p className="text-sm text-ink-soft">
+              Expected: <span className="text-ink">{currentEntry.item.meaning}</span> ·{' '}
+              <span className="text-ink">{currentEntry.item.onyomi.join(', ')}</span>
+            </p>
+          )}
+          <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 pt-1 text-sm">
             {currentEntry.kind === 'kanji' && (
               <>
-                <button type="button" onClick={() => reveal(currentEntry.item.jlptbenkyoUrl)} className="text-indigo underline underline-offset-2">
+                <button
+                  type="button"
+                  onClick={() => reveal(currentEntry.item.jlptbenkyoUrl)}
+                  className="text-ink-soft underline decoration-line underline-offset-4 transition-colors hover:text-indigo"
+                >
                   Reveal (jlptbenkyo)
                 </button>
-                <button type="button" onClick={() => reveal(currentEntry.item.wanikaniUrl)} className="text-indigo underline underline-offset-2">
+                <button
+                  type="button"
+                  onClick={() => reveal(currentEntry.item.wanikaniUrl)}
+                  className="text-ink-soft underline decoration-line underline-offset-4 transition-colors hover:text-indigo"
+                >
                   Reveal (WaniKani)
                 </button>
               </>
             )}
             {currentEntry.kind === 'grammar' && (
-              <button type="button" onClick={() => reveal(currentEntry.item.jlptbenkyoUrl)} className="text-indigo underline underline-offset-2">
+              <button
+                type="button"
+                onClick={() => reveal(currentEntry.item.jlptbenkyoUrl)}
+                className="text-ink-soft underline decoration-line underline-offset-4 transition-colors hover:text-indigo"
+              >
                 Reveal
               </button>
             )}
-            {renderAfterGrade?.(currentEntry, grade.wasCorrect)}
           </div>
-          <button type="button" onClick={goNext} className="w-full rounded-md bg-indigo py-3 font-medium text-paper">
+          <button
+            type="button"
+            onClick={goNext}
+            className="w-full rounded-md bg-indigo py-3 font-medium text-paper transition-colors active:bg-indigo-soft"
+          >
             Next
           </button>
+          {belowNextContent && <div className="pt-1 text-center text-xs">{belowNextContent}</div>}
         </div>
       )}
     </section>
