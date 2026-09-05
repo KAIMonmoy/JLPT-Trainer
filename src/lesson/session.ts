@@ -64,7 +64,8 @@ export interface KanjiAnswer {
 }
 
 export function gradeKanjiAnswer(item: KanjiItem, answer: KanjiAnswer): boolean {
-  const meaningCorrect = isFuzzyMatch(item.meaning, answer.meaning)
+  const meaningOptions = [item.meaning, ...item.meaning.split(',').map((option) => option.trim())]
+  const meaningCorrect = meaningOptions.some((option) => isFuzzyMatch(option, answer.meaning))
   const onyomiCorrect = item.onyomi.some((reading) => isExactMatch(reading, toKatakana(answer.onyomi)))
   return meaningCorrect && onyomiCorrect
 }

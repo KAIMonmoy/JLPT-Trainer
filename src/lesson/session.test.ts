@@ -154,6 +154,11 @@ describe('gradeKanjiAnswer', () => {
     const multi = kanji('民', { onyomi: ['シュウ'] }).item as KanjiItem
     expect(gradeKanjiAnswer(multi, { onyomi: 'しゅウ', meaning: 'deliberation, consultation' })).toBe(true)
   })
+
+  it('passes when the answer matches just one clause of a comma-separated meaning', () => {
+    const multi = kanji('一', { meaning: 'one, one radical (no.1)' }).item as KanjiItem
+    expect(gradeKanjiAnswer(multi, { onyomi: 'ギ', meaning: 'one' })).toBe(true)
+  })
 })
 
 describe('gradeGrammarAnswer', () => {
