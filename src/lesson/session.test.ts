@@ -46,6 +46,8 @@ function grammar(pattern: string, overrides: Partial<GrammarItem> = {}): Schedul
 // deterministic "shuffle" stand-in: reverses the array
 const reverse = <T>(items: readonly T[]): T[] => [...items].reverse()
 
+const NOW = 1_700_000_000_000
+
 describe('selectNextBatch', () => {
   const schedule: Batch[] = [[kanji('一')], [kanji('二')], [kanji('三')]]
 
@@ -86,6 +88,13 @@ describe('buildLessonQueue', () => {
     const queue = buildLessonQueue(batch, reverse)
     expect(queue).toHaveLength(batch.length)
     expect(queue).toEqual([...batch].reverse())
+  })
+
+  it('excludes entries already present in SRS state (e.g. flagged Known ahead of schedule)', () => {
+    const batch: Batch = [kanji('一'), kanji('二'), grammar('結局')]
+    const srsState = { [itemKey(batch[1])]: { stage: 'guru1' as const, burned: false, nextReviewAt: 0 } }
+    const queue = buildLessonQueue(batch, reverse, srsState)
+    expect(queue).toEqual([grammar('結局'), kanji('一')])
   })
 })
 
@@ -155,31 +164,39 @@ describe('completeBatch', () => {
 
   it('inserts every new item into SRS state at apprentice1', () => {
     const batch: Batch = [kanji('一'), grammar('結局')]
-    const result = completeBatch(state(), 0, batch)
-    expect(result.srsState[itemKey(batch[0])]).toEqual({ stage: 'apprentice1', burned: false })
-    expect(result.srsState[itemKey(batch[1])]).toEqual({ stage: 'apprentice1', burned: false })
+    const result = completeBatch(state(), 0, batch, NOW)
+    expect(result.srsState[itemKey(batch[0])]).toEqual({
+      stage: 'apprentice1',
+      burned: false,
+      nextReviewAt: NOW + 4 * 3600_000,
+    })
+    expect(result.srsState[itemKey(batch[1])]).toEqual({
+      stage: 'apprentice1',
+      burned: false,
+      nextReviewAt: NOW + 4 * 3600_000,
+    })
   })
 
   it('marks the batch number as completed', () => {
-    const result = completeBatch(state(), 2, [kanji('一')])
+    const result = completeBatch(state(), 2, [kanji('一')], NOW)
     expect(result.completedBatches).toEqual([2])
   })
 
   it('does not duplicate an already-completed batch number', () => {
-    const result = completeBatch(state({ completedBatches: [2] }), 2, [kanji('一')])
+    const result = completeBatch(state({ completedBatches: [2] }), 2, [kanji('一')], NOW)
     expect(result.completedBatches).toEqual([2])
   })
 
   it('does not overwrite an item already present in SRS state (e.g. flagged Known)', () => {
     const batch: Batch = [kanji('一')]
-    const known = { stage: 'guru1' as const, burned: false }
-    const result = completeBatch(state({ srsState: { [itemKey(batch[0])]: known } }), 0, batch)
+    const known = { stage: 'guru1' as const, burned: false, nextReviewAt: NOW }
+    const result = completeBatch(state({ srsState: { [itemKey(batch[0])]: known } }), 0, batch, NOW)
     expect(result.srsState[itemKey(batch[0])]).toEqual(known)
   })
 
   it('does not mutate the input state', () => {
     const original = state()
-    completeBatch(original, 0, [kanji('一')])
+    completeBatch(original, 0, [kanji('一')], NOW)
     expect(original).toEqual(state())
   })
 })

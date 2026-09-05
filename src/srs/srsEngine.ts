@@ -12,6 +12,8 @@ export type Mode = 'lesson' | 'review' | 'exam'
 export interface SrsItem {
   stage: Stage
   burned: boolean
+  /** Epoch ms when this item next becomes due for Review. Ignored by Exam, which is never time-gated. */
+  nextReviewAt: number
 }
 
 const HOUR_MS = 3600_000
@@ -43,26 +45,35 @@ export function isMature(stage: Stage): boolean {
   return STAGE_ORDER.indexOf(stage) >= MATURE_INDEX
 }
 
-export function applyAnswer(item: SrsItem, mode: Mode, wasCorrect: boolean): SrsItem {
+function withStage(item: SrsItem, stage: Stage, now: number): SrsItem {
+  return { ...item, stage, nextReviewAt: now + STAGE_INTERVAL_MS[stage] }
+}
+
+export function applyAnswer(item: SrsItem, mode: Mode, wasCorrect: boolean, now: number): SrsItem {
   if (item.burned) return item
 
   const index = STAGE_ORDER.indexOf(item.stage)
 
   if (wasCorrect) {
     const nextIndex = Math.min(index + 1, STAGE_ORDER.length - 1)
-    return { ...item, stage: STAGE_ORDER[nextIndex] }
+    return withStage(item, STAGE_ORDER[nextIndex], now)
   }
 
   if (mode === 'exam') {
-    return { ...item, stage: 'apprentice1' }
+    return withStage(item, 'apprentice1', now)
   }
 
   const prevIndex = Math.max(index - 1, 0)
-  return { ...item, stage: STAGE_ORDER[prevIndex] }
+  return withStage(item, STAGE_ORDER[prevIndex], now)
 }
 
-export function markKnown(): SrsItem {
-  return { stage: 'guru1', burned: false }
+/** True when a non-burned item's Review interval has elapsed. Exam ignores this — it is never time-gated. */
+export function isDue(item: SrsItem, now: number): boolean {
+  return !item.burned && now >= item.nextReviewAt
+}
+
+export function markKnown(now: number): SrsItem {
+  return { stage: 'guru1', burned: false, nextReviewAt: now + STAGE_INTERVAL_MS.guru1 }
 }
 
 export function burn(item: SrsItem, context: { mode: Mode; wasCorrect: boolean }): SrsItem {

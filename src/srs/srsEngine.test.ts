@@ -4,13 +4,16 @@ import {
   STAGE_INTERVAL_MS,
   applyAnswer,
   burn,
+  isDue,
   isMature,
   markKnown,
   type SrsItem,
 } from './srsEngine'
 
+const NOW = 1_700_000_000_000
+
 function item(stage: SrsItem['stage']): SrsItem {
-  return { stage, burned: false }
+  return { stage, burned: false, nextReviewAt: 0 }
 }
 
 describe('stage ladder', () => {
@@ -49,16 +52,16 @@ describe('applyAnswer: correct answers advance one stage', () => {
     ['guru1', 'guru2'],
     ['guru2', 'master'],
   ] as const)('%s -> %s on a correct answer', (from, to) => {
-    expect(applyAnswer(item(from), 'review', true).stage).toBe(to)
+    expect(applyAnswer(item(from), 'review', true, NOW).stage).toBe(to)
   })
 
   it('stays at master on a correct answer (plateau)', () => {
-    expect(applyAnswer(item('master'), 'review', true).stage).toBe('master')
+    expect(applyAnswer(item('master'), 'review', true, NOW).stage).toBe('master')
   })
 
   it('advances on a correct answer regardless of mode', () => {
-    expect(applyAnswer(item('apprentice1'), 'lesson', true).stage).toBe('apprentice2')
-    expect(applyAnswer(item('apprentice1'), 'exam', true).stage).toBe('apprentice2')
+    expect(applyAnswer(item('apprentice1'), 'lesson', true, NOW).stage).toBe('apprentice2')
+    expect(applyAnswer(item('apprentice1'), 'exam', true, NOW).stage).toBe('apprentice2')
   })
 })
 
@@ -71,17 +74,49 @@ describe('applyAnswer: review-mode wrong answers drop one stage', () => {
     ['guru2', 'guru1'],
     ['master', 'guru2'],
   ] as const)('%s -> %s on a review wrong answer', (from, to) => {
-    expect(applyAnswer(item(from), 'review', false).stage).toBe(to)
+    expect(applyAnswer(item(from), 'review', false, NOW).stage).toBe(to)
   })
 
   it('cannot drop below apprentice1', () => {
-    expect(applyAnswer(item('apprentice1'), 'review', false).stage).toBe('apprentice1')
+    expect(applyAnswer(item('apprentice1'), 'review', false, NOW).stage).toBe('apprentice1')
   })
 })
 
 describe('applyAnswer: exam-mode wrong answers fully reset to apprentice1', () => {
   it.each(STAGE_ORDER)('%s -> apprentice1 on an exam wrong answer', (from) => {
-    expect(applyAnswer(item(from), 'exam', false).stage).toBe('apprentice1')
+    expect(applyAnswer(item(from), 'exam', false, NOW).stage).toBe('apprentice1')
+  })
+})
+
+describe('applyAnswer: sets nextReviewAt to now plus the new stage interval', () => {
+  it('on a correct answer', () => {
+    const result = applyAnswer(item('apprentice1'), 'review', true, NOW)
+    expect(result.nextReviewAt).toBe(NOW + STAGE_INTERVAL_MS.apprentice2)
+  })
+
+  it('on a review wrong answer', () => {
+    const result = applyAnswer(item('guru1'), 'review', false, NOW)
+    expect(result.nextReviewAt).toBe(NOW + STAGE_INTERVAL_MS.apprentice4)
+  })
+
+  it('on an exam wrong answer', () => {
+    const result = applyAnswer(item('guru2'), 'exam', false, NOW)
+    expect(result.nextReviewAt).toBe(NOW + STAGE_INTERVAL_MS.apprentice1)
+  })
+})
+
+describe('isDue', () => {
+  it('is false before nextReviewAt has elapsed', () => {
+    expect(isDue({ stage: 'apprentice1', burned: false, nextReviewAt: NOW + 1 }, NOW)).toBe(false)
+  })
+
+  it('is true once nextReviewAt has elapsed', () => {
+    expect(isDue({ stage: 'apprentice1', burned: false, nextReviewAt: NOW }, NOW)).toBe(true)
+    expect(isDue({ stage: 'apprentice1', burned: false, nextReviewAt: NOW - 1 }, NOW)).toBe(true)
+  })
+
+  it('is false for a burned item even if the interval has elapsed', () => {
+    expect(isDue({ stage: 'apprentice1', burned: true, nextReviewAt: NOW - 1 }, NOW)).toBe(false)
   })
 })
 
@@ -101,18 +136,18 @@ describe('isMature', () => {
 
 describe('markKnown', () => {
   it('inserts the item directly at guru1', () => {
-    expect(markKnown().stage).toBe('guru1')
+    expect(markKnown(NOW).stage).toBe('guru1')
   })
 
   it('produces an item indistinguishable from an organically-promoted guru1 item', () => {
-    const known = markKnown()
-    const organic = applyAnswer(item('apprentice4'), 'lesson', true)
+    const known = markKnown(NOW)
+    const organic = applyAnswer(item('apprentice4'), 'lesson', true, NOW)
     expect(known).toEqual(organic)
 
     // subsequent transitions behave identically
-    expect(applyAnswer(known, 'review', true)).toEqual(applyAnswer(organic, 'review', true))
-    expect(applyAnswer(known, 'review', false)).toEqual(applyAnswer(organic, 'review', false))
-    expect(applyAnswer(known, 'exam', false)).toEqual(applyAnswer(organic, 'exam', false))
+    expect(applyAnswer(known, 'review', true, NOW)).toEqual(applyAnswer(organic, 'review', true, NOW))
+    expect(applyAnswer(known, 'review', false, NOW)).toEqual(applyAnswer(organic, 'review', false, NOW))
+    expect(applyAnswer(known, 'exam', false, NOW)).toEqual(applyAnswer(organic, 'exam', false, NOW))
   })
 })
 
@@ -132,7 +167,7 @@ describe('burn', () => {
 describe('burned items are excluded from further transitions', () => {
   it('applyAnswer is a no-op on an already-burned item', () => {
     const burned = burn(item('master'), { mode: 'exam', wasCorrect: true })
-    expect(applyAnswer(burned, 'review', true)).toEqual(burned)
-    expect(applyAnswer(burned, 'exam', false)).toEqual(burned)
+    expect(applyAnswer(burned, 'review', true, NOW)).toEqual(burned)
+    expect(applyAnswer(burned, 'exam', false, NOW)).toEqual(burned)
   })
 })

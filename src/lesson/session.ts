@@ -2,6 +2,7 @@ import { isExactMatch, isFuzzyMatch } from '../grader/grader'
 import type { KanjiItem } from '../pipeline/kanji/types'
 import type { ExampleSentence, GrammarItem } from '../pipeline/grammar/types'
 import type { Batch, ScheduleEntry } from '../schedule/types'
+import { STAGE_INTERVAL_MS, type SrsItem } from '../srs/srsEngine'
 import { itemKey } from './itemKey'
 import type { LessonState } from './store'
 
@@ -28,12 +29,18 @@ export function shuffle<T>(items: readonly T[], random: () => number = Math.rand
   return result
 }
 
-/** Interleaves and shuffles a batch's kanji and grammar items into one presentation order. */
+/**
+ * Interleaves and shuffles a batch's kanji and grammar items into one presentation order.
+ * Entries already present in SRS state (e.g. flagged Known ahead of their scheduled batch)
+ * are excluded, since they're no longer un-introduced.
+ */
 export function buildLessonQueue(
   batch: Batch,
   shuffleFn: (items: readonly ScheduleEntry[]) => ScheduleEntry[] = (items) => shuffle(items),
+  srsState: Record<string, SrsItem> = {},
 ): ScheduleEntry[] {
-  return shuffleFn(batch)
+  const notYetIntroduced = batch.filter((entry) => !(itemKey(entry) in srsState))
+  return shuffleFn(notYetIntroduced)
 }
 
 export interface KanjiAnswer {
@@ -70,12 +77,12 @@ export function buildGrammarChoices(
  * Inserts every batch item into SRS state at Apprentice 1, unless it's already
  * present (e.g. fast-tracked via the Known flag), and marks the batch completed.
  */
-export function completeBatch(state: LessonState, batchNumber: number, batch: Batch): LessonState {
+export function completeBatch(state: LessonState, batchNumber: number, batch: Batch, now: number): LessonState {
   const srsState = { ...state.srsState }
   for (const entry of batch) {
     const key = itemKey(entry)
     if (!(key in srsState)) {
-      srsState[key] = { stage: 'apprentice1', burned: false }
+      srsState[key] = { stage: 'apprentice1', burned: false, nextReviewAt: now + STAGE_INTERVAL_MS.apprentice1 }
     }
   }
 

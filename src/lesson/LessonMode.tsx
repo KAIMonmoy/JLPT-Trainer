@@ -1,15 +1,8 @@
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 import type { ScheduleEntry } from '../schedule/types'
 import { jlptSchedule } from '../schedule/jlptSchedule'
-import {
-  blankSentence,
-  buildGrammarChoices,
-  buildLessonQueue,
-  completeBatch,
-  gradeGrammarAnswer,
-  gradeKanjiAnswer,
-  selectNextBatch,
-} from './session'
+import { Session } from '../session/Session'
+import { buildLessonQueue, completeBatch, selectNextBatch } from './session'
 import { loadState, saveState, type LessonState } from './store'
 
 interface ActiveSession {
@@ -18,40 +11,12 @@ interface ActiveSession {
   queue: ScheduleEntry[]
 }
 
-interface GradeResult {
-  wasCorrect: boolean
-}
-
-function reveal(url: string): void {
-  window.open(url, '_blank', 'noopener')
-}
-
 export function LessonMode() {
   const [state, setState] = useState<LessonState>(() => loadState(window.localStorage))
   const [session, setSession] = useState<ActiveSession | null>(null)
-  const [index, setIndex] = useState(0)
-  const [grade, setGrade] = useState<GradeResult | null>(null)
-  const [meaning, setMeaning] = useState('')
-  const [onyomi, setOnyomi] = useState('')
-  const [selectedChoice, setSelectedChoice] = useState<string | null>(null)
-  const [choices, setChoices] = useState<string[]>([])
   const [justCompletedBatch, setJustCompletedBatch] = useState<{ batchNumber: number; count: number } | null>(
     null,
   )
-
-  const currentEntry = session ? session.queue[index] : null
-
-  const grammarChoices = useMemo(() => {
-    if (!currentEntry || currentEntry.kind !== 'grammar') return []
-    return choices
-  }, [currentEntry, choices])
-
-  function resetPerItemState() {
-    setGrade(null)
-    setMeaning('')
-    setOnyomi('')
-    setSelectedChoice(null)
-  }
 
   function startLesson() {
     setJustCompletedBatch(null)
@@ -60,44 +25,24 @@ export function LessonMode() {
       setSession(null)
       return
     }
-    const queue = buildLessonQueue(next.batch)
-    setSession({ batchNumber: next.batchNumber, batch: next.batch, queue })
-    setIndex(0)
-    resetPerItemState()
-    if (queue[0]?.kind === 'grammar') {
-      setChoices(buildGrammarChoices(queue[0].item))
-    }
-  }
-
-  function submitKanjiAnswer() {
-    if (!currentEntry || currentEntry.kind !== 'kanji') return
-    const wasCorrect = gradeKanjiAnswer(currentEntry.item, { meaning, onyomi })
-    setGrade({ wasCorrect })
-  }
-
-  function selectGrammarChoice(choice: string) {
-    if (!currentEntry || currentEntry.kind !== 'grammar' || grade) return
-    setSelectedChoice(choice)
-    setGrade({ wasCorrect: gradeGrammarAnswer(currentEntry.item, choice) })
-  }
-
-  function goNext() {
-    if (!session) return
-    const nextIndex = index + 1
-    if (nextIndex < session.queue.length) {
-      setIndex(nextIndex)
-      resetPerItemState()
-      const nextEntry = session.queue[nextIndex]
-      if (nextEntry.kind === 'grammar') {
-        setChoices(buildGrammarChoices(nextEntry.item))
-      }
+    const queue = buildLessonQueue(next.batch, undefined, state.srsState)
+    if (queue.length === 0) {
+      // Every item in this batch was already flagged Known ahead of schedule — nothing left to teach.
+      const nextState = completeBatch(state, next.batchNumber, next.batch, Date.now())
+      saveState(window.localStorage, nextState)
+      setState(nextState)
+      setJustCompletedBatch({ batchNumber: next.batchNumber, count: 0 })
       return
     }
+    setSession({ batchNumber: next.batchNumber, batch: next.batch, queue })
+  }
 
-    const nextState = completeBatch(state, session.batchNumber, session.batch)
+  function handleComplete() {
+    if (!session) return
+    const nextState = completeBatch(state, session.batchNumber, session.batch, Date.now())
     saveState(window.localStorage, nextState)
     setState(nextState)
-    setJustCompletedBatch({ batchNumber: session.batchNumber, count: session.batch.length })
+    setJustCompletedBatch({ batchNumber: session.batchNumber, count: session.queue.length })
     setSession(null)
   }
 
@@ -122,81 +67,13 @@ export function LessonMode() {
   }
 
   return (
-    <section>
-      <p>
-        Batch {session.batchNumber} — item {index + 1} of {session.queue.length}
-      </p>
-
-      {currentEntry?.kind === 'kanji' && (
-        <div>
-          <p style={{ fontSize: '3rem' }}>{currentEntry.item.character}</p>
-          <label>
-            Meaning
-            <input
-              value={meaning}
-              disabled={grade !== null}
-              onChange={(e) => setMeaning(e.target.value)}
-            />
-          </label>
-          <label>
-            Onyomi
-            <input
-              value={onyomi}
-              disabled={grade !== null}
-              onChange={(e) => setOnyomi(e.target.value)}
-            />
-          </label>
-          {grade === null && (
-            <button type="button" onClick={submitKanjiAnswer}>
-              Check
-            </button>
-          )}
-        </div>
-      )}
-
-      {currentEntry?.kind === 'grammar' && (
-        <div>
-          <p>{blankSentence(currentEntry.item.example)}</p>
-          <ul>
-            {grammarChoices.map((choice) => (
-              <li key={choice}>
-                <button
-                  type="button"
-                  disabled={grade !== null}
-                  onClick={() => selectGrammarChoice(choice)}
-                  aria-pressed={selectedChoice === choice}
-                >
-                  {choice}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {grade && (
-        <div>
-          <p>{grade.wasCorrect ? 'Correct' : 'Incorrect'}</p>
-          {currentEntry?.kind === 'kanji' && (
-            <>
-              <button type="button" onClick={() => reveal(currentEntry.item.jlptbenkyoUrl)}>
-                Reveal (jlptbenkyo)
-              </button>
-              <button type="button" onClick={() => reveal(currentEntry.item.wanikaniUrl)}>
-                Reveal (WaniKani)
-              </button>
-            </>
-          )}
-          {currentEntry?.kind === 'grammar' && (
-            <button type="button" onClick={() => reveal(currentEntry.item.jlptbenkyoUrl)}>
-              Reveal
-            </button>
-          )}
-          <button type="button" onClick={goNext}>
-            Next
-          </button>
-        </div>
-      )}
-    </section>
+    <Session
+      key={session.batchNumber}
+      title={`Lesson — Batch ${session.batchNumber}`}
+      queue={session.queue}
+      positionLabel={(index, total) => `item ${index + 1} of ${total}`}
+      onAnswer={() => {}}
+      onComplete={handleComplete}
+    />
   )
 }

@@ -5,7 +5,9 @@ export interface LessonState {
   completedBatches: number[]
 }
 
-export const STORAGE_KEY = 'jlpt-dojo/lesson-state/v1'
+// v2: itemKey now includes level, and SrsItem gained a required nextReviewAt — both are
+// incompatible with anything saved under v1, so the key is bumped rather than migrated.
+export const STORAGE_KEY = 'jlpt-dojo/lesson-state/v2'
 
 export function emptyState(): LessonState {
   return { srsState: {}, completedBatches: [] }

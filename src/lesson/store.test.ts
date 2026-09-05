@@ -37,7 +37,7 @@ describe('loadState', () => {
 
   it('round-trips a saved state', () => {
     const storage = new FakeStorage()
-    const item: SrsItem = { stage: 'apprentice1', burned: false }
+    const item: SrsItem = { stage: 'apprentice1', burned: false, nextReviewAt: 1_700_000_000_000 }
     const state = { srsState: { 'kanji:議': item }, completedBatches: [0, 1] }
     saveState(storage, state)
     expect(loadState(storage)).toEqual(state)
