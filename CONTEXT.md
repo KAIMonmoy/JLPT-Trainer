@@ -91,3 +91,9 @@ into Lesson Groups, so no single Lesson Group (and no run of early or late
 Lesson Groups) is all-kanji or all-grammar just because the Batch happened
 to contain a long run of one type.
 _Avoid_: Mixed mode, combined deck
+
+**Name**:
+A display label the user sets on first use of the app, shown as a greeting.
+Purely cosmetic — no account, login, or sync is tied to it. Editable at any
+time by tapping the greeting.
+_Avoid_: Username (implies an account system), display name

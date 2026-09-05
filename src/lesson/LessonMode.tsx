@@ -4,6 +4,7 @@ import { jlptSchedule } from '../schedule/jlptSchedule'
 import { Session } from '../session/Session'
 import { buildLessonQueue, completeBatch, groupIntoLessonGroups, LESSON_GROUP_SIZE, selectNextBatch } from './session'
 import { loadState, saveState, type LessonState } from './store'
+import { saveName } from './name'
 
 interface ActiveSession {
   batchNumber: number
@@ -57,13 +58,30 @@ function ContentStep({ group, onDone }: ContentStepProps) {
   )
 }
 
-export function LessonMode() {
+interface LessonModeProps {
+  name: string | null
+  onNameChange: (name: string) => void
+}
+
+export function LessonMode({ name, onNameChange }: LessonModeProps) {
   const [state, setState] = useState<LessonState>(() => loadState(window.localStorage))
   const [session, setSession] = useState<ActiveSession | null>(null)
   const [phase, setPhase] = useState<'content' | 'quiz'>('content')
   const [justCompletedBatch, setJustCompletedBatch] = useState<{ batchNumber: number; count: number } | null>(
     null,
   )
+  const [editingName, setEditingName] = useState(false)
+
+  function handleSetName(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault()
+    const value = new FormData(e.currentTarget).get('name')
+    if (typeof value !== 'string') return
+    const trimmed = value.trim()
+    if (trimmed === '') return
+    saveName(window.localStorage, trimmed)
+    onNameChange(trimmed)
+    setEditingName(false)
+  }
 
   function startLesson() {
     setJustCompletedBatch(null)
@@ -102,9 +120,40 @@ export function LessonMode() {
     setSession(null)
   }
 
+  if (!name || editingName) {
+    return (
+      <section className="flex flex-col items-center gap-6 text-center">
+        <h1 className="text-3xl">JLPT Dojo</h1>
+        <form onSubmit={handleSetName} className="flex w-full flex-col gap-2.5">
+          <label htmlFor="name" className="text-ink-soft">
+            What should we call you?
+          </label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            autoFocus
+            defaultValue={name ?? undefined}
+            className="rounded-md border border-line bg-transparent px-3.5 py-2.5 text-center outline-none focus-visible:border-indigo focus-visible:ring-2 focus-visible:ring-indigo/30"
+          />
+          <button type="submit" className="w-full rounded-md bg-indigo py-3 font-medium text-paper">
+            {name ? 'Save' : "Let's go"}
+          </button>
+        </form>
+      </section>
+    )
+  }
+
   if (!session) {
     return (
       <section className="flex flex-col items-center gap-5 text-center">
+        <button
+          type="button"
+          onClick={() => setEditingName(true)}
+          className="text-sm tracking-wide text-ink-soft uppercase"
+        >
+          Welcome back, {name}
+        </button>
         <h1 className="text-3xl">Lesson</h1>
         {justCompletedBatch && (
           <p className="text-ink-soft">
